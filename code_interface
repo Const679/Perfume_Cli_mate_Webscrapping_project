@@ -1,151 +1,184 @@
 import tkinter as tk
+from tkinter import *
 import tkinter.font as tkFont
-from web_const_mod import *
-import tkinter as tk
-import tkinter.font as tkFont
-from tkinter import PhotoImage
+from PIL import Image, ImageTk
+from selenium.webdriver.edge.options import Options as EdgeOptions
+import sys
+sys.path.append('c:/users/fouzari/appdata/local/programs/python/python312/lib/site-packages')
+import json
 
-class App:
+class CustomButton(tk.Button):
+    def __init__(self, master=None, **kw):
+        tk.Button.__init__(self, master, **kw)
+        self.configure(
+            bg="#444444",  
+            borderwidth=0,
+            relief="flat"
+        )
+
+        # Charger l'image avec un fond transparent
+        image_path = "C:/Users/fouzari/Desktop/web_scrapp/cert.png"
+        image = Image.open(image_path).convert("RGBA")
+        resized_image = image.resize((30, 30), Image.BILINEAR)
+        self.photo = ImageTk.PhotoImage(resized_image)
+
+        # Ajouter l'image à gauche du texte
+        self.config(
+            image=self.photo,
+            compound="left",
+            font=("Helvetica", 12),
+            fg="white"
+        )
+
+class App:  
+
+    def info(self):
+        print("hello")
+
+    def charger_donnees(self):
+        # Charger les données depuis le fichier JSON
+        with open('C:/Users/fouzari/Desktop/web_scrapp/JSONS/data.json', 'r') as fichier_json:
+            self.donnees = json.load(fichier_json)
+        return self.donnees
+
     def __init__(self, root):
-        options = EdgeOptions()
-        options.use_chromium = True
-        options.add_experimental_option('excludeSwitches', ['enable-logging'])
-        options.set_capability("acceptInsecureCerts", True)
-        options.add_argument('--headless') #hide the browser
-        options.binary_location =r'C:\Users\fouzari\Desktop\web_scrapp\msedgedriver.exe'
-        image = PhotoImage(file="C:/Users/fouzari/Desktop/web_scrapp/loupe.png")
-        
-        nom,marque,ingredient=Sephora(options)
-        print(nom)
-        #setting title
-        root.title("Pefume_clim'mate")
-        #setting window size
-        width=1000
-        height=1000
+        self.master = root  # Ajoutez cette ligne pour fixer l'erreur AttributeError
+        root.title("Perfume_clim'mate")
+        data = self.charger_donnees()
+        # setting window size
+        width = 1000
+        height = 1000
         screenwidth = root.winfo_screenwidth()
         screenheight = root.winfo_screenheight()
         alignstr = '%dx%d+%d+%d' % (width, height, (screenwidth - width) / 2, (screenheight - height) / 2)
         root.geometry(alignstr)
         root.resizable(width=False, height=False)
+        root.configure(bg="#444444")
+        
+        
+        custom_button = CustomButton(root)
+        custom_button.place(x=560, y=128)
 
-        GButton_723=tk.Button(root)
-        GButton_723["bg"] = "#2c7e76"
-        GButton_723["disabledforeground"] = "#009688"
+        perfume_1=tk.Button(root)
+        perfume_1["bg"] = "#0c5858"
         ft = tkFont.Font(family='Times',size=10)
-        GButton_723["font"] = ft
-        GButton_723["fg"] = "#eef5f4"
-        GButton_723["justify"] = "center"
-        GButton_723["text"] = nom[3]
-        GButton_723.place(x=190,y=420,width=500,height=50)
-        GButton_723["command"] = self.GButton_723_command
+        perfume_1["font"] = ft
+        perfume_1["fg"] = "#f1eaea"
+        perfume_1["justify"] = "center"
+        perfume_1["text"] = str(data["perfumes"]["1"])
+        perfume_1.place(x=190,y=240,width=500,height=50)
+        perfume_1["command"] = self.info
+        
+        perfume_2 = tk.Button(root)
+        perfume_2["bg"] = "#275e58"
+        ft = tkFont.Font(family='Times', size=10)
+        perfume_2["font"] = ft
+        perfume_2["fg"] = "#f5f0f0"
+        perfume_2["justify"] = "center"
+        perfume_2["text"] = str(data["perfumes"]["2"])
+        perfume_2.place(x=190, y=300, width=500, height=50)
+        perfume_2["command"] = self.info
+        
+        perfume_3 = tk.Button(root)
+        perfume_3["bg"] = "#196760"
+        ft = tkFont.Font(family='Times', size=10)
+        perfume_3["font"] = ft
+        perfume_3["fg"] = "#f8fcfc"
+        perfume_3["justify"] = "center"
+        perfume_3["text"] = str(data["perfumes"]["3"])
+        perfume_3.place(x=190, y=360, width=500, height=50)
+        perfume_3["command"] = self.info
+        
+        perfume_4 = tk.Button(root)
+        perfume_4["bg"] = "#2c7e76"
+        perfume_4["disabledforeground"] = "#009688"
+        ft = tkFont.Font(family='Times', size=10)
+        perfume_4["font"] = ft
+        perfume_4["fg"] = "#eef5f4"
+        perfume_4["justify"] = "center"
+        perfume_4["text"] = str(data["perfumes"]["4"])
+        perfume_4.place(x=190, y=420, width=500, height=50)
+        perfume_4["command"] = self.info
 
-        GButton_146=tk.Button(root)
-        GButton_146["bg"] = "#196760"
-        ft = tkFont.Font(family='Times',size=10)
-        GButton_146["font"] = ft
-        GButton_146["fg"] = "#f8fcfc"
-        GButton_146["justify"] = "center"
-        GButton_146["text"] = nom[2]
-        GButton_146.place(x=190,y=360,width=500,height=50)
-        GButton_146["command"] = self.GButton_146_command
+        perfume_5 = tk.Button(root)
+        perfume_5["bg"] = "#338b83"
+        ft = tkFont.Font(family='Times', size=10)
+        perfume_5["font"] = ft
+        perfume_5["fg"] = "#edf5f4"
+        perfume_5["justify"] = "center"
+        perfume_5["text"] = str(data["perfumes"]["5"])
+        perfume_5.place(x=190, y=480, width=500, height=50)
+        perfume_5["command"] = self.info
 
-        GButton_162=tk.Button(root)
-        GButton_162["bg"] = "#338b83"
-        ft = tkFont.Font(family='Times',size=10)
-        GButton_162["font"] = ft
-        GButton_162["fg"] = "#edf5f4"
-        GButton_162["justify"] = "center"
-        GButton_162["text"] = nom[4]
-        GButton_162.place(x=190,y=480,width=500,height=50)
-        GButton_162["command"] = self.GButton_162_command
+        perfume_6 = tk.Button(root)
+        perfume_6["bg"] = "#309389"
+        ft = tkFont.Font(family='Times', size=10)
+        perfume_6["font"] = ft
+        perfume_6["fg"] = "#f0f4f3"
+        perfume_6["justify"] = "center"
+        perfume_6["text"] = str(data["perfumes"]["6"])
+        perfume_6.place(x=190, y=540, width=500, height=50)
+        perfume_6["command"] = self.info
 
-        GButton_780=tk.Button(root)
-        GButton_780["bg"] = "#309389"
-        ft = tkFont.Font(family='Times',size=10)
-        GButton_780["font"] = ft
-        GButton_780["fg"] = "#f0f4f3"
-        GButton_780["justify"] = "center"
-        GButton_780["text"] = "nom[5]"
-        GButton_780.place(x=190,y=540,width=500,height=50)
-        GButton_780["command"] = self.GButton_780_command
-
-        GButton_305=tk.Button(root)
-        GButton_305["bg"] = "#37a398"
-        ft = tkFont.Font(family='Times',size=10)
-        GButton_305["font"] = ft
-        GButton_305["fg"] = "#f2f7f6"
-        GButton_305["justify"] = "center"
-        GButton_305["text"] = "nom[7]"
-        GButton_305.place(x=190,y=600,width=500,height=50)
-        GButton_305["command"] = self.GButton_305_command
-
-        GButton_762=tk.Button(root)
-        GButton_762["bg"] = "#4da9a0"
-        ft = tkFont.Font(family='Times',size=10)
-        GButton_762["font"] = ft
-        GButton_762["fg"] = "#eff5f5"
-        GButton_762["justify"] = "center"
-        GButton_762["text"] = "Perfume_8"
-        GButton_762.place(x=190,y=660,width=500,height=50)
-        GButton_762["command"] = self.GButton_762_command
-
-        GButton_650=tk.Button(root)
-        GButton_650["bg"] = "#275e58"
-        ft = tkFont.Font(family='Times',size=10)
-        GButton_650["font"] = ft
-        GButton_650["fg"] = "#f5f0f0"
-        GButton_650["justify"] = "center"
-        GButton_650["text"] = "Perfume_2"
-        GButton_650.place(x=190,y=300,width=500,height=50)
-        GButton_650["command"] = self.GButton_650_command
-
-        GButton_766=tk.Button(root)
-        GButton_766["bg"] = "#4db0a6"
-        ft = tkFont.Font(family='Times',size=10)
-        GButton_766["font"] = ft
-        GButton_766["fg"] = "#f2f5f5"
-        GButton_766["justify"] = "center"
-        GButton_766["text"] = "Perfume_9"
-        GButton_766.place(x=190,y=720,width=500,height=50)
-        GButton_766["command"] = self.GButton_766_command
-
-        GButton_536=tk.Button(root)
-        GButton_536["bg"] = "#0c5858"
-        ft = tkFont.Font(family='Times',size=10)
-        GButton_536["font"] = ft
-        GButton_536["fg"] = "#f1eaea"
-        GButton_536["justify"] = "center"
-        GButton_536["text"] = "perfume_1"
-        GButton_536.place(x=190,y=240,width=500,height=50)
-        GButton_536["command"] = self.GButton_536_command
-
-        GButton_316=tk.Button(root)
-        GButton_316["bg"] = "#52b8ae"
-        ft = tkFont.Font(family='Times',size=10)
-        GButton_316["font"] = ft
-        GButton_316["fg"] = "#edf5f4"
-        GButton_316["justify"] = "center"
-        GButton_316["text"] = "Perfume_10"
-        GButton_316.place(x=190,y=780,width=500,height=50)
-        GButton_316["command"] = self.GButton_316_command
-
-        GLabel_89=tk.Label(root)
-        ft = tkFont.Font(family='Times',size=28)
+        perfume_7 = tk.Button(root)
+        perfume_7["bg"] = "#37a398"
+        ft = tkFont.Font(family='Times', size=10)
+        perfume_7["font"] = ft
+        perfume_7["fg"] = "#f2f7f6"
+        perfume_7["justify"] = "center"
+        perfume_7["text"] = str(data["perfumes"]["7"])
+        perfume_7.place(x=190, y=600, width=500, height=50)
+        perfume_7["command"] = self.info
+        
+        perfume_8 = tk.Button(root)
+        perfume_8["bg"] = "#4da9a0"
+        ft = tkFont.Font(family='Times', size=10)
+        perfume_8["font"] = ft
+        perfume_8["fg"] = "#eff5f5"
+        perfume_8["justify"] = "center"
+        perfume_8["text"] = str(data["perfumes"]["8"])
+        perfume_8.place(x=190, y=660, width=500, height=50)
+        perfume_8["command"] = self.info
+        
+        perfume_9 = tk.Button(root)
+        perfume_9["bg"] = "#4db0a6"
+        ft = tkFont.Font(family='Times', size=10)
+        perfume_9["font"] = ft
+        perfume_9["fg"] = "#f2f5f5"
+        perfume_9["justify"] = "center"
+        perfume_9["text"] = str(data["perfumes"]["9"])
+        perfume_9.place(x=190, y=720, width=500, height=50)
+        perfume_9["command"] = self.info
+        
+        perfume_10 = tk.Button(root)
+        perfume_10["bg"] = "#52b8ae"
+        ft = tkFont.Font(family='Times', size=10)
+        perfume_10["font"] = ft
+        perfume_10["fg"] = "#edf5f4"
+        perfume_10["justify"] = "center"
+        perfume_10["text"] = str(data["perfumes"]["10"])
+        perfume_10.place(x=190, y=780, width=500, height=50)
+        perfume_10["command"] = self.info
+        
+        GLabel_89 = tk.Label(root)
+        ft = tkFont.Font(family='Times', size=28)
         GLabel_89["font"] = ft
-        GLabel_89["fg"] = "#236660"
+        GLabel_89["fg"] = "white"  # Couleur du texte en blanc
         GLabel_89["justify"] = "center"
         GLabel_89["text"] = "Perfume clim'mate"
         GLabel_89["relief"] = "flat"
-        GLabel_89.place(x=210,y=40,width=500,height=30)
+        GLabel_89.place(x=210, y=40, width=500, height=30)
+        GLabel_89["bg"] = "#444444"  # Couleur de fond Gris charbon
 
-        GLabel_750=tk.Label(root)
-        ft = tkFont.Font(family='Times',size=14)
+        GLabel_750 = tk.Label(root)
+        ft = tkFont.Font(family='Times', size=14)
         GLabel_750["font"] = ft
-        GLabel_750["fg"] = "#333333"
+        GLabel_750["fg"] = "white"  # Couleur du texte en blanc
         GLabel_750["justify"] = "center"
         GLabel_750["text"] = "Top 10 parfum"
         GLabel_750["relief"] = "flat"
-        GLabel_750.place(x=340,y=180,width=180,height=40)
+        GLabel_750.place(x=340, y=180, width=180, height=40)
+        GLabel_750["bg"] = "#444444"
 
         GLineEdit_954=tk.Entry(root)
         GLineEdit_954["borderwidth"] = "1px"
@@ -157,66 +190,10 @@ class App:
         GLineEdit_954["relief"] = "flat"
         GLineEdit_954.place(x=340,y=130,width=200,height=30)
         
-          # Remplacez par le chemin de votre image
-        # Créer un bouton avec une image
-        GButton_632 = tk.Button(self.root, image=image, command=self.GButton_632_command)
-        GButton_632.image = image 
-
-        GButton_632=tk.Button(root)
-        GButton_632["bg"] = "#f0f0f0"
-        ft = tkFont.Font(family='Times',size=10)
-        GButton_632["font"] = ft
-        GButton_632["fg"] = "#000000"
-        GButton_632["justify"] = "center"
-        GButton_632["text"] = "Button"
-        GButton_632.place(x=540,y=130,width=70,height=30)
-        GButton_632["command"] = self.GButton_632_command
-
-    def GButton_723_command(self):
-        print("command")
+        
+    def demarrer(self):
+        # Démarrer votre application
+        self.master.mainloop()
+        self.master.withdraw()
 
 
-    def GButton_146_command(self):
-        print("command")
-
-
-    def GButton_162_command(self):
-        print("command")
-
-
-    def GButton_780_command(self):
-        print("command")
-
-
-    def GButton_305_command(self):
-        print("command")
-
-
-    def GButton_762_command(self):
-        print("command")
-
-
-    def GButton_650_command(self):
-        print("command")
-
-
-    def GButton_766_command(self):
-        print("command")
-
-
-    def GButton_536_command(self):
-        print("command")
-
-
-    def GButton_316_command(self):
-        print("command")
-
-
-    def GButton_632_command(self):
-        print("command")
-
-if __name__ == "__main__":
-    
-    root = tk.Tk()
-    app = App(root)
-    root.mainloop()
