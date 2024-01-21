@@ -1,0 +1,704 @@
+{
+    "Top": [
+        {
+            "keys": 1,
+            "name": "Gentleman Society - Eau De Parfum pour homme",
+            "brand": {
+                "name": "GIVENCHY",
+                "engagement": "Sans engagement"
+            },
+            "Ingredient": [
+                {
+                    "name": "ALCOHOL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR L'alcool cétéarylique appartient à la famille des alcools gras. Il est utilisé en tant qu'émollient. Il permet d'épaissir les crèmes et de les stabiliser. Il adoucit et protège la peau sans effet gras. L'alcool cétéarylique contient principalement de l'alcool cetylique (Cetyl alcohol) et de l'alcool stearylique (Stearyl alcohol). Il est autorisé en bio.  Le CIR (Cosmetic Ingredient Review) dans un rapport annuel publié en 2008, a conclut à l'innocuité des alcools gras."
+                },
+                {
+                    "name": "PARFUM (FRAGRANCE)",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Derrière ce terme de parfum, se cachent malheureusement de nombreuses molécules odorantes potentiellement irritantes voire allergisantes. Difficile de s'y retrouver lorsque que l'on devient allergique à un produit et que l'information n'est pas plus détaillée que cela. Néanmoins, pour nous aider, l'Europe a réglementé 24 molécules qui, lorsqu'elles sont utilisées au delà d'une certaine concentration, doivent être mentionnées dans la liste INCI (en général à la fin), bien que faisant partie elles-mêmes du parfum d'un produit. C'est le cas par exemple du Limonène, du linalol..."
+                },
+                {
+                    "name": "AQUA (WATER)",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR L'eau est l'ingrédient le plus utilisé en cosmétique : 83% des produits en contiennent (pourcentage établi à partir de 50 000 produits de l'App Inci Beauty). L'eau étant d'origine minérale, elle ne pourra jamais être certifiée Bio. C'est la raison pour laquelle les labels Bio, pour certifier les produits, autorisent des minimums d'ingrédients biologiques assez bas (10% pour Ecocert) sur le total d'une formule, en prenant en compte que la présence d'eau non Bio est indispensable et souvent majoritaire dans de nombreux cas."
+                },
+                {
+                    "name": "LIMONENE",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le limonène fait partie des 24 allergènes réglementés en Europe. Il tient son nom du citron dans lequel il est présent en quantité importante. En cosmétique, il est utilisé pour son parfum. Il existe sous deux formes différentes : - le d-limonene est présent dans de nombreuses plantes, fruits et légumes. On le retrouve aussi dans la peau des agrumes, les cornichons, le céleri ou encore dans plusieurs huiles essentielles. - l'autre forme isométrique, le l-limonène, est présent principalement dans les huiles de pin, la térébenthine et les huiles de menthe."
+                },
+                {
+                    "name": "LINALOOL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le Linalol est un composé aromatique classé parmi les 24 allergènes réglementés par l'Europe. Il est présent à l'état naturel dans les huiles essentielles de thym, de lavande, de lavandin, de pin sylvestre ou de menthe poivrée... On le retrouve aussi dans de nombreux extraits (citron, orange, verveine...)."
+                },
+                {
+                    "name": "COUMARIN",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le coumarin est une substance aromatique qui fait partie de 24 allergènes réglementés par l'Europe. Son nom provient de ''cumaru'' qui est le nom de l'arbre de Tonka (dans une langue amazonienne). En effet, ses fèves contiennent de 1 à 3% de coumarine. C'est W.H. Perkin en 1868 qui le premier a réussi à synthétiser le composé (réaction de Perkin). On le trouve également dans le miel, le thé vert ou la cannelle. Ses senteurs rappellent des odeurs de foin fraîchement coupé avec toutefois de nombreuses notes et nuances (noisette, amande, vanille ...)."
+                },
+                {
+                    "name": "BUTYL METHOXYDIBENZOYLMETHANE",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le Butylène Glycol est un composé chimique dérivé de pétrole, souvent utilisé en tant qu'humectant dans les soins de la peau. Il empêche le produit de sécher et rend la formulation plus résistante à l'humidité. Chez les individus sensibles, le butylène glycol peut être irritant pour la peau, les yeux et les voies nasales, toutefois il est considéré comme étant le moins irritant de tous les glycols. Il peut être autorisé en Bio, lorsqu'il est biosourcé et obtenu par fermentation à partir de sucre."
+                },
+                {
+                    "name": "ALPHA-ISOMETHYL IONONE",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Cette molécule synthétique incolore utilisée en parfumerie, fait partie des 24 allergènes réglementés par l'Europe. Ses senteurs florales sont proches de celles de la violette ou de l'iris."
+                },
+                {
+                    "name": "CITRAL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR L'acide citrique est un des principaux actifs du citron. Il est souvent utilisé pour équilibrer le pH (trop basique) des produits cosmétiques. Il est aussi présent dans certains produits de bain (bombes de bain, galets de bain ou ''poudres magiques'') en raison de ses propriétés effervescentes."
+                },
+                {
+                    "name": "GERANIOL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le Géraniol aussi nommé rhodinol, est un alcool monoterpénique qui fait partie des 24 allergènes réglementés par l'Europe. On le retrouve présent dans les huiles essentielles de Géranium, de citronnelle mais aussi dans l'huile de rose et de Palmarosa. Il est utilisé en parfumerie pour son odeur de rose."
+                }
+            ]
+        },
+        {
+            "keys": 2,
+            "name": "Stronger With You Intensely - Eau de parfum",
+            "brand": {
+                "name": "ARMANI",
+                "engagement": "Gruppo Armani commits to reduce absolute scope 1 and 2 GHG emissions 50% by 2030 from a 2019 base year. Gruppo Armani also commits to reduce absolute scope 3 GHG emissions 42% from purchased goods and services and downstream transportation and distribution by 2029 from a 2019 base year."
+            },
+            "Ingredient": [
+                {
+                    "name": "ALCOHOL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR L'alcool cétéarylique appartient à la famille des alcools gras. Il est utilisé en tant qu'émollient. Il permet d'épaissir les crèmes et de les stabiliser. Il adoucit et protège la peau sans effet gras. L'alcool cétéarylique contient principalement de l'alcool cetylique (Cetyl alcohol) et de l'alcool stearylique (Stearyl alcohol). Il est autorisé en bio.  Le CIR (Cosmetic Ingredient Review) dans un rapport annuel publié en 2008, a conclut à l'innocuité des alcools gras."
+                },
+                {
+                    "name": "PARFUM (FRAGRANCE)",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Derrière ce terme de parfum, se cachent malheureusement de nombreuses molécules odorantes potentiellement irritantes voire allergisantes. Difficile de s'y retrouver lorsque que l'on devient allergique à un produit et que l'information n'est pas plus détaillée que cela. Néanmoins, pour nous aider, l'Europe a réglementé 24 molécules qui, lorsqu'elles sont utilisées au delà d'une certaine concentration, doivent être mentionnées dans la liste INCI (en général à la fin), bien que faisant partie elles-mêmes du parfum d'un produit. C'est le cas par exemple du Limonène, du linalol..."
+                },
+                {
+                    "name": "AQUA (WATER)",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR L'eau est l'ingrédient le plus utilisé en cosmétique : 83% des produits en contiennent (pourcentage établi à partir de 50 000 produits de l'App Inci Beauty). L'eau étant d'origine minérale, elle ne pourra jamais être certifiée Bio. C'est la raison pour laquelle les labels Bio, pour certifier les produits, autorisent des minimums d'ingrédients biologiques assez bas (10% pour Ecocert) sur le total d'une formule, en prenant en compte que la présence d'eau non Bio est indispensable et souvent majoritaire dans de nombreux cas."
+                },
+                {
+                    "name": "LIMONENE",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le limonène fait partie des 24 allergènes réglementés en Europe. Il tient son nom du citron dans lequel il est présent en quantité importante. En cosmétique, il est utilisé pour son parfum. Il existe sous deux formes différentes : - le d-limonene est présent dans de nombreuses plantes, fruits et légumes. On le retrouve aussi dans la peau des agrumes, les cornichons, le céleri ou encore dans plusieurs huiles essentielles. - l'autre forme isométrique, le l-limonène, est présent principalement dans les huiles de pin, la térébenthine et les huiles de menthe."
+                },
+                {
+                    "name": "LINALOOL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le Linalol est un composé aromatique classé parmi les 24 allergènes réglementés par l'Europe. Il est présent à l'état naturel dans les huiles essentielles de thym, de lavande, de lavandin, de pin sylvestre ou de menthe poivrée... On le retrouve aussi dans de nombreux extraits (citron, orange, verveine...)."
+                },
+                {
+                    "name": "COUMARIN",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le coumarin est une substance aromatique qui fait partie de 24 allergènes réglementés par l'Europe. Son nom provient de ''cumaru'' qui est le nom de l'arbre de Tonka (dans une langue amazonienne). En effet, ses fèves contiennent de 1 à 3% de coumarine. C'est W.H. Perkin en 1868 qui le premier a réussi à synthétiser le composé (réaction de Perkin). On le trouve également dans le miel, le thé vert ou la cannelle. Ses senteurs rappellent des odeurs de foin fraîchement coupé avec toutefois de nombreuses notes et nuances (noisette, amande, vanille ...)."
+                },
+                {
+                    "name": "BUTYL METHOXYDIBENZOYLMETHANE",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le Butylène Glycol est un composé chimique dérivé de pétrole, souvent utilisé en tant qu'humectant dans les soins de la peau. Il empêche le produit de sécher et rend la formulation plus résistante à l'humidité. Chez les individus sensibles, le butylène glycol peut être irritant pour la peau, les yeux et les voies nasales, toutefois il est considéré comme étant le moins irritant de tous les glycols. Il peut être autorisé en Bio, lorsqu'il est biosourcé et obtenu par fermentation à partir de sucre."
+                },
+                {
+                    "name": "ALPHA-ISOMETHYL IONONE",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Cette molécule synthétique incolore utilisée en parfumerie, fait partie des 24 allergènes réglementés par l'Europe. Ses senteurs florales sont proches de celles de la violette ou de l'iris."
+                },
+                {
+                    "name": "CITRAL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR L'acide citrique est un des principaux actifs du citron. Il est souvent utilisé pour équilibrer le pH (trop basique) des produits cosmétiques. Il est aussi présent dans certains produits de bain (bombes de bain, galets de bain ou ''poudres magiques'') en raison de ses propriétés effervescentes."
+                },
+                {
+                    "name": "GERANIOL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le Géraniol aussi nommé rhodinol, est un alcool monoterpénique qui fait partie des 24 allergènes réglementés par l'Europe. On le retrouve présent dans les huiles essentielles de Géranium, de citronnelle mais aussi dans l'huile de rose et de Palmarosa. Il est utilisé en parfumerie pour son odeur de rose."
+                }
+            ]
+        },
+        {
+            "keys": 3,
+            "name": "Sauvage - Eau de parfum pour homme - Notes épicées & d'absolu vanille",
+            "brand": {
+                "name": "DIOR",
+                "engagement": "Sans engagement"
+            },
+            "Ingredient": [
+                {
+                    "name": "ALCOHOL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR L'alcool cétéarylique appartient à la famille des alcools gras. Il est utilisé en tant qu'émollient. Il permet d'épaissir les crèmes et de les stabiliser. Il adoucit et protège la peau sans effet gras. L'alcool cétéarylique contient principalement de l'alcool cetylique (Cetyl alcohol) et de l'alcool stearylique (Stearyl alcohol). Il est autorisé en bio.  Le CIR (Cosmetic Ingredient Review) dans un rapport annuel publié en 2008, a conclut à l'innocuité des alcools gras."
+                },
+                {
+                    "name": "PARFUM (FRAGRANCE)",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Derrière ce terme de parfum, se cachent malheureusement de nombreuses molécules odorantes potentiellement irritantes voire allergisantes. Difficile de s'y retrouver lorsque que l'on devient allergique à un produit et que l'information n'est pas plus détaillée que cela. Néanmoins, pour nous aider, l'Europe a réglementé 24 molécules qui, lorsqu'elles sont utilisées au delà d'une certaine concentration, doivent être mentionnées dans la liste INCI (en général à la fin), bien que faisant partie elles-mêmes du parfum d'un produit. C'est le cas par exemple du Limonène, du linalol..."
+                },
+                {
+                    "name": "AQUA (WATER)",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR L'eau est l'ingrédient le plus utilisé en cosmétique : 83% des produits en contiennent (pourcentage établi à partir de 50 000 produits de l'App Inci Beauty). L'eau étant d'origine minérale, elle ne pourra jamais être certifiée Bio. C'est la raison pour laquelle les labels Bio, pour certifier les produits, autorisent des minimums d'ingrédients biologiques assez bas (10% pour Ecocert) sur le total d'une formule, en prenant en compte que la présence d'eau non Bio est indispensable et souvent majoritaire dans de nombreux cas."
+                },
+                {
+                    "name": "LIMONENE",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le limonène fait partie des 24 allergènes réglementés en Europe. Il tient son nom du citron dans lequel il est présent en quantité importante. En cosmétique, il est utilisé pour son parfum. Il existe sous deux formes différentes : - le d-limonene est présent dans de nombreuses plantes, fruits et légumes. On le retrouve aussi dans la peau des agrumes, les cornichons, le céleri ou encore dans plusieurs huiles essentielles. - l'autre forme isométrique, le l-limonène, est présent principalement dans les huiles de pin, la térébenthine et les huiles de menthe."
+                },
+                {
+                    "name": "LINALOOL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le Linalol est un composé aromatique classé parmi les 24 allergènes réglementés par l'Europe. Il est présent à l'état naturel dans les huiles essentielles de thym, de lavande, de lavandin, de pin sylvestre ou de menthe poivrée... On le retrouve aussi dans de nombreux extraits (citron, orange, verveine...)."
+                },
+                {
+                    "name": "COUMARIN",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le coumarin est une substance aromatique qui fait partie de 24 allergènes réglementés par l'Europe. Son nom provient de ''cumaru'' qui est le nom de l'arbre de Tonka (dans une langue amazonienne). En effet, ses fèves contiennent de 1 à 3% de coumarine. C'est W.H. Perkin en 1868 qui le premier a réussi à synthétiser le composé (réaction de Perkin). On le trouve également dans le miel, le thé vert ou la cannelle. Ses senteurs rappellent des odeurs de foin fraîchement coupé avec toutefois de nombreuses notes et nuances (noisette, amande, vanille ...)."
+                },
+                {
+                    "name": "BUTYL METHOXYDIBENZOYLMETHANE",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le Butylène Glycol est un composé chimique dérivé de pétrole, souvent utilisé en tant qu'humectant dans les soins de la peau. Il empêche le produit de sécher et rend la formulation plus résistante à l'humidité. Chez les individus sensibles, le butylène glycol peut être irritant pour la peau, les yeux et les voies nasales, toutefois il est considéré comme étant le moins irritant de tous les glycols. Il peut être autorisé en Bio, lorsqu'il est biosourcé et obtenu par fermentation à partir de sucre."
+                },
+                {
+                    "name": "ALPHA-ISOMETHYL IONONE",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Cette molécule synthétique incolore utilisée en parfumerie, fait partie des 24 allergènes réglementés par l'Europe. Ses senteurs florales sont proches de celles de la violette ou de l'iris."
+                },
+                {
+                    "name": "CITRAL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR L'acide citrique est un des principaux actifs du citron. Il est souvent utilisé pour équilibrer le pH (trop basique) des produits cosmétiques. Il est aussi présent dans certains produits de bain (bombes de bain, galets de bain ou ''poudres magiques'') en raison de ses propriétés effervescentes."
+                },
+                {
+                    "name": "GERANIOL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le Géraniol aussi nommé rhodinol, est un alcool monoterpénique qui fait partie des 24 allergènes réglementés par l'Europe. On le retrouve présent dans les huiles essentielles de Géranium, de citronnelle mais aussi dans l'huile de rose et de Palmarosa. Il est utilisé en parfumerie pour son odeur de rose."
+                }
+            ]
+        },
+        {
+            "keys": 4,
+            "name": "Libre - Eau de Parfum",
+            "brand": {
+                "name": "YVES SAINT LAURENT",
+                "engagement": "Sans engagement"
+            },
+            "Ingredient": [
+                {
+                    "name": "ALCOHOL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR L'alcool cétéarylique appartient à la famille des alcools gras. Il est utilisé en tant qu'émollient. Il permet d'épaissir les crèmes et de les stabiliser. Il adoucit et protège la peau sans effet gras. L'alcool cétéarylique contient principalement de l'alcool cetylique (Cetyl alcohol) et de l'alcool stearylique (Stearyl alcohol). Il est autorisé en bio.  Le CIR (Cosmetic Ingredient Review) dans un rapport annuel publié en 2008, a conclut à l'innocuité des alcools gras."
+                },
+                {
+                    "name": "PARFUM (FRAGRANCE)",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Derrière ce terme de parfum, se cachent malheureusement de nombreuses molécules odorantes potentiellement irritantes voire allergisantes. Difficile de s'y retrouver lorsque que l'on devient allergique à un produit et que l'information n'est pas plus détaillée que cela. Néanmoins, pour nous aider, l'Europe a réglementé 24 molécules qui, lorsqu'elles sont utilisées au delà d'une certaine concentration, doivent être mentionnées dans la liste INCI (en général à la fin), bien que faisant partie elles-mêmes du parfum d'un produit. C'est le cas par exemple du Limonène, du linalol..."
+                },
+                {
+                    "name": "AQUA (WATER)",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR L'eau est l'ingrédient le plus utilisé en cosmétique : 83% des produits en contiennent (pourcentage établi à partir de 50 000 produits de l'App Inci Beauty). L'eau étant d'origine minérale, elle ne pourra jamais être certifiée Bio. C'est la raison pour laquelle les labels Bio, pour certifier les produits, autorisent des minimums d'ingrédients biologiques assez bas (10% pour Ecocert) sur le total d'une formule, en prenant en compte que la présence d'eau non Bio est indispensable et souvent majoritaire dans de nombreux cas."
+                },
+                {
+                    "name": "LIMONENE",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le limonène fait partie des 24 allergènes réglementés en Europe. Il tient son nom du citron dans lequel il est présent en quantité importante. En cosmétique, il est utilisé pour son parfum. Il existe sous deux formes différentes : - le d-limonene est présent dans de nombreuses plantes, fruits et légumes. On le retrouve aussi dans la peau des agrumes, les cornichons, le céleri ou encore dans plusieurs huiles essentielles. - l'autre forme isométrique, le l-limonène, est présent principalement dans les huiles de pin, la térébenthine et les huiles de menthe."
+                },
+                {
+                    "name": "LINALOOL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le Linalol est un composé aromatique classé parmi les 24 allergènes réglementés par l'Europe. Il est présent à l'état naturel dans les huiles essentielles de thym, de lavande, de lavandin, de pin sylvestre ou de menthe poivrée... On le retrouve aussi dans de nombreux extraits (citron, orange, verveine...)."
+                },
+                {
+                    "name": "COUMARIN",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le coumarin est une substance aromatique qui fait partie de 24 allergènes réglementés par l'Europe. Son nom provient de ''cumaru'' qui est le nom de l'arbre de Tonka (dans une langue amazonienne). En effet, ses fèves contiennent de 1 à 3% de coumarine. C'est W.H. Perkin en 1868 qui le premier a réussi à synthétiser le composé (réaction de Perkin). On le trouve également dans le miel, le thé vert ou la cannelle. Ses senteurs rappellent des odeurs de foin fraîchement coupé avec toutefois de nombreuses notes et nuances (noisette, amande, vanille ...)."
+                },
+                {
+                    "name": "BUTYL METHOXYDIBENZOYLMETHANE",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le Butylène Glycol est un composé chimique dérivé de pétrole, souvent utilisé en tant qu'humectant dans les soins de la peau. Il empêche le produit de sécher et rend la formulation plus résistante à l'humidité. Chez les individus sensibles, le butylène glycol peut être irritant pour la peau, les yeux et les voies nasales, toutefois il est considéré comme étant le moins irritant de tous les glycols. Il peut être autorisé en Bio, lorsqu'il est biosourcé et obtenu par fermentation à partir de sucre."
+                },
+                {
+                    "name": "ALPHA-ISOMETHYL IONONE",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Cette molécule synthétique incolore utilisée en parfumerie, fait partie des 24 allergènes réglementés par l'Europe. Ses senteurs florales sont proches de celles de la violette ou de l'iris."
+                },
+                {
+                    "name": "CITRAL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR L'acide citrique est un des principaux actifs du citron. Il est souvent utilisé pour équilibrer le pH (trop basique) des produits cosmétiques. Il est aussi présent dans certains produits de bain (bombes de bain, galets de bain ou ''poudres magiques'') en raison de ses propriétés effervescentes."
+                },
+                {
+                    "name": "GERANIOL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le Géraniol aussi nommé rhodinol, est un alcool monoterpénique qui fait partie des 24 allergènes réglementés par l'Europe. On le retrouve présent dans les huiles essentielles de Géranium, de citronnelle mais aussi dans l'huile de rose et de Palmarosa. Il est utilisé en parfumerie pour son odeur de rose."
+                }
+            ]
+        },
+        {
+            "keys": 5,
+            "name": "COCO MADEMOISELLE",
+            "brand": {
+                "name": "CHANEL",
+                "engagement": "Sans engagement"
+            },
+            "Ingredient": [
+                {
+                    "name": "ALCOHOL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR L'alcool cétéarylique appartient à la famille des alcools gras. Il est utilisé en tant qu'émollient. Il permet d'épaissir les crèmes et de les stabiliser. Il adoucit et protège la peau sans effet gras. L'alcool cétéarylique contient principalement de l'alcool cetylique (Cetyl alcohol) et de l'alcool stearylique (Stearyl alcohol). Il est autorisé en bio.  Le CIR (Cosmetic Ingredient Review) dans un rapport annuel publié en 2008, a conclut à l'innocuité des alcools gras."
+                },
+                {
+                    "name": "PARFUM (FRAGRANCE)",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Derrière ce terme de parfum, se cachent malheureusement de nombreuses molécules odorantes potentiellement irritantes voire allergisantes. Difficile de s'y retrouver lorsque que l'on devient allergique à un produit et que l'information n'est pas plus détaillée que cela. Néanmoins, pour nous aider, l'Europe a réglementé 24 molécules qui, lorsqu'elles sont utilisées au delà d'une certaine concentration, doivent être mentionnées dans la liste INCI (en général à la fin), bien que faisant partie elles-mêmes du parfum d'un produit. C'est le cas par exemple du Limonène, du linalol..."
+                },
+                {
+                    "name": "AQUA (WATER)",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR L'eau est l'ingrédient le plus utilisé en cosmétique : 83% des produits en contiennent (pourcentage établi à partir de 50 000 produits de l'App Inci Beauty). L'eau étant d'origine minérale, elle ne pourra jamais être certifiée Bio. C'est la raison pour laquelle les labels Bio, pour certifier les produits, autorisent des minimums d'ingrédients biologiques assez bas (10% pour Ecocert) sur le total d'une formule, en prenant en compte que la présence d'eau non Bio est indispensable et souvent majoritaire dans de nombreux cas."
+                },
+                {
+                    "name": "LIMONENE",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le limonène fait partie des 24 allergènes réglementés en Europe. Il tient son nom du citron dans lequel il est présent en quantité importante. En cosmétique, il est utilisé pour son parfum. Il existe sous deux formes différentes : - le d-limonene est présent dans de nombreuses plantes, fruits et légumes. On le retrouve aussi dans la peau des agrumes, les cornichons, le céleri ou encore dans plusieurs huiles essentielles. - l'autre forme isométrique, le l-limonène, est présent principalement dans les huiles de pin, la térébenthine et les huiles de menthe."
+                },
+                {
+                    "name": "LINALOOL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le Linalol est un composé aromatique classé parmi les 24 allergènes réglementés par l'Europe. Il est présent à l'état naturel dans les huiles essentielles de thym, de lavande, de lavandin, de pin sylvestre ou de menthe poivrée... On le retrouve aussi dans de nombreux extraits (citron, orange, verveine...)."
+                },
+                {
+                    "name": "COUMARIN",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le coumarin est une substance aromatique qui fait partie de 24 allergènes réglementés par l'Europe. Son nom provient de ''cumaru'' qui est le nom de l'arbre de Tonka (dans une langue amazonienne). En effet, ses fèves contiennent de 1 à 3% de coumarine. C'est W.H. Perkin en 1868 qui le premier a réussi à synthétiser le composé (réaction de Perkin). On le trouve également dans le miel, le thé vert ou la cannelle. Ses senteurs rappellent des odeurs de foin fraîchement coupé avec toutefois de nombreuses notes et nuances (noisette, amande, vanille ...)."
+                },
+                {
+                    "name": "BUTYL METHOXYDIBENZOYLMETHANE",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le Butylène Glycol est un composé chimique dérivé de pétrole, souvent utilisé en tant qu'humectant dans les soins de la peau. Il empêche le produit de sécher et rend la formulation plus résistante à l'humidité. Chez les individus sensibles, le butylène glycol peut être irritant pour la peau, les yeux et les voies nasales, toutefois il est considéré comme étant le moins irritant de tous les glycols. Il peut être autorisé en Bio, lorsqu'il est biosourcé et obtenu par fermentation à partir de sucre."
+                },
+                {
+                    "name": "ALPHA-ISOMETHYL IONONE",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Cette molécule synthétique incolore utilisée en parfumerie, fait partie des 24 allergènes réglementés par l'Europe. Ses senteurs florales sont proches de celles de la violette ou de l'iris."
+                },
+                {
+                    "name": "CITRAL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR L'acide citrique est un des principaux actifs du citron. Il est souvent utilisé pour équilibrer le pH (trop basique) des produits cosmétiques. Il est aussi présent dans certains produits de bain (bombes de bain, galets de bain ou ''poudres magiques'') en raison de ses propriétés effervescentes."
+                },
+                {
+                    "name": "GERANIOL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le Géraniol aussi nommé rhodinol, est un alcool monoterpénique qui fait partie des 24 allergènes réglementés par l'Europe. On le retrouve présent dans les huiles essentielles de Géranium, de citronnelle mais aussi dans l'huile de rose et de Palmarosa. Il est utilisé en parfumerie pour son odeur de rose."
+                }
+            ]
+        },
+        {
+            "keys": 6,
+            "name": "J'adore - Eau de parfum pour femme - Notes fleuries & fruitées",
+            "brand": {
+                "name": "DIOR",
+                "engagement": "Sans engagement"
+            },
+            "Ingredient": [
+                {
+                    "name": "ALCOHOL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR L'alcool cétéarylique appartient à la famille des alcools gras. Il est utilisé en tant qu'émollient. Il permet d'épaissir les crèmes et de les stabiliser. Il adoucit et protège la peau sans effet gras. L'alcool cétéarylique contient principalement de l'alcool cetylique (Cetyl alcohol) et de l'alcool stearylique (Stearyl alcohol). Il est autorisé en bio.  Le CIR (Cosmetic Ingredient Review) dans un rapport annuel publié en 2008, a conclut à l'innocuité des alcools gras."
+                },
+                {
+                    "name": "PARFUM (FRAGRANCE)",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Derrière ce terme de parfum, se cachent malheureusement de nombreuses molécules odorantes potentiellement irritantes voire allergisantes. Difficile de s'y retrouver lorsque que l'on devient allergique à un produit et que l'information n'est pas plus détaillée que cela. Néanmoins, pour nous aider, l'Europe a réglementé 24 molécules qui, lorsqu'elles sont utilisées au delà d'une certaine concentration, doivent être mentionnées dans la liste INCI (en général à la fin), bien que faisant partie elles-mêmes du parfum d'un produit. C'est le cas par exemple du Limonène, du linalol..."
+                },
+                {
+                    "name": "AQUA (WATER)",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR L'eau est l'ingrédient le plus utilisé en cosmétique : 83% des produits en contiennent (pourcentage établi à partir de 50 000 produits de l'App Inci Beauty). L'eau étant d'origine minérale, elle ne pourra jamais être certifiée Bio. C'est la raison pour laquelle les labels Bio, pour certifier les produits, autorisent des minimums d'ingrédients biologiques assez bas (10% pour Ecocert) sur le total d'une formule, en prenant en compte que la présence d'eau non Bio est indispensable et souvent majoritaire dans de nombreux cas."
+                },
+                {
+                    "name": "LIMONENE",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le limonène fait partie des 24 allergènes réglementés en Europe. Il tient son nom du citron dans lequel il est présent en quantité importante. En cosmétique, il est utilisé pour son parfum. Il existe sous deux formes différentes : - le d-limonene est présent dans de nombreuses plantes, fruits et légumes. On le retrouve aussi dans la peau des agrumes, les cornichons, le céleri ou encore dans plusieurs huiles essentielles. - l'autre forme isométrique, le l-limonène, est présent principalement dans les huiles de pin, la térébenthine et les huiles de menthe."
+                },
+                {
+                    "name": "LINALOOL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le Linalol est un composé aromatique classé parmi les 24 allergènes réglementés par l'Europe. Il est présent à l'état naturel dans les huiles essentielles de thym, de lavande, de lavandin, de pin sylvestre ou de menthe poivrée... On le retrouve aussi dans de nombreux extraits (citron, orange, verveine...)."
+                },
+                {
+                    "name": "COUMARIN",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le coumarin est une substance aromatique qui fait partie de 24 allergènes réglementés par l'Europe. Son nom provient de ''cumaru'' qui est le nom de l'arbre de Tonka (dans une langue amazonienne). En effet, ses fèves contiennent de 1 à 3% de coumarine. C'est W.H. Perkin en 1868 qui le premier a réussi à synthétiser le composé (réaction de Perkin). On le trouve également dans le miel, le thé vert ou la cannelle. Ses senteurs rappellent des odeurs de foin fraîchement coupé avec toutefois de nombreuses notes et nuances (noisette, amande, vanille ...)."
+                },
+                {
+                    "name": "BUTYL METHOXYDIBENZOYLMETHANE",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le Butylène Glycol est un composé chimique dérivé de pétrole, souvent utilisé en tant qu'humectant dans les soins de la peau. Il empêche le produit de sécher et rend la formulation plus résistante à l'humidité. Chez les individus sensibles, le butylène glycol peut être irritant pour la peau, les yeux et les voies nasales, toutefois il est considéré comme étant le moins irritant de tous les glycols. Il peut être autorisé en Bio, lorsqu'il est biosourcé et obtenu par fermentation à partir de sucre."
+                },
+                {
+                    "name": "ALPHA-ISOMETHYL IONONE",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Cette molécule synthétique incolore utilisée en parfumerie, fait partie des 24 allergènes réglementés par l'Europe. Ses senteurs florales sont proches de celles de la violette ou de l'iris."
+                },
+                {
+                    "name": "CITRAL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR L'acide citrique est un des principaux actifs du citron. Il est souvent utilisé pour équilibrer le pH (trop basique) des produits cosmétiques. Il est aussi présent dans certains produits de bain (bombes de bain, galets de bain ou ''poudres magiques'') en raison de ses propriétés effervescentes."
+                },
+                {
+                    "name": "GERANIOL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le Géraniol aussi nommé rhodinol, est un alcool monoterpénique qui fait partie des 24 allergènes réglementés par l'Europe. On le retrouve présent dans les huiles essentielles de Géranium, de citronnelle mais aussi dans l'huile de rose et de Palmarosa. Il est utilisé en parfumerie pour son odeur de rose."
+                }
+            ]
+        },
+        {
+            "keys": 7,
+            "name": "BLEU DE CHANEL",
+            "brand": {
+                "name": "CHANEL",
+                "engagement": "Sans engagement"
+            },
+            "Ingredient": [
+                {
+                    "name": "ALCOHOL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR L'alcool cétéarylique appartient à la famille des alcools gras. Il est utilisé en tant qu'émollient. Il permet d'épaissir les crèmes et de les stabiliser. Il adoucit et protège la peau sans effet gras. L'alcool cétéarylique contient principalement de l'alcool cetylique (Cetyl alcohol) et de l'alcool stearylique (Stearyl alcohol). Il est autorisé en bio.  Le CIR (Cosmetic Ingredient Review) dans un rapport annuel publié en 2008, a conclut à l'innocuité des alcools gras."
+                },
+                {
+                    "name": "PARFUM (FRAGRANCE)",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Derrière ce terme de parfum, se cachent malheureusement de nombreuses molécules odorantes potentiellement irritantes voire allergisantes. Difficile de s'y retrouver lorsque que l'on devient allergique à un produit et que l'information n'est pas plus détaillée que cela. Néanmoins, pour nous aider, l'Europe a réglementé 24 molécules qui, lorsqu'elles sont utilisées au delà d'une certaine concentration, doivent être mentionnées dans la liste INCI (en général à la fin), bien que faisant partie elles-mêmes du parfum d'un produit. C'est le cas par exemple du Limonène, du linalol..."
+                },
+                {
+                    "name": "AQUA (WATER)",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR L'eau est l'ingrédient le plus utilisé en cosmétique : 83% des produits en contiennent (pourcentage établi à partir de 50 000 produits de l'App Inci Beauty). L'eau étant d'origine minérale, elle ne pourra jamais être certifiée Bio. C'est la raison pour laquelle les labels Bio, pour certifier les produits, autorisent des minimums d'ingrédients biologiques assez bas (10% pour Ecocert) sur le total d'une formule, en prenant en compte que la présence d'eau non Bio est indispensable et souvent majoritaire dans de nombreux cas."
+                },
+                {
+                    "name": "LIMONENE",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le limonène fait partie des 24 allergènes réglementés en Europe. Il tient son nom du citron dans lequel il est présent en quantité importante. En cosmétique, il est utilisé pour son parfum. Il existe sous deux formes différentes : - le d-limonene est présent dans de nombreuses plantes, fruits et légumes. On le retrouve aussi dans la peau des agrumes, les cornichons, le céleri ou encore dans plusieurs huiles essentielles. - l'autre forme isométrique, le l-limonène, est présent principalement dans les huiles de pin, la térébenthine et les huiles de menthe."
+                },
+                {
+                    "name": "LINALOOL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le Linalol est un composé aromatique classé parmi les 24 allergènes réglementés par l'Europe. Il est présent à l'état naturel dans les huiles essentielles de thym, de lavande, de lavandin, de pin sylvestre ou de menthe poivrée... On le retrouve aussi dans de nombreux extraits (citron, orange, verveine...)."
+                },
+                {
+                    "name": "COUMARIN",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le coumarin est une substance aromatique qui fait partie de 24 allergènes réglementés par l'Europe. Son nom provient de ''cumaru'' qui est le nom de l'arbre de Tonka (dans une langue amazonienne). En effet, ses fèves contiennent de 1 à 3% de coumarine. C'est W.H. Perkin en 1868 qui le premier a réussi à synthétiser le composé (réaction de Perkin). On le trouve également dans le miel, le thé vert ou la cannelle. Ses senteurs rappellent des odeurs de foin fraîchement coupé avec toutefois de nombreuses notes et nuances (noisette, amande, vanille ...)."
+                },
+                {
+                    "name": "BUTYL METHOXYDIBENZOYLMETHANE",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le Butylène Glycol est un composé chimique dérivé de pétrole, souvent utilisé en tant qu'humectant dans les soins de la peau. Il empêche le produit de sécher et rend la formulation plus résistante à l'humidité. Chez les individus sensibles, le butylène glycol peut être irritant pour la peau, les yeux et les voies nasales, toutefois il est considéré comme étant le moins irritant de tous les glycols. Il peut être autorisé en Bio, lorsqu'il est biosourcé et obtenu par fermentation à partir de sucre."
+                },
+                {
+                    "name": "ALPHA-ISOMETHYL IONONE",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Cette molécule synthétique incolore utilisée en parfumerie, fait partie des 24 allergènes réglementés par l'Europe. Ses senteurs florales sont proches de celles de la violette ou de l'iris."
+                },
+                {
+                    "name": "CITRAL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR L'acide citrique est un des principaux actifs du citron. Il est souvent utilisé pour équilibrer le pH (trop basique) des produits cosmétiques. Il est aussi présent dans certains produits de bain (bombes de bain, galets de bain ou ''poudres magiques'') en raison de ses propriétés effervescentes."
+                },
+                {
+                    "name": "GERANIOL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le Géraniol aussi nommé rhodinol, est un alcool monoterpénique qui fait partie des 24 allergènes réglementés par l'Europe. On le retrouve présent dans les huiles essentielles de Géranium, de citronnelle mais aussi dans l'huile de rose et de Palmarosa. Il est utilisé en parfumerie pour son odeur de rose."
+                }
+            ]
+        },
+        {
+            "keys": 8,
+            "name": "Fame - Eau De Parfum",
+            "brand": {
+                "name": "PACO RABANNE",
+                "engagement": "Sans engagement"
+            },
+            "Ingredient": [
+                {
+                    "name": "ALCOHOL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR L'alcool cétéarylique appartient à la famille des alcools gras. Il est utilisé en tant qu'émollient. Il permet d'épaissir les crèmes et de les stabiliser. Il adoucit et protège la peau sans effet gras. L'alcool cétéarylique contient principalement de l'alcool cetylique (Cetyl alcohol) et de l'alcool stearylique (Stearyl alcohol). Il est autorisé en bio.  Le CIR (Cosmetic Ingredient Review) dans un rapport annuel publié en 2008, a conclut à l'innocuité des alcools gras."
+                },
+                {
+                    "name": "PARFUM (FRAGRANCE)",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Derrière ce terme de parfum, se cachent malheureusement de nombreuses molécules odorantes potentiellement irritantes voire allergisantes. Difficile de s'y retrouver lorsque que l'on devient allergique à un produit et que l'information n'est pas plus détaillée que cela. Néanmoins, pour nous aider, l'Europe a réglementé 24 molécules qui, lorsqu'elles sont utilisées au delà d'une certaine concentration, doivent être mentionnées dans la liste INCI (en général à la fin), bien que faisant partie elles-mêmes du parfum d'un produit. C'est le cas par exemple du Limonène, du linalol..."
+                },
+                {
+                    "name": "AQUA (WATER)",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR L'eau est l'ingrédient le plus utilisé en cosmétique : 83% des produits en contiennent (pourcentage établi à partir de 50 000 produits de l'App Inci Beauty). L'eau étant d'origine minérale, elle ne pourra jamais être certifiée Bio. C'est la raison pour laquelle les labels Bio, pour certifier les produits, autorisent des minimums d'ingrédients biologiques assez bas (10% pour Ecocert) sur le total d'une formule, en prenant en compte que la présence d'eau non Bio est indispensable et souvent majoritaire dans de nombreux cas."
+                },
+                {
+                    "name": "LIMONENE",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le limonène fait partie des 24 allergènes réglementés en Europe. Il tient son nom du citron dans lequel il est présent en quantité importante. En cosmétique, il est utilisé pour son parfum. Il existe sous deux formes différentes : - le d-limonene est présent dans de nombreuses plantes, fruits et légumes. On le retrouve aussi dans la peau des agrumes, les cornichons, le céleri ou encore dans plusieurs huiles essentielles. - l'autre forme isométrique, le l-limonène, est présent principalement dans les huiles de pin, la térébenthine et les huiles de menthe."
+                },
+                {
+                    "name": "LINALOOL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le Linalol est un composé aromatique classé parmi les 24 allergènes réglementés par l'Europe. Il est présent à l'état naturel dans les huiles essentielles de thym, de lavande, de lavandin, de pin sylvestre ou de menthe poivrée... On le retrouve aussi dans de nombreux extraits (citron, orange, verveine...)."
+                },
+                {
+                    "name": "COUMARIN",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le coumarin est une substance aromatique qui fait partie de 24 allergènes réglementés par l'Europe. Son nom provient de ''cumaru'' qui est le nom de l'arbre de Tonka (dans une langue amazonienne). En effet, ses fèves contiennent de 1 à 3% de coumarine. C'est W.H. Perkin en 1868 qui le premier a réussi à synthétiser le composé (réaction de Perkin). On le trouve également dans le miel, le thé vert ou la cannelle. Ses senteurs rappellent des odeurs de foin fraîchement coupé avec toutefois de nombreuses notes et nuances (noisette, amande, vanille ...)."
+                },
+                {
+                    "name": "BUTYL METHOXYDIBENZOYLMETHANE",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le Butylène Glycol est un composé chimique dérivé de pétrole, souvent utilisé en tant qu'humectant dans les soins de la peau. Il empêche le produit de sécher et rend la formulation plus résistante à l'humidité. Chez les individus sensibles, le butylène glycol peut être irritant pour la peau, les yeux et les voies nasales, toutefois il est considéré comme étant le moins irritant de tous les glycols. Il peut être autorisé en Bio, lorsqu'il est biosourcé et obtenu par fermentation à partir de sucre."
+                },
+                {
+                    "name": "ALPHA-ISOMETHYL IONONE",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Cette molécule synthétique incolore utilisée en parfumerie, fait partie des 24 allergènes réglementés par l'Europe. Ses senteurs florales sont proches de celles de la violette ou de l'iris."
+                },
+                {
+                    "name": "CITRAL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR L'acide citrique est un des principaux actifs du citron. Il est souvent utilisé pour équilibrer le pH (trop basique) des produits cosmétiques. Il est aussi présent dans certains produits de bain (bombes de bain, galets de bain ou ''poudres magiques'') en raison de ses propriétés effervescentes."
+                },
+                {
+                    "name": "GERANIOL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le Géraniol aussi nommé rhodinol, est un alcool monoterpénique qui fait partie des 24 allergènes réglementés par l'Europe. On le retrouve présent dans les huiles essentielles de Géranium, de citronnelle mais aussi dans l'huile de rose et de Palmarosa. Il est utilisé en parfumerie pour son odeur de rose."
+                }
+            ]
+        },
+        {
+            "keys": 9,
+            "name": "Miss Dior - Eau de Parfum - notes fleuries et fraîches - nœud couture",
+            "brand": {
+                "name": "DIOR",
+                "engagement": "Sans engagement"
+            },
+            "Ingredient": [
+                {
+                    "name": "ALCOHOL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR L'alcool cétéarylique appartient à la famille des alcools gras. Il est utilisé en tant qu'émollient. Il permet d'épaissir les crèmes et de les stabiliser. Il adoucit et protège la peau sans effet gras. L'alcool cétéarylique contient principalement de l'alcool cetylique (Cetyl alcohol) et de l'alcool stearylique (Stearyl alcohol). Il est autorisé en bio.  Le CIR (Cosmetic Ingredient Review) dans un rapport annuel publié en 2008, a conclut à l'innocuité des alcools gras."
+                },
+                {
+                    "name": "PARFUM (FRAGRANCE)",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Derrière ce terme de parfum, se cachent malheureusement de nombreuses molécules odorantes potentiellement irritantes voire allergisantes. Difficile de s'y retrouver lorsque que l'on devient allergique à un produit et que l'information n'est pas plus détaillée que cela. Néanmoins, pour nous aider, l'Europe a réglementé 24 molécules qui, lorsqu'elles sont utilisées au delà d'une certaine concentration, doivent être mentionnées dans la liste INCI (en général à la fin), bien que faisant partie elles-mêmes du parfum d'un produit. C'est le cas par exemple du Limonène, du linalol..."
+                },
+                {
+                    "name": "AQUA (WATER)",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR L'eau est l'ingrédient le plus utilisé en cosmétique : 83% des produits en contiennent (pourcentage établi à partir de 50 000 produits de l'App Inci Beauty). L'eau étant d'origine minérale, elle ne pourra jamais être certifiée Bio. C'est la raison pour laquelle les labels Bio, pour certifier les produits, autorisent des minimums d'ingrédients biologiques assez bas (10% pour Ecocert) sur le total d'une formule, en prenant en compte que la présence d'eau non Bio est indispensable et souvent majoritaire dans de nombreux cas."
+                },
+                {
+                    "name": "LIMONENE",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le limonène fait partie des 24 allergènes réglementés en Europe. Il tient son nom du citron dans lequel il est présent en quantité importante. En cosmétique, il est utilisé pour son parfum. Il existe sous deux formes différentes : - le d-limonene est présent dans de nombreuses plantes, fruits et légumes. On le retrouve aussi dans la peau des agrumes, les cornichons, le céleri ou encore dans plusieurs huiles essentielles. - l'autre forme isométrique, le l-limonène, est présent principalement dans les huiles de pin, la térébenthine et les huiles de menthe."
+                },
+                {
+                    "name": "LINALOOL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le Linalol est un composé aromatique classé parmi les 24 allergènes réglementés par l'Europe. Il est présent à l'état naturel dans les huiles essentielles de thym, de lavande, de lavandin, de pin sylvestre ou de menthe poivrée... On le retrouve aussi dans de nombreux extraits (citron, orange, verveine...)."
+                },
+                {
+                    "name": "COUMARIN",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le coumarin est une substance aromatique qui fait partie de 24 allergènes réglementés par l'Europe. Son nom provient de ''cumaru'' qui est le nom de l'arbre de Tonka (dans une langue amazonienne). En effet, ses fèves contiennent de 1 à 3% de coumarine. C'est W.H. Perkin en 1868 qui le premier a réussi à synthétiser le composé (réaction de Perkin). On le trouve également dans le miel, le thé vert ou la cannelle. Ses senteurs rappellent des odeurs de foin fraîchement coupé avec toutefois de nombreuses notes et nuances (noisette, amande, vanille ...)."
+                },
+                {
+                    "name": "BUTYL METHOXYDIBENZOYLMETHANE",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le Butylène Glycol est un composé chimique dérivé de pétrole, souvent utilisé en tant qu'humectant dans les soins de la peau. Il empêche le produit de sécher et rend la formulation plus résistante à l'humidité. Chez les individus sensibles, le butylène glycol peut être irritant pour la peau, les yeux et les voies nasales, toutefois il est considéré comme étant le moins irritant de tous les glycols. Il peut être autorisé en Bio, lorsqu'il est biosourcé et obtenu par fermentation à partir de sucre."
+                },
+                {
+                    "name": "ALPHA-ISOMETHYL IONONE",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Cette molécule synthétique incolore utilisée en parfumerie, fait partie des 24 allergènes réglementés par l'Europe. Ses senteurs florales sont proches de celles de la violette ou de l'iris."
+                },
+                {
+                    "name": "CITRAL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR L'acide citrique est un des principaux actifs du citron. Il est souvent utilisé pour équilibrer le pH (trop basique) des produits cosmétiques. Il est aussi présent dans certains produits de bain (bombes de bain, galets de bain ou ''poudres magiques'') en raison de ses propriétés effervescentes."
+                },
+                {
+                    "name": "GERANIOL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le Géraniol aussi nommé rhodinol, est un alcool monoterpénique qui fait partie des 24 allergènes réglementés par l'Europe. On le retrouve présent dans les huiles essentielles de Géranium, de citronnelle mais aussi dans l'huile de rose et de Palmarosa. Il est utilisé en parfumerie pour son odeur de rose."
+                }
+            ]
+        },
+        {
+            "keys": 10,
+            "name": "Libre - Eau de Parfum Intense",
+            "brand": {
+                "name": "YVES SAINT LAURENT",
+                "engagement": "Sans engagement"
+            },
+            "Ingredient": [
+                {
+                    "name": "ALCOHOL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR L'alcool cétéarylique appartient à la famille des alcools gras. Il est utilisé en tant qu'émollient. Il permet d'épaissir les crèmes et de les stabiliser. Il adoucit et protège la peau sans effet gras. L'alcool cétéarylique contient principalement de l'alcool cetylique (Cetyl alcohol) et de l'alcool stearylique (Stearyl alcohol). Il est autorisé en bio.  Le CIR (Cosmetic Ingredient Review) dans un rapport annuel publié en 2008, a conclut à l'innocuité des alcools gras."
+                },
+                {
+                    "name": "PARFUM (FRAGRANCE)",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Derrière ce terme de parfum, se cachent malheureusement de nombreuses molécules odorantes potentiellement irritantes voire allergisantes. Difficile de s'y retrouver lorsque que l'on devient allergique à un produit et que l'information n'est pas plus détaillée que cela. Néanmoins, pour nous aider, l'Europe a réglementé 24 molécules qui, lorsqu'elles sont utilisées au delà d'une certaine concentration, doivent être mentionnées dans la liste INCI (en général à la fin), bien que faisant partie elles-mêmes du parfum d'un produit. C'est le cas par exemple du Limonène, du linalol..."
+                },
+                {
+                    "name": "AQUA (WATER)",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR L'eau est l'ingrédient le plus utilisé en cosmétique : 83% des produits en contiennent (pourcentage établi à partir de 50 000 produits de l'App Inci Beauty). L'eau étant d'origine minérale, elle ne pourra jamais être certifiée Bio. C'est la raison pour laquelle les labels Bio, pour certifier les produits, autorisent des minimums d'ingrédients biologiques assez bas (10% pour Ecocert) sur le total d'une formule, en prenant en compte que la présence d'eau non Bio est indispensable et souvent majoritaire dans de nombreux cas."
+                },
+                {
+                    "name": "LIMONENE",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le limonène fait partie des 24 allergènes réglementés en Europe. Il tient son nom du citron dans lequel il est présent en quantité importante. En cosmétique, il est utilisé pour son parfum. Il existe sous deux formes différentes : - le d-limonene est présent dans de nombreuses plantes, fruits et légumes. On le retrouve aussi dans la peau des agrumes, les cornichons, le céleri ou encore dans plusieurs huiles essentielles. - l'autre forme isométrique, le l-limonène, est présent principalement dans les huiles de pin, la térébenthine et les huiles de menthe."
+                },
+                {
+                    "name": "LINALOOL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le Linalol est un composé aromatique classé parmi les 24 allergènes réglementés par l'Europe. Il est présent à l'état naturel dans les huiles essentielles de thym, de lavande, de lavandin, de pin sylvestre ou de menthe poivrée... On le retrouve aussi dans de nombreux extraits (citron, orange, verveine...)."
+                },
+                {
+                    "name": "COUMARIN",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le coumarin est une substance aromatique qui fait partie de 24 allergènes réglementés par l'Europe. Son nom provient de ''cumaru'' qui est le nom de l'arbre de Tonka (dans une langue amazonienne). En effet, ses fèves contiennent de 1 à 3% de coumarine. C'est W.H. Perkin en 1868 qui le premier a réussi à synthétiser le composé (réaction de Perkin). On le trouve également dans le miel, le thé vert ou la cannelle. Ses senteurs rappellent des odeurs de foin fraîchement coupé avec toutefois de nombreuses notes et nuances (noisette, amande, vanille ...)."
+                },
+                {
+                    "name": "BUTYL METHOXYDIBENZOYLMETHANE",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le Butylène Glycol est un composé chimique dérivé de pétrole, souvent utilisé en tant qu'humectant dans les soins de la peau. Il empêche le produit de sécher et rend la formulation plus résistante à l'humidité. Chez les individus sensibles, le butylène glycol peut être irritant pour la peau, les yeux et les voies nasales, toutefois il est considéré comme étant le moins irritant de tous les glycols. Il peut être autorisé en Bio, lorsqu'il est biosourcé et obtenu par fermentation à partir de sucre."
+                },
+                {
+                    "name": "ALPHA-ISOMETHYL IONONE",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Cette molécule synthétique incolore utilisée en parfumerie, fait partie des 24 allergènes réglementés par l'Europe. Ses senteurs florales sont proches de celles de la violette ou de l'iris."
+                },
+                {
+                    "name": "CITRAL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR L'acide citrique est un des principaux actifs du citron. Il est souvent utilisé pour équilibrer le pH (trop basique) des produits cosmétiques. Il est aussi présent dans certains produits de bain (bombes de bain, galets de bain ou ''poudres magiques'') en raison de ses propriétés effervescentes."
+                },
+                {
+                    "name": "GERANIOL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le Géraniol aussi nommé rhodinol, est un alcool monoterpénique qui fait partie des 24 allergènes réglementés par l'Europe. On le retrouve présent dans les huiles essentielles de Géranium, de citronnelle mais aussi dans l'huile de rose et de Palmarosa. Il est utilisé en parfumerie pour son odeur de rose."
+                }
+            ]
+        }
+    ]
+}
