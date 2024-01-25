@@ -1,25 +1,117 @@
 import tkinter as tk
 import tkinter.font as tkFont
+from tkinter import messagebox
+from tkinter import *
 from Projet_Webcrapping_2 import * 
 from web_const_mod import * 
+from msedge.selenium_tools import Edge, EdgeOptions
+import warnings
+import os
+import time
+import winreg
 import json
-
+from zipfile import ZipFile
+warnings.filterwarnings("ignore")
+#Troisieme fenetre 
 class Perso:
+    #Fonction de webscrapping pour le parfum personalisé
     def RecherchePerso(self,entry):
+        #add all the options necessary to begin webscrapping
         options = EdgeOptions()
         options.use_chromium = True
         options.add_experimental_option('excludeSwitches', ['enable-logging'])
         options.set_capability("acceptInsecureCerts", True)
         #options.add_argument('headless') #hide the browser
-        #Try to connect if the edgeriver version is 108
         options.binary_location =r'C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe'
-        lamarque,lesingredients,lengagement=parfumPerso(entry,options)
+        #Try to connect if the edgeriver version is 122
+        try : 
+            executablePath=r".\driverEdge\msedgedriver_v122.exe"
+            driver = Edge(executable_path =executablePath, options = options)
+            driver.close()
+        #If it is another version try to find or download it 
+        except Exception as error:
+            #Go search for the suitable version of edge driver
+            if 'This version of Microsoft Edge WebDriver only supports Microsoft Edge version 122' in str(error):
+                error_version =str(error).split('\n')[1]
+                version=error_version.split(' ')[4]
+                #Check if the Edge driver isn't already completed
+                if not os.path.isfile(r'.\driverEdge\msedgedriver_v'+version.split('.')[0]+".exe"):
+                    try : 
+                        #Go download the edge driver
+                        os.system('start '+'https://msedgedriver.azureedge.net/'+version+'/edgedriver_win64.zip')
+                    except:
+                        #Ask the user to click on the download link
+                        print('Please, with Edge, go to : ' + 'https://msedgedriver.azureedge.net/'+version+'/edgedriver_win64.zip')
+                        
+                    # spécifiant le nom du fichier zip
+                    reg_key = winreg.OpenKey(winreg.HKEY_CURRENT_USER, r"Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders")
+                    #Recupère le dossier téléchargement sans avoir à entrer le user de la session
+                    downloads_path = winreg.QueryValueEx(reg_key, "{374DE290-123F-4565-9164-39C4925E467B}")[0]  
+                    winreg.CloseKey(reg_key)
+                    file = downloads_path+"/edgedriver_win64.zip"
+                    
+                    #Wait until the file has been downloaded
+                    while not os.path.exists(file):
+                        time.sleep(1)
+                    
+                    # ouvrir le fichier zip en mode lecture
+                    with ZipFile(file, 'r') as zip: 
+                        # extraire tous les fichiers vers un autre répertoire
+                        zip.extractall(r'.\driverEdge')
+                        os.rename(r'.\driverEdge\msedgedriver.exe', r'.\driverEdge\msedgedriver_v'+version.split('.')[0]+".exe")
+                    #delete the zip folder
+                    os.remove(downloads_path+"/edgedriver_win64.zip")
+                executablePath=r'.\driverEdge\msedgedriver_v'+version.split('.')[0]+".exe"
+                
+        #Lance la recherche des informations personalisées
+        lamarque,lesingredients,lengagement=parfumPerso(entry,options,executablePath)
+        #Met les ingredients en forme pour pouvoir les retrouver avec le json Ingredients
         ingredient=miseEnForme(lesingredients)
-        # Charger les données depuis le fichier JSON
+        # Charger les données Ingredient depuis le fichier JSON
         with open('./Ingredients_data.json', 'r') as fichier_json:
             donnees = json.load(fichier_json)
         return (lamarque,ingredient,lengagement,donnees)
     
+    #Fenetre affichage des infromations personalisé
+    def Frames(self,root,lamarque,ingredient,lengagement,donnees,entry):
+        frame = tk.Frame(root)
+        frame.configure(bg="#958BF9",width=900,height=750)
+        
+        # Add a scrollbar to the frame
+        scrollbar = Scrollbar(frame)
+        scrollbar.pack(side=RIGHT, fill=Y)
+
+        #Label du Parfum
+        Nom=tk.Label(frame)
+        Titleft = tkFont.Font(family='Times',size=20)
+        Nom["font"] = Titleft#font
+        Nom["bg"] = "#958BF9" # Couleur de fond Lila
+        Nom["text"] = entry
+        Nom.pack()#Placement dans la fenetre
+        
+        text = Text(frame, yscrollcommand=scrollbar.set,height=45,width=110,wrap=tk.WORD)
+        text["bg"] = "#958BF9" # Couleur de fond Lila
+        text.pack(fill=BOTH, expand=True)
+        
+        text.insert(END,"Marque : "+lamarque+"\n\n")
+        text.insert(END,"Engagement climatique de la marque : "+lengagement+"\n\n\n")
+        text.insert(END,"Ingredients : "+"\n")
+        for i in range (10):
+            if '/' in ingredient[i]:
+                ing=ingredient[i].split('/')[0]
+            else:
+                ing=ingredient[i].upper()#Enregistre l'ingredient
+            #Créer une pharse avec ingredient: description et s'il est pertubateur et/ou allergene
+            phrase=ing+" : "+donnees[ing]['description']+"\n"+donnees[ing]['endocrinien']+" et "+donnees[ing]['allergène'] if ing in donnees.keys() else ing+" :Pas d'information trouvée"
+            text.insert(END,phrase+"\n\n")
+
+        for widget in frame.winfo_children():
+            widget.pack()
+            
+        # Attach the scrollbar to the text widget
+        scrollbar.config(command=text.yview)
+        
+        return frame
     def __init__(self, root,entry):
         #setting title
         self.rootInfos=root
@@ -34,157 +126,14 @@ class Perso:
         root.resizable(width=False, height=False)
         root.configure(bg="#958BF9")
         
+        #Recupère les infromation de la fontion Recherche Perso
         lamarque,ingredient,lengagement,donnees=self.RecherchePerso(entry)
-
-        Nom=tk.Label(root)
-        Titleft = tkFont.Font(family='Times',size=20)
-        Nom["font"] = Titleft
-        Nom["bg"] = "#958BF9"
-        Nom["text"] = entry
-        Nom.grid(column=0, row = 0, columnspan=3)
-
-        Marque=tk.Label(root)
-        ft = tkFont.Font(family='Times',size=10)
-        Marque["font"] = ft
-        Marque["fg"] = "black"
-        Marque["bg"] = "#958BF9"
-        Marque["text"] = "Marque : "+lamarque
-        Marque.grid(column=0, row = 1,sticky="W")
-
-        Engagement=tk.Label(root)
-        Engagement["font"] = ft
-        Engagement["fg"] = "black"
-        Engagement["bg"] = "#958BF9"
-        Engagement['wraplength']=875
-        Engagement["text"] = "Engagement climatique de la marque : "+lengagement
-        Engagement.grid(column=0, row = 2,columnspan=2,sticky="W")
-
-        Ingredients=tk.Label(root)
-        Ingredients["font"] = ft
-        Ingredients["fg"] = "black"
-        Ingredients["bg"] = "#958BF9"
-        Ingredients["text"] = "Ingredients : "
-        Ingredients.grid(column=0, row = 3, sticky="W")
         
-        ing=ingredient[0][0].upper()
-        phrase=ing+" : "+donnees[ing]['description']+"\n"+donnees[ing]['endocrinien']+" et "+donnees[ing]['allergène'] if ing in donnees.keys() else ing+" : Pas d'information trouvée"
-        Ing1=tk.Label(root)
-        Ingft = tkFont.Font(family='Times',size=9)
-        Ing1["font"] = Ingft
-        Ing1["fg"] = "black"
-        Ing1["justify"] = "left"
-        Ing1['wraplength']=875
-        Ing1["bg"] = "#958BF9"
-        Ing1["text"] = phrase
-        Ing1.grid(column=0, row = 4, columnspan=2,sticky="W")
+        info_frame =self.Frames(root,lamarque,ingredient,lengagement,donnees,entry)
+        info_frame.grid(column=0, row=0)
+ 
 
-        ing=ingredient[0][1].upper()
-        phrase=ing+" : "+donnees[ing]['description']+"\n"+donnees[ing]['endocrinien']+" et "+donnees[ing]['allergène'] if ing in donnees.keys() else ing+" :Pas d'information trouvée"
-        Ing2=tk.Label(root)
-        Ing2["font"] = Ingft
-        Ing2["fg"] = "black"
-        Ing2["justify"] = "left"
-        Ing2['wraplength']=875
-        Ing2["bg"] = "#958BF9"
-        Ing2["text"] = phrase
-        Ing2.grid(column=0, row = 5, columnspan=2,sticky="W")
-
-        ing=ingredient[0][2].upper()
-        phrase=ing+" : "+donnees[ing]['description']+"\n"+donnees[ing]['endocrinien']+" et "+donnees[ing]['allergène'] if ing in donnees.keys() else ing+" :Pas d'information trouvée"
-        Ing3=tk.Label(root)
-        Ing3["font"] = Ingft
-        Ing3["fg"] = "black"
-        Ing3["justify"] = "left"
-        Ing3['wraplength']=875
-        Ing3["bg"] = "#958BF9"
-        Ing3["text"] = phrase
-        Ing3.grid(column=0, row = 6, columnspan=2,sticky="W")
-
-        ing=ingredient[0][3].upper()
-        phrase=ing+" : "+donnees[ing]['description']+"\n"+donnees[ing]['endocrinien']+" et "+donnees[ing]['allergène'] if ing in donnees.keys() else ing+" :Pas d'information trouvée"
-        Ing4=tk.Label(root)
-        Ing4["font"] = Ingft
-        Ing4["fg"] = "black"
-        Ing4["justify"] = "left"
-        Ing4['wraplength']=875
-        Ing4["bg"] = "#958BF9"
-        Ing4["text"] = phrase
-        Ing4.grid(column=0, row = 7, columnspan=3,sticky="W")
-
-        ing=ingredient[0][4].upper()
-        phrase=ing+" : "+donnees[ing]['description']+"\n"+donnees[ing]['endocrinien']+" et "+donnees[ing]['allergène'] if ing in donnees.keys() else ing+" :Pas d'information trouvée"
-        Ing5=tk.Label(root)
-        Ing5["font"] = Ingft
-        Ing5["fg"] = "black"
-        Ing5["justify"] = "left"
-        Ing5['wraplength']=875
-        Ing5["bg"] = "#958BF9"
-        Ing5["text"] = phrase
-        Ing5.grid(column=0, row = 8, columnspan=3,sticky="W")
-
-        ing=ingredient[0][5].upper()
-        phrase=ing+" : "+donnees[ing]['description']+"\n"+donnees[ing]['endocrinien']+" et "+donnees[ing]['allergène'] if ing in donnees.keys() else ing+" :Pas d'information trouvée"
-        Ing6=tk.Label(root)
-        Ing6["font"] = Ingft
-        Ing6["fg"] = "black"
-        Ing6["justify"] = "left"
-        Ing6['wraplength']=875
-        Ing6["bg"] = "#958BF9"
-        Ing6["text"] = phrase
-        Ing6.grid(column=0, row = 9, columnspan=3,sticky="W")
-  
-        ing=ingredient[0][6].upper()
-        phrase=ing+" : "+donnees[ing]['description']+"\n"+donnees[ing]['endocrinien']+" et "+donnees[ing]['allergène'] if ing in donnees.keys() else ing+" :Pas d'information trouvée"
-        Ing7=tk.Label(root)
-        Ing7["font"] = Ingft
-        Ing7["fg"] = "black"
-        Ing7["justify"] = "left"
-        Ing7['wraplength']=875
-        Ing7["bg"] = "#958BF9"
-        Ing7["text"] = phrase
-        Ing7.grid(column=0, row = 10, columnspan=3,sticky="W")
-
-        ing=ingredient[0][7].upper()
-        phrase=ing+" : "+donnees[ing]['description']+"\n"+donnees[ing]['endocrinien']+" et "+donnees[ing]['allergène'] if ing in donnees.keys() else ing+" :Pas d'information trouvée"
-        Ing8=tk.Label(root)
-        Ing8["font"] = Ingft
-        Ing8["fg"] = "black"
-        Ing8["justify"] = "left"
-        Ing8['wraplength']=875
-        Ing8["bg"] = "#958BF9"
-        Ing8["text"] = phrase
-        Ing8.grid(column=0, row = 11, columnspan=3,sticky="W")
-
-        ing=ingredient[0][8].upper()
-        phrase=ing+" : "+donnees[ing]['description']+"\n"+donnees[ing]['endocrinien']+" et "+donnees[ing]['allergène'] if ing in donnees.keys() else ing+" :Pas d'information trouvée"
-        Ing9=tk.Label(root)
-        Ing9["font"] = Ingft
-        Ing9["fg"] = "black"
-        Ing9["justify"] = "left"
-        Ing9['wraplength']=875
-        Ing9["bg"] = "#958BF9"
-        Ing9["text"] = phrase
-        Ing9.grid(column=0, row = 12, columnspan=3,sticky="W")
-
-        ing=ingredient[0][9].upper()
-        phrase=ing+" : "+donnees[ing]['description']+"\n"+donnees[ing]['endocrinien']+" et "+donnees[ing]['allergène'] if ing in donnees.keys() else ing+" :Pas d'information trouvée"
-        Ing10=tk.Label(root)
-        Ing10["font"] = Ingft
-        Ing10["fg"] = "black"
-        Ing10["justify"] = "left"
-        Ing10['wraplength']=875
-        Ing10["bg"] = "#958BF9"
-        Ing10["text"] = phrase
-        Ing10.grid(column=0, row = 13, columnspan=3,sticky="W")
-
-        '''GLabel_852=tk.Label(root)
-        ft = tkFont.Font(family='Times',size=10)
-        GLabel_852["font"] = ft
-        GLabel_852["fg"] = "#333333"
-        GLabel_852["justify"] = "left"
-        GLabel_852["text"] = "label"
-        GLabel_852.place(x=50,y=500,width=262,height=40)'''
-        
+    #Lance la fenetre
     def DemarreInfos(self):
         self.rootInfos.mainloop()
         self.rootInfos.withdraw()

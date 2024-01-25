@@ -8,10 +8,10 @@ Created on Tue Jan 16 10:18:30 2024
 
 
 from perfume_8 import *
-from web_const_mod import * 
 
 
 
+#create main app's windows 
 
 if __name__ == "__main__":
     root = tk.Tk()

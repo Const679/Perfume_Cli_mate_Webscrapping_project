@@ -1,4 +1,3 @@
-
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
@@ -6,103 +5,55 @@ from selenium.webdriver.common.by import By
 from msedge.selenium_tools import Edge, EdgeOptions
 from selenium.webdriver.support import expected_conditions as EC
 import time
-import warnings
-import os
-import winreg
-from zipfile import ZipFile
-warnings.filterwarnings("ignore")
 import json
 
-options = EdgeOptions()
-options.use_chromium = True
-options.add_experimental_option('excludeSwitches', ['enable-logging'])
-options.set_capability("acceptInsecureCerts", True)
-options.binary_location =r'C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe'
-
-#Try to connect if the edgeriver version is 108
-try : 
-    options.binary_location =r'C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe'
-    executablePath=r".\driverEdge\msedgedriver_v122.exe"
-    driver = Edge(executable_path =executablePath, options = options)
-    driver.close()
-#If it is another version try to find or download it 
-except Exception as error:
-    #Go search for the suitable version of edge driver
-    if 'This version of Microsoft Edge WebDriver only supports Microsoft Edge version 122' in str(error):
-        error_version =str(error).split('\n')[1]
-        version=error_version.split(' ')[4]
-        #Check if the Edge driver isn't already completed
-        if not os.path.isfile(r'.\driverEdge\msedgedriver_v'+version.split('.')[0]+".exe"):
-            try : 
-                #Go download the edge driver
-                os.system('start '+'https://msedgedriver.azureedge.net/'+version+'/edgedriver_win64.zip')
-            except:
-                #Ask the user to click on the download link
-                print('Please, with Edge, go to : ' + 'https://msedgedriver.azureedge.net/'+version+'/edgedriver_win64.zip')
-                
-            # spécifiant le nom du fichier zip
-            reg_key = winreg.OpenKey(winreg.HKEY_CURRENT_USER, r"Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders")
-            downloads_path = winreg.QueryValueEx(reg_key, "{374DE290-123F-4565-9164-39C4925E467B}")[0]  #Recupère le dossier téléchargement sans avoir à entrer le user de la session
-            winreg.CloseKey(reg_key)
-            file = downloads_path+"/edgedriver_win64.zip"
-            
-            #Wait until the file has been downloaded
-            while not os.path.exists(file):
-                time.sleep(1)
-            
-            # ouvrir le fichier zip en mode lecture
-            with ZipFile(file, 'r') as zip: 
-                # extraire tous les fichiers vers un autre répertoire
-                zip.extractall(r'.\driverEdge')
-                os.rename(r'.\driverEdge\msedgedriver.exe', r'.\driverEdge\msedgedriver_v'+version.split('.')[0]+".exe")
-            
-            os.remove(downloads_path+"/edgedriver_win64.zip")
-        executablePath=r'.\driverEdge\msedgedriver_v'+version.split('.')[0]+".exe"        
-        options.binary_location =r'C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe'
-
-def Sephora():
+#Function pour scrapper les 10 meilleures vente de parfum sur Sephora
+def Sephora(options,executablePath):
     dicParfum={}
     listeMarque=[]
     listeIngredient=[]
-    driver = Edge(executable_path =executablePath)
+    #Ouverture de Edge et recherche de Sephora
+    driver = Edge(executable_path =executablePath,options = options)
     driver.get("https://www.sephora.fr/")
+    #Accepte les cookies
     cookies=driver.find_element(By.XPATH,'//*[@id="footer_tc_privacy_button_2"]')
     cookies.click()
-    i=0 #placement sur la page web
+    i=1 #placement sur la page web
     key=0 #classement
+    #Tant qu'il n'y a pas 10 parfum dans le dictionnaire va en rajouter
     while key<10:
-        div=0
+        #Se dirge sur la page des meilleures ventes de parfum
         driver.get("https://www.sephora.fr/parfum-meilleures-ventes/?srule=Sorting%20Rule%20-%20Best%20Sellers&start=0&sz=24")
-        id=str(i+1)
+        id=str(i)
+        #Recherche les cases de parfums (2 mises en page possibles du site)
         try:
             pathparfum="/html/body/div[2]/div[3]/div[2]/div[3]/div[2]/div[2]/ul/li["+id+"]"
             Parfum=driver.find_element(By.XPATH, pathparfum)
         except :
             pathparfum="/html/body/div[1]/div[3]/div[2]/div[3]/div[2]/div[2]/ul/li["+id+"]"
             Parfum=driver.find_element(By.XPATH, pathparfum)
+        #Si la case sélectionnnée n'est pas une pub
         if Parfum.get_attribute('class')=='grid-tile':
             key+=1
+            #Enregistre la marque
             marque=driver.find_element(By.XPATH,pathparfum+"/div/div[3]/div/a/span").get_attribute('innerText')
-            #print(marque)
             listeMarque.append(marque)
+            #Va sur la page du parfum
             Parfum.click()
-            #nom du parfum      
+            #Enregistre le nom du parfum      
             nomParfum=driver.find_element(By.CLASS_NAME,'product-name.product-name-bold').get_attribute("innerText")
-            #print(nomParfum)
             dicParfum[key]=nomParfum
-            #liste des ingredients
+            #Enregistre la liste des ingredients
             ingredient=driver.find_element(By.ID,'tab-ingredients').click()
-            time.sleep(1)
+            time.sleep(1) #Attend que la page des ingredients soit visible
             liste_I=driver.find_element(By.CLASS_NAME,"ingredients-content").get_attribute('innerText')
-            #print('Ingredient : '+ ingredient)
             listeIngredient.append(liste_I)
-            #print("\n")
         i+=1
-            
+    #Fermeture de la page Sephora        
     driver.close()
     return dicParfum,listeMarque,listeIngredient
-#dicParfum,listeMarque,listeIngredient=Sephora()
 
+#Mise en forme des ingredients : Sépare les ingrédiente sous format string en liste selon leurs séparateurs
 def miseEnForme(ingredients):
     phrase="Cette liste d'ingrédients peut faire l'objet de modifications, veuillez consulter l'emballage du produit acheté."
     Ingredient=[]
@@ -127,13 +78,21 @@ def miseEnForme(ingredients):
         simiabraz=champenfeu.split(",")
     elif " • " in champenfeu:
         simiabraz=champenfeu.split(" • ")
-    Ingredient.append(simiabraz)
+    elif " · " in champenfeu:
+        simiabraz=champenfeu.split(" · ")
+    elif "; " in champenfeu:
+        simiabraz=champenfeu.split("; ")
+    else :
+        simiabraz=champenfeu
+        print(simiabraz)
+    Ingredient.extend(simiabraz)
     return(Ingredient)
 
+#Seconde mise en forme sur chaque ingrédient dans les listes 
 def IngredientForme(listeIngredient):
+    Ingredient= []
     for i in listeIngredient:
-        Ingredient=miseEnForme(i)
-    
+        Ingredient.append(miseEnForme(i))
     Ingredients=[]
     listeingredient=[]
     for i in Ingredient:
@@ -158,110 +117,127 @@ def IngredientForme(listeIngredient):
             else:
                 Ingredients.append(j)
         listeingredient.append(Ingredients)
-    setIngredient=set(Ingredients)
+    setIngredient=set(Ingredients) #Sert à recenser les informations sur chaque ingrédient
     return (listeingredient,setIngredient)
-#Ingredient,setIngredient=IngredientForme(listeIngredient)
 
-
- 
-def incibeauty(setIngredient):
-    descIng={}
-    Allergene=[]
-    endo=[]
-    driver = Edge(executable_path =executablePath)
+#Function pour scrapper les informations de chaque ingrédient trouvé dans les parfums
+def incibeauty(setIngredient,options,executablePath):
+    descIng={} #description des ingrédients
+    Allergene=[] #s'ils sont allergènes
+    endo=[]#s'ils sont pertubateurs endocriniens
+    #Ouverture de Edge et recherche des ingrédients de Inci Beauty
+    driver = Edge(executable_path =executablePath,options = options)
     driver.get("https://incibeauty.com/ingredients")
-    cookies=driver.find_element(By.XPATH,"/html/body/div[6]/div[1]/div/div[2]/button")
+    #Continue sans accepter les cookies
+    cookies=driver.find_element(By.XPATH,"/html/body/div[6]/div[2]/div[1]/div[2]/div[2]/button[1]")
     cookies.click()
+    #Pour tous les ingredients
     for i in setIngredient:
+        #Si c'est de l'acool, ce n'est pas dans les premiere propositino il faut faire une requete "manuelle"
         if 'ALCOHOL'==i:
             driver.get("https://incibeauty.com/ingredients/14307-alcohol")
             url=True
+        #sinon recherche ingrédient un par un 
         else : 
             driver.get("https://incibeauty.com/ingredients")
+            # rentre le nom de l'ingredient dans la bar de recherche
             search=driver.find_element(By.ID,'searchInci')
             search.click()
-            search.clear()
+            search.clear() #vide la case avant d'envoyer un nouvel ingredient
             search.send_keys(i)
-            count=0
-            url=False
-            b=True
-            while b:
+            count=0 #Compte le nombre de tour
+            url=False #Changement d'url
+            b=True #envoie de l'ingredient
+            #Essaye de rechercher le nom de l'ingredient pendant 10 tours max en cherchant à ce que l'URL change 
+            while b: 
                 count+=1
-                search.send_keys(Keys.ENTER)
-                if driver.current_url!="https://incibeauty.com/ingredients":
+                search.send_keys(Keys.ENTER) #click sur rechercher
+                if driver.current_url!="https://incibeauty.com/ingredients": #si on a changer d'URL
                     b=False
                     url=True
                 if count>=10:
                     b=False
+        # si l'URL n'est plus la page de recherche
         if url :
+            #Attend que la page se charge totalement
             listeInfo= WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.XPATH,'/html/body/section[1]/div/div/div/ul')))
+            # remplit Allergene si l'information est trouvée
             if 'Allergène' in listeInfo.get_attribute('innerText'):
                 Allergene.append(i)
+            # remplit endo si l'information est trouvée
             if 'Perturbateur endocrinien' in listeInfo.get_attribute('innerText'):
                 endo.append(i)
+            #Essaye de trouver la description de l'ingrédient si elle est présente sur la page
             try:
                 aSavoir=driver.find_element(By.XPATH,'/html/body/section[1]/div/div/div/div[2]/div')
                 desc=aSavoir.get_attribute('innerText')
+                #mise en forme rapide de la description
                 desc=desc.replace('"',"''")
                 descIng[i]=desc.replace('\n',' ')
             except:
                 descIng[i]="Pas d'information supplémentaire"
-
+    #Ferme la fenêtre de Inci Beauty
     driver.close()
     return descIng,Allergene,endo
 
- 
-def engagement(listeMarque):
+#Function pour scrapper les engagement de chaque marque
+def engagement(listeMarque,options,executablePath):
     marqueEco={}
-    driver = Edge(executable_path =executablePath)
+    #Ouverture de Edge et recherche des engagement sur Science Based Targets
+    driver = Edge(executable_path =executablePath,options = options)
     driver.get("https://sciencebasedtargets.org/companies-taking-action#dashboard")
     time.sleep(5)
+    #Accepte les cookies
     cookies=driver.find_element(By.CLASS_NAME,"font-bold.text-center.rounded-full.appearance-none.o-btn.border-3.border-currentColor.flex-shrink-0.is-current")
     cookies.click()
-    #recherche la marque
+    #Repérage de la barre dédiée à la recherche
     inputs=driver.find_element(By.XPATH,"/html/body/main/div/div[3]/div[2]/div/div/div/div[1]/div/div[2]/label/input")
-                                         #/html/body/main/div/div[3]/div[2]/div/div/div/div[1]/div/div[2]/label/input
+    #Pour chaque marque recherche si elle a des engagements
     for i in listeMarque:
         inputs.send_keys(i)
         time.sleep(5)
         try :
             #click sur view more pour avoir accès à la target
             driver.find_element(By.XPATH,"/html/body/main/div/div[3]/div[2]/div/div/div/div[2]/div[2]/div/div[2]/label/span/span").click()
+            #Enregistre la partie Target
             target=driver.find_element(By.XPATH,"/html/body/main/div/div[3]/div[2]/div/div/div/div[2]/div[2]/div/div[2]/div/div[3]/div[2]").get_attribute("innerText")
             marqueEco[i]=target
         except:
+            #Si la marque n'a pas été trouvée alors pas d'engagement enregistré
             marqueEco[i]="Sans engagement"
+        #Vide la barre de recherche
         inputs.clear()
+    #Ferme la fenetre de Science based targets
     driver.close()
     return marqueEco
 
-#descIng,Allergene,endo=incibeauty(setIngredient)
-#marqueEco=engagement(listeMarque)
 
+#Creer un json qui ressence toutes les inforamtions des ingredients pour pouvoir le réutiliser avec le parfum personalisé
 def jsonIngredient(setIngredient, descIng, Allergene, endo):
-    json_Ingredients='{'
-    i=1
+    json_Ingredients='{' #Créer la structure du json en str
+    i=1 #Sers à gérer les virgules en fin d'ingrédient
     for k,v in descIng.items():
         ing=k
         endo='Endocrinien' if ing in endo else 'Non endocrinien'
         alle='Allergène' if ing in Allergene else 'Non Allergène'
         desc=v
         json_Ingredients+='"'+ing+'":{"endocrinien": "'+endo+'","allergène": "'+alle+'","description": "'+desc+'"}'
+        #Tant qu'on est pas au dernier ingrédient, ajoute une virgule à la fin de la ligne
         if i<len(descIng):
             json_Ingredients += ',' 
             i+=1
-    json_Ingredients+='}'
-    print(json_Ingredients)
-    json_object = json.loads(json_Ingredients)
+    json_Ingredients+='}' #Fini le json
+    json_object = json.loads(json_Ingredients) #Transforme le string en format json
+    #Enregistre le fichier
     with open('Ingredients_data.json', 'w', encoding='utf-8') as json_file:
         json.dump(json_object, json_file, ensure_ascii=False, indent=4)
-        
-#jsonIngredient(setIngredient, descIng, Allergene, endo)
 
+#Creer un json qui ressence toutes les inforamtions des parfum pour pouvoir le réutiliser avec l'application principale'
 def create_json(dicParfum, listeMarque, Ingredient, descIng, Allergene, endo, marqueEco):
-    json_structure='{"Top": ['
-    for k,v in dicParfum.items():
+    json_structure='{"Top": [' #Créer la structure du json en str
+    for k,v in dicParfum.items(): #Pour chaque parfum, creer un ligne dans le json
         marque=listeMarque[k-1]
+        #Format json : Top, Nom, marque (nom, engagement), liste d'ingrédient (endocrinien, allergene, description)
         json_structure += ' {"keys":'+str(k) +',"name": "'+v+'","brand": {"name": "'+marque+'","engagement": "'+marqueEco[marque]+'"},'
         json_structure+='"Ingredient":['
         for i in range(len(Ingredient[k-1])):
@@ -271,15 +247,15 @@ def create_json(dicParfum, listeMarque, Ingredient, descIng, Allergene, endo, ma
                 alle='Allergène' if ing in Allergene else 'Non Allergène'
                 desc=descIng[ing] if ing in descIng.keys() else "Pas d'information supplémentaire"
                 json_structure+='{"name": "'+ing+'","endocrinien": "'+endo+'","allergène": "'+alle+'","description": "'+desc+'"}'
+                #ajoute une virgule jusqu'à l'avant dernier ingredient
                 if i<9:
                     json_structure += ','
-        json_structure += ' ]}'
+        json_structure += ' ]}' #Fini les ingrédients
         if k<10:
+            #ajoute une virgule jusqu'à l'avant dernier parfum
             json_structure += ','
-    json_structure+=']}'
-    print(json_structure)
-    json_object = json.loads(json_structure)
+    json_structure+=']}'#Fini le json
+    json_object = json.loads(json_structure)#Transforme le string en format json
+    #Enregistre le fichier
     with open('output_data.json', 'w', encoding='utf-8') as json_file:
         json.dump(json_object, json_file, ensure_ascii=False, indent=4)
-        
-#create_json(dicParfum, listeMarque, Ingredient, descIng, Allergene, endo, marqueEco)
