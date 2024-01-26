@@ -2,6 +2,146 @@
     "Top": [
         {
             "keys": 1,
+            "name": "Miss Dior - Eau de Parfum - notes fleuries et fraîches - nœud couture",
+            "brand": {
+                "name": "DIOR",
+                "engagement": "Sans engagement"
+            },
+            "Ingredient": [
+                {
+                    "name": "ALCOHOL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR L'alcool appelé aussi éthanol est un liquide incolore avec une forte odeur. Il est utilisé en cosmétique pour ses propriétés antimicrobiennes avec un spectre assez large (antifongique, antiviral et antibactérien). Il est aussi employé dans de nombreux autres cas comme conservateur, solvant ou encore pour réduire la transpiration dans les déodorants.  Même s''il n'est pas réglementé dans les cosmétiques, de nombreux cas d'irritations possibles sont néanmoins rapportés avec l'alcool (peau, muqueuse, poumon, yeux ...)."
+                },
+                {
+                    "name": "PARFUM (FRAGRANCE)",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Derrière ce terme de parfum, se cachent malheureusement de nombreuses molécules odorantes potentiellement irritantes voire allergisantes. Difficile de s'y retrouver lorsque que l'on devient allergique à un produit et que l'information n'est pas plus détaillée que cela. Néanmoins, pour nous aider, l'Europe a réglementé 24 molécules qui, lorsqu'elles sont utilisées au delà d'une certaine concentration, doivent être mentionnées dans la liste INCI (en général à la fin), bien que faisant partie elles-mêmes du parfum d'un produit. C'est le cas par exemple du Limonène, du linalol..."
+                },
+                {
+                    "name": "AQUA (WATER)",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR L'eau est l'ingrédient le plus utilisé en cosmétique : 83% des produits en contiennent (pourcentage établi à partir de 50 000 produits de l'App Inci Beauty). L'eau étant d'origine minérale, elle ne pourra jamais être certifiée Bio. C'est la raison pour laquelle les labels Bio, pour certifier les produits, autorisent des minimums d'ingrédients biologiques assez bas (10% pour Ecocert) sur le total d'une formule, en prenant en compte que la présence d'eau non Bio est indispensable et souvent majoritaire dans de nombreux cas."
+                },
+                {
+                    "name": "BENZYL SALICYLATE",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le Benzoate de sodium est utilisé en tant que conservateur antifongique dans les produits cosmétiques et dans l'alimentaire sous la dénomination E211. Il est donc très efficace contre les champignons, levures et bactéries. Il est fabriqué assez facilement avec de la soude, de l'eau et de l'acide benzoïque. On le trouve naturellement dans certains fruits comme les prunes, les pruneaux ou encore les pommes. Il est autorisé en bio."
+                },
+                {
+                    "name": "LINALOOL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Allergène",
+                    "description": "À SAVOIR Le Linalol est un composé aromatique classé parmi les 24 allergènes réglementés par l'Europe. Il est présent à l'état naturel dans les huiles essentielles de thym, de lavande, de lavandin, de pin sylvestre ou de menthe poivrée... On le retrouve aussi dans de nombreux extraits (citron, orange, verveine...)."
+                },
+                {
+                    "name": "POLYACRYLATE CROSSPOLYMER-6",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "Pas d'information supplémentaire"
+                },
+                {
+                    "name": "BUTYL METHOXYDIBENZOYLMETHANE",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le beurre de karité est obtenu à partir du fruit (les noix) du karité, un arbre présent majoritairement sur le continent Africain. Il est composé principalement de triglycérides, d'acides gras, des esters de cire et d'actifs : parmi ceux-ci, des vitamines (A, D, E), des esters résineux, des phytostérols, du latex. Il est utilisé dans de nombreux cosmétiques pour ses propriétés assoupissantes et adoucissantes pour l'épiderme. Il peut aussi protéger la peau et le cuir chevelu des nombreuses agressions extérieures."
+                },
+                {
+                    "name": "LIMONENE",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Allergène",
+                    "description": "À SAVOIR Le Linalol est un composé aromatique classé parmi les 24 allergènes réglementés par l'Europe. Il est présent à l'état naturel dans les huiles essentielles de thym, de lavande, de lavandin, de pin sylvestre ou de menthe poivrée... On le retrouve aussi dans de nombreux extraits (citron, orange, verveine...)."
+                },
+                {
+                    "name": "HYDROXYCITRONELLAL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Allergène",
+                    "description": "À SAVOIR Ce composé aromatique chimique fait partie de la liste des 24 allergènes réglementés par l'Europe. Il est utilisé pour ses senteurs de muguet et de lilas."
+                },
+                {
+                    "name": "GERANIOL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Allergène",
+                    "description": "À SAVOIR Le Géraniol aussi nommé rhodinol, est un alcool monoterpénique qui fait partie des 24 allergènes réglementés par l'Europe. On le retrouve présent dans les huiles essentielles de Géranium, de citronnelle mais aussi dans l'huile de rose et de Palmarosa. Il est utilisé en parfumerie pour son odeur de rose."
+                }
+            ]
+        },
+        {
+            "keys": 2,
+            "name": "Sauvage Elixir - Parfum pour homme - Notes agrumes, épices & bois",
+            "brand": {
+                "name": "DIOR",
+                "engagement": "Sans engagement"
+            },
+            "Ingredient": [
+                {
+                    "name": "ALCOHOL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR L'alcool appelé aussi éthanol est un liquide incolore avec une forte odeur. Il est utilisé en cosmétique pour ses propriétés antimicrobiennes avec un spectre assez large (antifongique, antiviral et antibactérien). Il est aussi employé dans de nombreux autres cas comme conservateur, solvant ou encore pour réduire la transpiration dans les déodorants.  Même s''il n'est pas réglementé dans les cosmétiques, de nombreux cas d'irritations possibles sont néanmoins rapportés avec l'alcool (peau, muqueuse, poumon, yeux ...)."
+                },
+                {
+                    "name": "PARFUM (FRAGRANCE)",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Derrière ce terme de parfum, se cachent malheureusement de nombreuses molécules odorantes potentiellement irritantes voire allergisantes. Difficile de s'y retrouver lorsque que l'on devient allergique à un produit et que l'information n'est pas plus détaillée que cela. Néanmoins, pour nous aider, l'Europe a réglementé 24 molécules qui, lorsqu'elles sont utilisées au delà d'une certaine concentration, doivent être mentionnées dans la liste INCI (en général à la fin), bien que faisant partie elles-mêmes du parfum d'un produit. C'est le cas par exemple du Limonène, du linalol..."
+                },
+                {
+                    "name": "AQUA (WATER)",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR L'eau est l'ingrédient le plus utilisé en cosmétique : 83% des produits en contiennent (pourcentage établi à partir de 50 000 produits de l'App Inci Beauty). L'eau étant d'origine minérale, elle ne pourra jamais être certifiée Bio. C'est la raison pour laquelle les labels Bio, pour certifier les produits, autorisent des minimums d'ingrédients biologiques assez bas (10% pour Ecocert) sur le total d'une formule, en prenant en compte que la présence d'eau non Bio est indispensable et souvent majoritaire dans de nombreux cas."
+                },
+                {
+                    "name": "BENZYL SALICYLATE",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le Benzoate de sodium est utilisé en tant que conservateur antifongique dans les produits cosmétiques et dans l'alimentaire sous la dénomination E211. Il est donc très efficace contre les champignons, levures et bactéries. Il est fabriqué assez facilement avec de la soude, de l'eau et de l'acide benzoïque. On le trouve naturellement dans certains fruits comme les prunes, les pruneaux ou encore les pommes. Il est autorisé en bio."
+                },
+                {
+                    "name": "LINALOOL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Allergène",
+                    "description": "À SAVOIR Le Linalol est un composé aromatique classé parmi les 24 allergènes réglementés par l'Europe. Il est présent à l'état naturel dans les huiles essentielles de thym, de lavande, de lavandin, de pin sylvestre ou de menthe poivrée... On le retrouve aussi dans de nombreux extraits (citron, orange, verveine...)."
+                },
+                {
+                    "name": "POLYACRYLATE CROSSPOLYMER-6",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "Pas d'information supplémentaire"
+                },
+                {
+                    "name": "BUTYL METHOXYDIBENZOYLMETHANE",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le beurre de karité est obtenu à partir du fruit (les noix) du karité, un arbre présent majoritairement sur le continent Africain. Il est composé principalement de triglycérides, d'acides gras, des esters de cire et d'actifs : parmi ceux-ci, des vitamines (A, D, E), des esters résineux, des phytostérols, du latex. Il est utilisé dans de nombreux cosmétiques pour ses propriétés assoupissantes et adoucissantes pour l'épiderme. Il peut aussi protéger la peau et le cuir chevelu des nombreuses agressions extérieures."
+                },
+                {
+                    "name": "LIMONENE",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Allergène",
+                    "description": "À SAVOIR Le Linalol est un composé aromatique classé parmi les 24 allergènes réglementés par l'Europe. Il est présent à l'état naturel dans les huiles essentielles de thym, de lavande, de lavandin, de pin sylvestre ou de menthe poivrée... On le retrouve aussi dans de nombreux extraits (citron, orange, verveine...)."
+                },
+                {
+                    "name": "HYDROXYCITRONELLAL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Allergène",
+                    "description": "À SAVOIR Ce composé aromatique chimique fait partie de la liste des 24 allergènes réglementés par l'Europe. Il est utilisé pour ses senteurs de muguet et de lilas."
+                },
+                {
+                    "name": "GERANIOL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Allergène",
+                    "description": "À SAVOIR Le Géraniol aussi nommé rhodinol, est un alcool monoterpénique qui fait partie des 24 allergènes réglementés par l'Europe. On le retrouve présent dans les huiles essentielles de Géranium, de citronnelle mais aussi dans l'huile de rose et de Palmarosa. Il est utilisé en parfumerie pour son odeur de rose."
+                }
+            ]
+        },
+        {
+            "keys": 3,
             "name": "Gentleman Society - Eau De Parfum pour homme",
             "brand": {
                 "name": "GIVENCHY",
@@ -27,10 +167,10 @@
                     "description": "À SAVOIR L'eau est l'ingrédient le plus utilisé en cosmétique : 83% des produits en contiennent (pourcentage établi à partir de 50 000 produits de l'App Inci Beauty). L'eau étant d'origine minérale, elle ne pourra jamais être certifiée Bio. C'est la raison pour laquelle les labels Bio, pour certifier les produits, autorisent des minimums d'ingrédients biologiques assez bas (10% pour Ecocert) sur le total d'une formule, en prenant en compte que la présence d'eau non Bio est indispensable et souvent majoritaire dans de nombreux cas."
                 },
                 {
-                    "name": "LIMONENE",
+                    "name": "BENZYL SALICYLATE",
                     "endocrinien": "Non endocrinien",
-                    "allergène": "Allergène",
-                    "description": "À SAVOIR Le limonène fait partie des 24 allergènes réglementés en Europe. Il tient son nom du citron dans lequel il est présent en quantité importante. En cosmétique, il est utilisé pour son parfum. Il existe sous deux formes différentes : - le d-limonene est présent dans de nombreuses plantes, fruits et légumes. On le retrouve aussi dans la peau des agrumes, les cornichons, le céleri ou encore dans plusieurs huiles essentielles. - l'autre forme isométrique, le l-limonène, est présent principalement dans les huiles de pin, la térébenthine et les huiles de menthe."
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le Benzoate de sodium est utilisé en tant que conservateur antifongique dans les produits cosmétiques et dans l'alimentaire sous la dénomination E211. Il est donc très efficace contre les champignons, levures et bactéries. Il est fabriqué assez facilement avec de la soude, de l'eau et de l'acide benzoïque. On le trouve naturellement dans certains fruits comme les prunes, les pruneaux ou encore les pommes. Il est autorisé en bio."
                 },
                 {
                     "name": "LINALOOL",
@@ -39,28 +179,28 @@
                     "description": "À SAVOIR Le Linalol est un composé aromatique classé parmi les 24 allergènes réglementés par l'Europe. Il est présent à l'état naturel dans les huiles essentielles de thym, de lavande, de lavandin, de pin sylvestre ou de menthe poivrée... On le retrouve aussi dans de nombreux extraits (citron, orange, verveine...)."
                 },
                 {
-                    "name": "COUMARIN",
-                    "endocrinien": "Non endocrinien",
-                    "allergène": "Non Allergène",
-                    "description": "À SAVOIR Le Tocophérol représente différentes composantes de la Vitamine E. Il est utilisé en cosmétique pour ses propriétés antioxydantes. Cet ingrédient liposoluble (qui se dissout dans l'huile) se trouve à l'état naturel dans des huiles végétales comme l'huile de palme, de tournesol ou encore de germe de blé ... En 2014, le Tocopherol a fait l'objet d'une nouvelle étude du CIR ainsi que 13 autres dérivés de la vitamine E. L'organisme a conclu a son innocuité. Notez que le Tocopherol peut être d'origine synthétique (fabriqué entièrement en laboratoire)."
-                },
-                {
-                    "name": "BUTYL METHOXYDIBENZOYLMETHANE",
+                    "name": "POLYACRYLATE CROSSPOLYMER-6",
                     "endocrinien": "Non endocrinien",
                     "allergène": "Non Allergène",
                     "description": "Pas d'information supplémentaire"
                 },
                 {
-                    "name": "ALPHA-ISOMETHYL IONONE",
-                    "endocrinien": "Non endocrinien",
-                    "allergène": "Allergène",
-                    "description": "À SAVOIR Cette molécule synthétique incolore utilisée en parfumerie, fait partie des 24 allergènes réglementés par l'Europe. Ses senteurs florales sont proches de celles de la violette ou de l'iris."
-                },
-                {
-                    "name": "CITRAL",
+                    "name": "BUTYL METHOXYDIBENZOYLMETHANE",
                     "endocrinien": "Non endocrinien",
                     "allergène": "Non Allergène",
-                    "description": "À SAVOIR L'acide citrique est un des principaux actifs du citron. Il est souvent utilisé pour équilibrer le pH (trop basique) des produits cosmétiques. Il est aussi présent dans certains produits de bain (bombes de bain, galets de bain ou ''poudres magiques'') en raison de ses propriétés effervescentes."
+                    "description": "À SAVOIR Le beurre de karité est obtenu à partir du fruit (les noix) du karité, un arbre présent majoritairement sur le continent Africain. Il est composé principalement de triglycérides, d'acides gras, des esters de cire et d'actifs : parmi ceux-ci, des vitamines (A, D, E), des esters résineux, des phytostérols, du latex. Il est utilisé dans de nombreux cosmétiques pour ses propriétés assoupissantes et adoucissantes pour l'épiderme. Il peut aussi protéger la peau et le cuir chevelu des nombreuses agressions extérieures."
+                },
+                {
+                    "name": "LIMONENE",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Allergène",
+                    "description": "À SAVOIR Le Linalol est un composé aromatique classé parmi les 24 allergènes réglementés par l'Europe. Il est présent à l'état naturel dans les huiles essentielles de thym, de lavande, de lavandin, de pin sylvestre ou de menthe poivrée... On le retrouve aussi dans de nombreux extraits (citron, orange, verveine...)."
+                },
+                {
+                    "name": "HYDROXYCITRONELLAL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Allergène",
+                    "description": "À SAVOIR Ce composé aromatique chimique fait partie de la liste des 24 allergènes réglementés par l'Europe. Il est utilisé pour ses senteurs de muguet et de lilas."
                 },
                 {
                     "name": "GERANIOL",
@@ -71,7 +211,7 @@
             ]
         },
         {
-            "keys": 2,
+            "keys": 4,
             "name": "Stronger With You Intensely - Eau de parfum",
             "brand": {
                 "name": "ARMANI",
@@ -97,10 +237,10 @@
                     "description": "À SAVOIR L'eau est l'ingrédient le plus utilisé en cosmétique : 83% des produits en contiennent (pourcentage établi à partir de 50 000 produits de l'App Inci Beauty). L'eau étant d'origine minérale, elle ne pourra jamais être certifiée Bio. C'est la raison pour laquelle les labels Bio, pour certifier les produits, autorisent des minimums d'ingrédients biologiques assez bas (10% pour Ecocert) sur le total d'une formule, en prenant en compte que la présence d'eau non Bio est indispensable et souvent majoritaire dans de nombreux cas."
                 },
                 {
-                    "name": "LIMONENE",
+                    "name": "BENZYL SALICYLATE",
                     "endocrinien": "Non endocrinien",
-                    "allergène": "Allergène",
-                    "description": "À SAVOIR Le limonène fait partie des 24 allergènes réglementés en Europe. Il tient son nom du citron dans lequel il est présent en quantité importante. En cosmétique, il est utilisé pour son parfum. Il existe sous deux formes différentes : - le d-limonene est présent dans de nombreuses plantes, fruits et légumes. On le retrouve aussi dans la peau des agrumes, les cornichons, le céleri ou encore dans plusieurs huiles essentielles. - l'autre forme isométrique, le l-limonène, est présent principalement dans les huiles de pin, la térébenthine et les huiles de menthe."
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le Benzoate de sodium est utilisé en tant que conservateur antifongique dans les produits cosmétiques et dans l'alimentaire sous la dénomination E211. Il est donc très efficace contre les champignons, levures et bactéries. Il est fabriqué assez facilement avec de la soude, de l'eau et de l'acide benzoïque. On le trouve naturellement dans certains fruits comme les prunes, les pruneaux ou encore les pommes. Il est autorisé en bio."
                 },
                 {
                     "name": "LINALOOL",
@@ -109,28 +249,28 @@
                     "description": "À SAVOIR Le Linalol est un composé aromatique classé parmi les 24 allergènes réglementés par l'Europe. Il est présent à l'état naturel dans les huiles essentielles de thym, de lavande, de lavandin, de pin sylvestre ou de menthe poivrée... On le retrouve aussi dans de nombreux extraits (citron, orange, verveine...)."
                 },
                 {
-                    "name": "COUMARIN",
-                    "endocrinien": "Non endocrinien",
-                    "allergène": "Non Allergène",
-                    "description": "À SAVOIR Le Tocophérol représente différentes composantes de la Vitamine E. Il est utilisé en cosmétique pour ses propriétés antioxydantes. Cet ingrédient liposoluble (qui se dissout dans l'huile) se trouve à l'état naturel dans des huiles végétales comme l'huile de palme, de tournesol ou encore de germe de blé ... En 2014, le Tocopherol a fait l'objet d'une nouvelle étude du CIR ainsi que 13 autres dérivés de la vitamine E. L'organisme a conclu a son innocuité. Notez que le Tocopherol peut être d'origine synthétique (fabriqué entièrement en laboratoire)."
-                },
-                {
-                    "name": "BUTYL METHOXYDIBENZOYLMETHANE",
+                    "name": "POLYACRYLATE CROSSPOLYMER-6",
                     "endocrinien": "Non endocrinien",
                     "allergène": "Non Allergène",
                     "description": "Pas d'information supplémentaire"
                 },
                 {
-                    "name": "ALPHA-ISOMETHYL IONONE",
-                    "endocrinien": "Non endocrinien",
-                    "allergène": "Allergène",
-                    "description": "À SAVOIR Cette molécule synthétique incolore utilisée en parfumerie, fait partie des 24 allergènes réglementés par l'Europe. Ses senteurs florales sont proches de celles de la violette ou de l'iris."
-                },
-                {
-                    "name": "CITRAL",
+                    "name": "BUTYL METHOXYDIBENZOYLMETHANE",
                     "endocrinien": "Non endocrinien",
                     "allergène": "Non Allergène",
-                    "description": "À SAVOIR L'acide citrique est un des principaux actifs du citron. Il est souvent utilisé pour équilibrer le pH (trop basique) des produits cosmétiques. Il est aussi présent dans certains produits de bain (bombes de bain, galets de bain ou ''poudres magiques'') en raison de ses propriétés effervescentes."
+                    "description": "À SAVOIR Le beurre de karité est obtenu à partir du fruit (les noix) du karité, un arbre présent majoritairement sur le continent Africain. Il est composé principalement de triglycérides, d'acides gras, des esters de cire et d'actifs : parmi ceux-ci, des vitamines (A, D, E), des esters résineux, des phytostérols, du latex. Il est utilisé dans de nombreux cosmétiques pour ses propriétés assoupissantes et adoucissantes pour l'épiderme. Il peut aussi protéger la peau et le cuir chevelu des nombreuses agressions extérieures."
+                },
+                {
+                    "name": "LIMONENE",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Allergène",
+                    "description": "À SAVOIR Le Linalol est un composé aromatique classé parmi les 24 allergènes réglementés par l'Europe. Il est présent à l'état naturel dans les huiles essentielles de thym, de lavande, de lavandin, de pin sylvestre ou de menthe poivrée... On le retrouve aussi dans de nombreux extraits (citron, orange, verveine...)."
+                },
+                {
+                    "name": "HYDROXYCITRONELLAL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Allergène",
+                    "description": "À SAVOIR Ce composé aromatique chimique fait partie de la liste des 24 allergènes réglementés par l'Europe. Il est utilisé pour ses senteurs de muguet et de lilas."
                 },
                 {
                     "name": "GERANIOL",
@@ -141,7 +281,7 @@
             ]
         },
         {
-            "keys": 3,
+            "keys": 5,
             "name": "Libre - Eau de Parfum",
             "brand": {
                 "name": "YVES SAINT LAURENT",
@@ -167,10 +307,10 @@
                     "description": "À SAVOIR L'eau est l'ingrédient le plus utilisé en cosmétique : 83% des produits en contiennent (pourcentage établi à partir de 50 000 produits de l'App Inci Beauty). L'eau étant d'origine minérale, elle ne pourra jamais être certifiée Bio. C'est la raison pour laquelle les labels Bio, pour certifier les produits, autorisent des minimums d'ingrédients biologiques assez bas (10% pour Ecocert) sur le total d'une formule, en prenant en compte que la présence d'eau non Bio est indispensable et souvent majoritaire dans de nombreux cas."
                 },
                 {
-                    "name": "LIMONENE",
+                    "name": "BENZYL SALICYLATE",
                     "endocrinien": "Non endocrinien",
-                    "allergène": "Allergène",
-                    "description": "À SAVOIR Le limonène fait partie des 24 allergènes réglementés en Europe. Il tient son nom du citron dans lequel il est présent en quantité importante. En cosmétique, il est utilisé pour son parfum. Il existe sous deux formes différentes : - le d-limonene est présent dans de nombreuses plantes, fruits et légumes. On le retrouve aussi dans la peau des agrumes, les cornichons, le céleri ou encore dans plusieurs huiles essentielles. - l'autre forme isométrique, le l-limonène, est présent principalement dans les huiles de pin, la térébenthine et les huiles de menthe."
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le Benzoate de sodium est utilisé en tant que conservateur antifongique dans les produits cosmétiques et dans l'alimentaire sous la dénomination E211. Il est donc très efficace contre les champignons, levures et bactéries. Il est fabriqué assez facilement avec de la soude, de l'eau et de l'acide benzoïque. On le trouve naturellement dans certains fruits comme les prunes, les pruneaux ou encore les pommes. Il est autorisé en bio."
                 },
                 {
                     "name": "LINALOOL",
@@ -179,168 +319,28 @@
                     "description": "À SAVOIR Le Linalol est un composé aromatique classé parmi les 24 allergènes réglementés par l'Europe. Il est présent à l'état naturel dans les huiles essentielles de thym, de lavande, de lavandin, de pin sylvestre ou de menthe poivrée... On le retrouve aussi dans de nombreux extraits (citron, orange, verveine...)."
                 },
                 {
-                    "name": "COUMARIN",
-                    "endocrinien": "Non endocrinien",
-                    "allergène": "Non Allergène",
-                    "description": "À SAVOIR Le Tocophérol représente différentes composantes de la Vitamine E. Il est utilisé en cosmétique pour ses propriétés antioxydantes. Cet ingrédient liposoluble (qui se dissout dans l'huile) se trouve à l'état naturel dans des huiles végétales comme l'huile de palme, de tournesol ou encore de germe de blé ... En 2014, le Tocopherol a fait l'objet d'une nouvelle étude du CIR ainsi que 13 autres dérivés de la vitamine E. L'organisme a conclu a son innocuité. Notez que le Tocopherol peut être d'origine synthétique (fabriqué entièrement en laboratoire)."
-                },
-                {
-                    "name": "BUTYL METHOXYDIBENZOYLMETHANE",
+                    "name": "POLYACRYLATE CROSSPOLYMER-6",
                     "endocrinien": "Non endocrinien",
                     "allergène": "Non Allergène",
                     "description": "Pas d'information supplémentaire"
                 },
                 {
-                    "name": "ALPHA-ISOMETHYL IONONE",
-                    "endocrinien": "Non endocrinien",
-                    "allergène": "Allergène",
-                    "description": "À SAVOIR Cette molécule synthétique incolore utilisée en parfumerie, fait partie des 24 allergènes réglementés par l'Europe. Ses senteurs florales sont proches de celles de la violette ou de l'iris."
-                },
-                {
-                    "name": "CITRAL",
+                    "name": "BUTYL METHOXYDIBENZOYLMETHANE",
                     "endocrinien": "Non endocrinien",
                     "allergène": "Non Allergène",
-                    "description": "À SAVOIR L'acide citrique est un des principaux actifs du citron. Il est souvent utilisé pour équilibrer le pH (trop basique) des produits cosmétiques. Il est aussi présent dans certains produits de bain (bombes de bain, galets de bain ou ''poudres magiques'') en raison de ses propriétés effervescentes."
-                },
-                {
-                    "name": "GERANIOL",
-                    "endocrinien": "Non endocrinien",
-                    "allergène": "Allergène",
-                    "description": "À SAVOIR Le Géraniol aussi nommé rhodinol, est un alcool monoterpénique qui fait partie des 24 allergènes réglementés par l'Europe. On le retrouve présent dans les huiles essentielles de Géranium, de citronnelle mais aussi dans l'huile de rose et de Palmarosa. Il est utilisé en parfumerie pour son odeur de rose."
-                }
-            ]
-        },
-        {
-            "keys": 4,
-            "name": "Sauvage - Eau de parfum pour homme - Notes épicées & d'absolu vanille",
-            "brand": {
-                "name": "DIOR",
-                "engagement": "Sans engagement"
-            },
-            "Ingredient": [
-                {
-                    "name": "ALCOHOL",
-                    "endocrinien": "Non endocrinien",
-                    "allergène": "Non Allergène",
-                    "description": "À SAVOIR L'alcool appelé aussi éthanol est un liquide incolore avec une forte odeur. Il est utilisé en cosmétique pour ses propriétés antimicrobiennes avec un spectre assez large (antifongique, antiviral et antibactérien). Il est aussi employé dans de nombreux autres cas comme conservateur, solvant ou encore pour réduire la transpiration dans les déodorants.  Même s''il n'est pas réglementé dans les cosmétiques, de nombreux cas d'irritations possibles sont néanmoins rapportés avec l'alcool (peau, muqueuse, poumon, yeux ...)."
-                },
-                {
-                    "name": "PARFUM (FRAGRANCE)",
-                    "endocrinien": "Non endocrinien",
-                    "allergène": "Non Allergène",
-                    "description": "À SAVOIR Derrière ce terme de parfum, se cachent malheureusement de nombreuses molécules odorantes potentiellement irritantes voire allergisantes. Difficile de s'y retrouver lorsque que l'on devient allergique à un produit et que l'information n'est pas plus détaillée que cela. Néanmoins, pour nous aider, l'Europe a réglementé 24 molécules qui, lorsqu'elles sont utilisées au delà d'une certaine concentration, doivent être mentionnées dans la liste INCI (en général à la fin), bien que faisant partie elles-mêmes du parfum d'un produit. C'est le cas par exemple du Limonène, du linalol..."
-                },
-                {
-                    "name": "AQUA (WATER)",
-                    "endocrinien": "Non endocrinien",
-                    "allergène": "Non Allergène",
-                    "description": "À SAVOIR L'eau est l'ingrédient le plus utilisé en cosmétique : 83% des produits en contiennent (pourcentage établi à partir de 50 000 produits de l'App Inci Beauty). L'eau étant d'origine minérale, elle ne pourra jamais être certifiée Bio. C'est la raison pour laquelle les labels Bio, pour certifier les produits, autorisent des minimums d'ingrédients biologiques assez bas (10% pour Ecocert) sur le total d'une formule, en prenant en compte que la présence d'eau non Bio est indispensable et souvent majoritaire dans de nombreux cas."
+                    "description": "À SAVOIR Le beurre de karité est obtenu à partir du fruit (les noix) du karité, un arbre présent majoritairement sur le continent Africain. Il est composé principalement de triglycérides, d'acides gras, des esters de cire et d'actifs : parmi ceux-ci, des vitamines (A, D, E), des esters résineux, des phytostérols, du latex. Il est utilisé dans de nombreux cosmétiques pour ses propriétés assoupissantes et adoucissantes pour l'épiderme. Il peut aussi protéger la peau et le cuir chevelu des nombreuses agressions extérieures."
                 },
                 {
                     "name": "LIMONENE",
                     "endocrinien": "Non endocrinien",
                     "allergène": "Allergène",
-                    "description": "À SAVOIR Le limonène fait partie des 24 allergènes réglementés en Europe. Il tient son nom du citron dans lequel il est présent en quantité importante. En cosmétique, il est utilisé pour son parfum. Il existe sous deux formes différentes : - le d-limonene est présent dans de nombreuses plantes, fruits et légumes. On le retrouve aussi dans la peau des agrumes, les cornichons, le céleri ou encore dans plusieurs huiles essentielles. - l'autre forme isométrique, le l-limonène, est présent principalement dans les huiles de pin, la térébenthine et les huiles de menthe."
-                },
-                {
-                    "name": "LINALOOL",
-                    "endocrinien": "Non endocrinien",
-                    "allergène": "Allergène",
                     "description": "À SAVOIR Le Linalol est un composé aromatique classé parmi les 24 allergènes réglementés par l'Europe. Il est présent à l'état naturel dans les huiles essentielles de thym, de lavande, de lavandin, de pin sylvestre ou de menthe poivrée... On le retrouve aussi dans de nombreux extraits (citron, orange, verveine...)."
                 },
                 {
-                    "name": "COUMARIN",
-                    "endocrinien": "Non endocrinien",
-                    "allergène": "Non Allergène",
-                    "description": "À SAVOIR Le Tocophérol représente différentes composantes de la Vitamine E. Il est utilisé en cosmétique pour ses propriétés antioxydantes. Cet ingrédient liposoluble (qui se dissout dans l'huile) se trouve à l'état naturel dans des huiles végétales comme l'huile de palme, de tournesol ou encore de germe de blé ... En 2014, le Tocopherol a fait l'objet d'une nouvelle étude du CIR ainsi que 13 autres dérivés de la vitamine E. L'organisme a conclu a son innocuité. Notez que le Tocopherol peut être d'origine synthétique (fabriqué entièrement en laboratoire)."
-                },
-                {
-                    "name": "BUTYL METHOXYDIBENZOYLMETHANE",
-                    "endocrinien": "Non endocrinien",
-                    "allergène": "Non Allergène",
-                    "description": "Pas d'information supplémentaire"
-                },
-                {
-                    "name": "ALPHA-ISOMETHYL IONONE",
+                    "name": "HYDROXYCITRONELLAL",
                     "endocrinien": "Non endocrinien",
                     "allergène": "Allergène",
-                    "description": "À SAVOIR Cette molécule synthétique incolore utilisée en parfumerie, fait partie des 24 allergènes réglementés par l'Europe. Ses senteurs florales sont proches de celles de la violette ou de l'iris."
-                },
-                {
-                    "name": "CITRAL",
-                    "endocrinien": "Non endocrinien",
-                    "allergène": "Non Allergène",
-                    "description": "À SAVOIR L'acide citrique est un des principaux actifs du citron. Il est souvent utilisé pour équilibrer le pH (trop basique) des produits cosmétiques. Il est aussi présent dans certains produits de bain (bombes de bain, galets de bain ou ''poudres magiques'') en raison de ses propriétés effervescentes."
-                },
-                {
-                    "name": "GERANIOL",
-                    "endocrinien": "Non endocrinien",
-                    "allergène": "Allergène",
-                    "description": "À SAVOIR Le Géraniol aussi nommé rhodinol, est un alcool monoterpénique qui fait partie des 24 allergènes réglementés par l'Europe. On le retrouve présent dans les huiles essentielles de Géranium, de citronnelle mais aussi dans l'huile de rose et de Palmarosa. Il est utilisé en parfumerie pour son odeur de rose."
-                }
-            ]
-        },
-        {
-            "keys": 5,
-            "name": "COCO MADEMOISELLE",
-            "brand": {
-                "name": "CHANEL",
-                "engagement": "Sans engagement"
-            },
-            "Ingredient": [
-                {
-                    "name": "ALCOHOL",
-                    "endocrinien": "Non endocrinien",
-                    "allergène": "Non Allergène",
-                    "description": "À SAVOIR L'alcool appelé aussi éthanol est un liquide incolore avec une forte odeur. Il est utilisé en cosmétique pour ses propriétés antimicrobiennes avec un spectre assez large (antifongique, antiviral et antibactérien). Il est aussi employé dans de nombreux autres cas comme conservateur, solvant ou encore pour réduire la transpiration dans les déodorants.  Même s''il n'est pas réglementé dans les cosmétiques, de nombreux cas d'irritations possibles sont néanmoins rapportés avec l'alcool (peau, muqueuse, poumon, yeux ...)."
-                },
-                {
-                    "name": "PARFUM (FRAGRANCE)",
-                    "endocrinien": "Non endocrinien",
-                    "allergène": "Non Allergène",
-                    "description": "À SAVOIR Derrière ce terme de parfum, se cachent malheureusement de nombreuses molécules odorantes potentiellement irritantes voire allergisantes. Difficile de s'y retrouver lorsque que l'on devient allergique à un produit et que l'information n'est pas plus détaillée que cela. Néanmoins, pour nous aider, l'Europe a réglementé 24 molécules qui, lorsqu'elles sont utilisées au delà d'une certaine concentration, doivent être mentionnées dans la liste INCI (en général à la fin), bien que faisant partie elles-mêmes du parfum d'un produit. C'est le cas par exemple du Limonène, du linalol..."
-                },
-                {
-                    "name": "AQUA (WATER)",
-                    "endocrinien": "Non endocrinien",
-                    "allergène": "Non Allergène",
-                    "description": "À SAVOIR L'eau est l'ingrédient le plus utilisé en cosmétique : 83% des produits en contiennent (pourcentage établi à partir de 50 000 produits de l'App Inci Beauty). L'eau étant d'origine minérale, elle ne pourra jamais être certifiée Bio. C'est la raison pour laquelle les labels Bio, pour certifier les produits, autorisent des minimums d'ingrédients biologiques assez bas (10% pour Ecocert) sur le total d'une formule, en prenant en compte que la présence d'eau non Bio est indispensable et souvent majoritaire dans de nombreux cas."
-                },
-                {
-                    "name": "LIMONENE",
-                    "endocrinien": "Non endocrinien",
-                    "allergène": "Allergène",
-                    "description": "À SAVOIR Le limonène fait partie des 24 allergènes réglementés en Europe. Il tient son nom du citron dans lequel il est présent en quantité importante. En cosmétique, il est utilisé pour son parfum. Il existe sous deux formes différentes : - le d-limonene est présent dans de nombreuses plantes, fruits et légumes. On le retrouve aussi dans la peau des agrumes, les cornichons, le céleri ou encore dans plusieurs huiles essentielles. - l'autre forme isométrique, le l-limonène, est présent principalement dans les huiles de pin, la térébenthine et les huiles de menthe."
-                },
-                {
-                    "name": "LINALOOL",
-                    "endocrinien": "Non endocrinien",
-                    "allergène": "Allergène",
-                    "description": "À SAVOIR Le Linalol est un composé aromatique classé parmi les 24 allergènes réglementés par l'Europe. Il est présent à l'état naturel dans les huiles essentielles de thym, de lavande, de lavandin, de pin sylvestre ou de menthe poivrée... On le retrouve aussi dans de nombreux extraits (citron, orange, verveine...)."
-                },
-                {
-                    "name": "COUMARIN",
-                    "endocrinien": "Non endocrinien",
-                    "allergène": "Non Allergène",
-                    "description": "À SAVOIR Le Tocophérol représente différentes composantes de la Vitamine E. Il est utilisé en cosmétique pour ses propriétés antioxydantes. Cet ingrédient liposoluble (qui se dissout dans l'huile) se trouve à l'état naturel dans des huiles végétales comme l'huile de palme, de tournesol ou encore de germe de blé ... En 2014, le Tocopherol a fait l'objet d'une nouvelle étude du CIR ainsi que 13 autres dérivés de la vitamine E. L'organisme a conclu a son innocuité. Notez que le Tocopherol peut être d'origine synthétique (fabriqué entièrement en laboratoire)."
-                },
-                {
-                    "name": "BUTYL METHOXYDIBENZOYLMETHANE",
-                    "endocrinien": "Non endocrinien",
-                    "allergène": "Non Allergène",
-                    "description": "Pas d'information supplémentaire"
-                },
-                {
-                    "name": "ALPHA-ISOMETHYL IONONE",
-                    "endocrinien": "Non endocrinien",
-                    "allergène": "Allergène",
-                    "description": "À SAVOIR Cette molécule synthétique incolore utilisée en parfumerie, fait partie des 24 allergènes réglementés par l'Europe. Ses senteurs florales sont proches de celles de la violette ou de l'iris."
-                },
-                {
-                    "name": "CITRAL",
-                    "endocrinien": "Non endocrinien",
-                    "allergène": "Non Allergène",
-                    "description": "À SAVOIR L'acide citrique est un des principaux actifs du citron. Il est souvent utilisé pour équilibrer le pH (trop basique) des produits cosmétiques. Il est aussi présent dans certains produits de bain (bombes de bain, galets de bain ou ''poudres magiques'') en raison de ses propriétés effervescentes."
+                    "description": "À SAVOIR Ce composé aromatique chimique fait partie de la liste des 24 allergènes réglementés par l'Europe. Il est utilisé pour ses senteurs de muguet et de lilas."
                 },
                 {
                     "name": "GERANIOL",
@@ -377,10 +377,10 @@
                     "description": "À SAVOIR L'eau est l'ingrédient le plus utilisé en cosmétique : 83% des produits en contiennent (pourcentage établi à partir de 50 000 produits de l'App Inci Beauty). L'eau étant d'origine minérale, elle ne pourra jamais être certifiée Bio. C'est la raison pour laquelle les labels Bio, pour certifier les produits, autorisent des minimums d'ingrédients biologiques assez bas (10% pour Ecocert) sur le total d'une formule, en prenant en compte que la présence d'eau non Bio est indispensable et souvent majoritaire dans de nombreux cas."
                 },
                 {
-                    "name": "LIMONENE",
+                    "name": "BENZYL SALICYLATE",
                     "endocrinien": "Non endocrinien",
-                    "allergène": "Allergène",
-                    "description": "À SAVOIR Le limonène fait partie des 24 allergènes réglementés en Europe. Il tient son nom du citron dans lequel il est présent en quantité importante. En cosmétique, il est utilisé pour son parfum. Il existe sous deux formes différentes : - le d-limonene est présent dans de nombreuses plantes, fruits et légumes. On le retrouve aussi dans la peau des agrumes, les cornichons, le céleri ou encore dans plusieurs huiles essentielles. - l'autre forme isométrique, le l-limonène, est présent principalement dans les huiles de pin, la térébenthine et les huiles de menthe."
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le Benzoate de sodium est utilisé en tant que conservateur antifongique dans les produits cosmétiques et dans l'alimentaire sous la dénomination E211. Il est donc très efficace contre les champignons, levures et bactéries. Il est fabriqué assez facilement avec de la soude, de l'eau et de l'acide benzoïque. On le trouve naturellement dans certains fruits comme les prunes, les pruneaux ou encore les pommes. Il est autorisé en bio."
                 },
                 {
                     "name": "LINALOOL",
@@ -389,28 +389,28 @@
                     "description": "À SAVOIR Le Linalol est un composé aromatique classé parmi les 24 allergènes réglementés par l'Europe. Il est présent à l'état naturel dans les huiles essentielles de thym, de lavande, de lavandin, de pin sylvestre ou de menthe poivrée... On le retrouve aussi dans de nombreux extraits (citron, orange, verveine...)."
                 },
                 {
-                    "name": "COUMARIN",
-                    "endocrinien": "Non endocrinien",
-                    "allergène": "Non Allergène",
-                    "description": "À SAVOIR Le Tocophérol représente différentes composantes de la Vitamine E. Il est utilisé en cosmétique pour ses propriétés antioxydantes. Cet ingrédient liposoluble (qui se dissout dans l'huile) se trouve à l'état naturel dans des huiles végétales comme l'huile de palme, de tournesol ou encore de germe de blé ... En 2014, le Tocopherol a fait l'objet d'une nouvelle étude du CIR ainsi que 13 autres dérivés de la vitamine E. L'organisme a conclu a son innocuité. Notez que le Tocopherol peut être d'origine synthétique (fabriqué entièrement en laboratoire)."
-                },
-                {
-                    "name": "BUTYL METHOXYDIBENZOYLMETHANE",
+                    "name": "POLYACRYLATE CROSSPOLYMER-6",
                     "endocrinien": "Non endocrinien",
                     "allergène": "Non Allergène",
                     "description": "Pas d'information supplémentaire"
                 },
                 {
-                    "name": "ALPHA-ISOMETHYL IONONE",
-                    "endocrinien": "Non endocrinien",
-                    "allergène": "Allergène",
-                    "description": "À SAVOIR Cette molécule synthétique incolore utilisée en parfumerie, fait partie des 24 allergènes réglementés par l'Europe. Ses senteurs florales sont proches de celles de la violette ou de l'iris."
-                },
-                {
-                    "name": "CITRAL",
+                    "name": "BUTYL METHOXYDIBENZOYLMETHANE",
                     "endocrinien": "Non endocrinien",
                     "allergène": "Non Allergène",
-                    "description": "À SAVOIR L'acide citrique est un des principaux actifs du citron. Il est souvent utilisé pour équilibrer le pH (trop basique) des produits cosmétiques. Il est aussi présent dans certains produits de bain (bombes de bain, galets de bain ou ''poudres magiques'') en raison de ses propriétés effervescentes."
+                    "description": "À SAVOIR Le beurre de karité est obtenu à partir du fruit (les noix) du karité, un arbre présent majoritairement sur le continent Africain. Il est composé principalement de triglycérides, d'acides gras, des esters de cire et d'actifs : parmi ceux-ci, des vitamines (A, D, E), des esters résineux, des phytostérols, du latex. Il est utilisé dans de nombreux cosmétiques pour ses propriétés assoupissantes et adoucissantes pour l'épiderme. Il peut aussi protéger la peau et le cuir chevelu des nombreuses agressions extérieures."
+                },
+                {
+                    "name": "LIMONENE",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Allergène",
+                    "description": "À SAVOIR Le Linalol est un composé aromatique classé parmi les 24 allergènes réglementés par l'Europe. Il est présent à l'état naturel dans les huiles essentielles de thym, de lavande, de lavandin, de pin sylvestre ou de menthe poivrée... On le retrouve aussi dans de nombreux extraits (citron, orange, verveine...)."
+                },
+                {
+                    "name": "HYDROXYCITRONELLAL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Allergène",
+                    "description": "À SAVOIR Ce composé aromatique chimique fait partie de la liste des 24 allergènes réglementés par l'Europe. Il est utilisé pour ses senteurs de muguet et de lilas."
                 },
                 {
                     "name": "GERANIOL",
@@ -447,10 +447,10 @@
                     "description": "À SAVOIR L'eau est l'ingrédient le plus utilisé en cosmétique : 83% des produits en contiennent (pourcentage établi à partir de 50 000 produits de l'App Inci Beauty). L'eau étant d'origine minérale, elle ne pourra jamais être certifiée Bio. C'est la raison pour laquelle les labels Bio, pour certifier les produits, autorisent des minimums d'ingrédients biologiques assez bas (10% pour Ecocert) sur le total d'une formule, en prenant en compte que la présence d'eau non Bio est indispensable et souvent majoritaire dans de nombreux cas."
                 },
                 {
-                    "name": "LIMONENE",
+                    "name": "BENZYL SALICYLATE",
                     "endocrinien": "Non endocrinien",
-                    "allergène": "Allergène",
-                    "description": "À SAVOIR Le limonène fait partie des 24 allergènes réglementés en Europe. Il tient son nom du citron dans lequel il est présent en quantité importante. En cosmétique, il est utilisé pour son parfum. Il existe sous deux formes différentes : - le d-limonene est présent dans de nombreuses plantes, fruits et légumes. On le retrouve aussi dans la peau des agrumes, les cornichons, le céleri ou encore dans plusieurs huiles essentielles. - l'autre forme isométrique, le l-limonène, est présent principalement dans les huiles de pin, la térébenthine et les huiles de menthe."
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le Benzoate de sodium est utilisé en tant que conservateur antifongique dans les produits cosmétiques et dans l'alimentaire sous la dénomination E211. Il est donc très efficace contre les champignons, levures et bactéries. Il est fabriqué assez facilement avec de la soude, de l'eau et de l'acide benzoïque. On le trouve naturellement dans certains fruits comme les prunes, les pruneaux ou encore les pommes. Il est autorisé en bio."
                 },
                 {
                     "name": "LINALOOL",
@@ -459,28 +459,28 @@
                     "description": "À SAVOIR Le Linalol est un composé aromatique classé parmi les 24 allergènes réglementés par l'Europe. Il est présent à l'état naturel dans les huiles essentielles de thym, de lavande, de lavandin, de pin sylvestre ou de menthe poivrée... On le retrouve aussi dans de nombreux extraits (citron, orange, verveine...)."
                 },
                 {
-                    "name": "COUMARIN",
-                    "endocrinien": "Non endocrinien",
-                    "allergène": "Non Allergène",
-                    "description": "À SAVOIR Le Tocophérol représente différentes composantes de la Vitamine E. Il est utilisé en cosmétique pour ses propriétés antioxydantes. Cet ingrédient liposoluble (qui se dissout dans l'huile) se trouve à l'état naturel dans des huiles végétales comme l'huile de palme, de tournesol ou encore de germe de blé ... En 2014, le Tocopherol a fait l'objet d'une nouvelle étude du CIR ainsi que 13 autres dérivés de la vitamine E. L'organisme a conclu a son innocuité. Notez que le Tocopherol peut être d'origine synthétique (fabriqué entièrement en laboratoire)."
-                },
-                {
-                    "name": "BUTYL METHOXYDIBENZOYLMETHANE",
+                    "name": "POLYACRYLATE CROSSPOLYMER-6",
                     "endocrinien": "Non endocrinien",
                     "allergène": "Non Allergène",
                     "description": "Pas d'information supplémentaire"
                 },
                 {
-                    "name": "ALPHA-ISOMETHYL IONONE",
-                    "endocrinien": "Non endocrinien",
-                    "allergène": "Allergène",
-                    "description": "À SAVOIR Cette molécule synthétique incolore utilisée en parfumerie, fait partie des 24 allergènes réglementés par l'Europe. Ses senteurs florales sont proches de celles de la violette ou de l'iris."
-                },
-                {
-                    "name": "CITRAL",
+                    "name": "BUTYL METHOXYDIBENZOYLMETHANE",
                     "endocrinien": "Non endocrinien",
                     "allergène": "Non Allergène",
-                    "description": "À SAVOIR L'acide citrique est un des principaux actifs du citron. Il est souvent utilisé pour équilibrer le pH (trop basique) des produits cosmétiques. Il est aussi présent dans certains produits de bain (bombes de bain, galets de bain ou ''poudres magiques'') en raison de ses propriétés effervescentes."
+                    "description": "À SAVOIR Le beurre de karité est obtenu à partir du fruit (les noix) du karité, un arbre présent majoritairement sur le continent Africain. Il est composé principalement de triglycérides, d'acides gras, des esters de cire et d'actifs : parmi ceux-ci, des vitamines (A, D, E), des esters résineux, des phytostérols, du latex. Il est utilisé dans de nombreux cosmétiques pour ses propriétés assoupissantes et adoucissantes pour l'épiderme. Il peut aussi protéger la peau et le cuir chevelu des nombreuses agressions extérieures."
+                },
+                {
+                    "name": "LIMONENE",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Allergène",
+                    "description": "À SAVOIR Le Linalol est un composé aromatique classé parmi les 24 allergènes réglementés par l'Europe. Il est présent à l'état naturel dans les huiles essentielles de thym, de lavande, de lavandin, de pin sylvestre ou de menthe poivrée... On le retrouve aussi dans de nombreux extraits (citron, orange, verveine...)."
+                },
+                {
+                    "name": "HYDROXYCITRONELLAL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Allergène",
+                    "description": "À SAVOIR Ce composé aromatique chimique fait partie de la liste des 24 allergènes réglementés par l'Europe. Il est utilisé pour ses senteurs de muguet et de lilas."
                 },
                 {
                     "name": "GERANIOL",
@@ -492,6 +492,76 @@
         },
         {
             "keys": 8,
+            "name": "Sauvage - Eau de parfum pour homme - Notes épicées & d'absolu vanille",
+            "brand": {
+                "name": "DIOR",
+                "engagement": "Sans engagement"
+            },
+            "Ingredient": [
+                {
+                    "name": "ALCOHOL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR L'alcool appelé aussi éthanol est un liquide incolore avec une forte odeur. Il est utilisé en cosmétique pour ses propriétés antimicrobiennes avec un spectre assez large (antifongique, antiviral et antibactérien). Il est aussi employé dans de nombreux autres cas comme conservateur, solvant ou encore pour réduire la transpiration dans les déodorants.  Même s''il n'est pas réglementé dans les cosmétiques, de nombreux cas d'irritations possibles sont néanmoins rapportés avec l'alcool (peau, muqueuse, poumon, yeux ...)."
+                },
+                {
+                    "name": "PARFUM (FRAGRANCE)",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Derrière ce terme de parfum, se cachent malheureusement de nombreuses molécules odorantes potentiellement irritantes voire allergisantes. Difficile de s'y retrouver lorsque que l'on devient allergique à un produit et que l'information n'est pas plus détaillée que cela. Néanmoins, pour nous aider, l'Europe a réglementé 24 molécules qui, lorsqu'elles sont utilisées au delà d'une certaine concentration, doivent être mentionnées dans la liste INCI (en général à la fin), bien que faisant partie elles-mêmes du parfum d'un produit. C'est le cas par exemple du Limonène, du linalol..."
+                },
+                {
+                    "name": "AQUA (WATER)",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR L'eau est l'ingrédient le plus utilisé en cosmétique : 83% des produits en contiennent (pourcentage établi à partir de 50 000 produits de l'App Inci Beauty). L'eau étant d'origine minérale, elle ne pourra jamais être certifiée Bio. C'est la raison pour laquelle les labels Bio, pour certifier les produits, autorisent des minimums d'ingrédients biologiques assez bas (10% pour Ecocert) sur le total d'une formule, en prenant en compte que la présence d'eau non Bio est indispensable et souvent majoritaire dans de nombreux cas."
+                },
+                {
+                    "name": "BENZYL SALICYLATE",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le Benzoate de sodium est utilisé en tant que conservateur antifongique dans les produits cosmétiques et dans l'alimentaire sous la dénomination E211. Il est donc très efficace contre les champignons, levures et bactéries. Il est fabriqué assez facilement avec de la soude, de l'eau et de l'acide benzoïque. On le trouve naturellement dans certains fruits comme les prunes, les pruneaux ou encore les pommes. Il est autorisé en bio."
+                },
+                {
+                    "name": "LINALOOL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Allergène",
+                    "description": "À SAVOIR Le Linalol est un composé aromatique classé parmi les 24 allergènes réglementés par l'Europe. Il est présent à l'état naturel dans les huiles essentielles de thym, de lavande, de lavandin, de pin sylvestre ou de menthe poivrée... On le retrouve aussi dans de nombreux extraits (citron, orange, verveine...)."
+                },
+                {
+                    "name": "POLYACRYLATE CROSSPOLYMER-6",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "Pas d'information supplémentaire"
+                },
+                {
+                    "name": "BUTYL METHOXYDIBENZOYLMETHANE",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le beurre de karité est obtenu à partir du fruit (les noix) du karité, un arbre présent majoritairement sur le continent Africain. Il est composé principalement de triglycérides, d'acides gras, des esters de cire et d'actifs : parmi ceux-ci, des vitamines (A, D, E), des esters résineux, des phytostérols, du latex. Il est utilisé dans de nombreux cosmétiques pour ses propriétés assoupissantes et adoucissantes pour l'épiderme. Il peut aussi protéger la peau et le cuir chevelu des nombreuses agressions extérieures."
+                },
+                {
+                    "name": "LIMONENE",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Allergène",
+                    "description": "À SAVOIR Le Linalol est un composé aromatique classé parmi les 24 allergènes réglementés par l'Europe. Il est présent à l'état naturel dans les huiles essentielles de thym, de lavande, de lavandin, de pin sylvestre ou de menthe poivrée... On le retrouve aussi dans de nombreux extraits (citron, orange, verveine...)."
+                },
+                {
+                    "name": "HYDROXYCITRONELLAL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Allergène",
+                    "description": "À SAVOIR Ce composé aromatique chimique fait partie de la liste des 24 allergènes réglementés par l'Europe. Il est utilisé pour ses senteurs de muguet et de lilas."
+                },
+                {
+                    "name": "GERANIOL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Allergène",
+                    "description": "À SAVOIR Le Géraniol aussi nommé rhodinol, est un alcool monoterpénique qui fait partie des 24 allergènes réglementés par l'Europe. On le retrouve présent dans les huiles essentielles de Géranium, de citronnelle mais aussi dans l'huile de rose et de Palmarosa. Il est utilisé en parfumerie pour son odeur de rose."
+                }
+            ]
+        },
+        {
+            "keys": 9,
             "name": "Libre - Eau de Parfum Intense",
             "brand": {
                 "name": "YVES SAINT LAURENT",
@@ -517,10 +587,10 @@
                     "description": "À SAVOIR L'eau est l'ingrédient le plus utilisé en cosmétique : 83% des produits en contiennent (pourcentage établi à partir de 50 000 produits de l'App Inci Beauty). L'eau étant d'origine minérale, elle ne pourra jamais être certifiée Bio. C'est la raison pour laquelle les labels Bio, pour certifier les produits, autorisent des minimums d'ingrédients biologiques assez bas (10% pour Ecocert) sur le total d'une formule, en prenant en compte que la présence d'eau non Bio est indispensable et souvent majoritaire dans de nombreux cas."
                 },
                 {
-                    "name": "LIMONENE",
+                    "name": "BENZYL SALICYLATE",
                     "endocrinien": "Non endocrinien",
-                    "allergène": "Allergène",
-                    "description": "À SAVOIR Le limonène fait partie des 24 allergènes réglementés en Europe. Il tient son nom du citron dans lequel il est présent en quantité importante. En cosmétique, il est utilisé pour son parfum. Il existe sous deux formes différentes : - le d-limonene est présent dans de nombreuses plantes, fruits et légumes. On le retrouve aussi dans la peau des agrumes, les cornichons, le céleri ou encore dans plusieurs huiles essentielles. - l'autre forme isométrique, le l-limonène, est présent principalement dans les huiles de pin, la térébenthine et les huiles de menthe."
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le Benzoate de sodium est utilisé en tant que conservateur antifongique dans les produits cosmétiques et dans l'alimentaire sous la dénomination E211. Il est donc très efficace contre les champignons, levures et bactéries. Il est fabriqué assez facilement avec de la soude, de l'eau et de l'acide benzoïque. On le trouve naturellement dans certains fruits comme les prunes, les pruneaux ou encore les pommes. Il est autorisé en bio."
                 },
                 {
                     "name": "LINALOOL",
@@ -529,98 +599,28 @@
                     "description": "À SAVOIR Le Linalol est un composé aromatique classé parmi les 24 allergènes réglementés par l'Europe. Il est présent à l'état naturel dans les huiles essentielles de thym, de lavande, de lavandin, de pin sylvestre ou de menthe poivrée... On le retrouve aussi dans de nombreux extraits (citron, orange, verveine...)."
                 },
                 {
-                    "name": "COUMARIN",
-                    "endocrinien": "Non endocrinien",
-                    "allergène": "Non Allergène",
-                    "description": "À SAVOIR Le Tocophérol représente différentes composantes de la Vitamine E. Il est utilisé en cosmétique pour ses propriétés antioxydantes. Cet ingrédient liposoluble (qui se dissout dans l'huile) se trouve à l'état naturel dans des huiles végétales comme l'huile de palme, de tournesol ou encore de germe de blé ... En 2014, le Tocopherol a fait l'objet d'une nouvelle étude du CIR ainsi que 13 autres dérivés de la vitamine E. L'organisme a conclu a son innocuité. Notez que le Tocopherol peut être d'origine synthétique (fabriqué entièrement en laboratoire)."
-                },
-                {
-                    "name": "BUTYL METHOXYDIBENZOYLMETHANE",
+                    "name": "POLYACRYLATE CROSSPOLYMER-6",
                     "endocrinien": "Non endocrinien",
                     "allergène": "Non Allergène",
                     "description": "Pas d'information supplémentaire"
                 },
                 {
-                    "name": "ALPHA-ISOMETHYL IONONE",
-                    "endocrinien": "Non endocrinien",
-                    "allergène": "Allergène",
-                    "description": "À SAVOIR Cette molécule synthétique incolore utilisée en parfumerie, fait partie des 24 allergènes réglementés par l'Europe. Ses senteurs florales sont proches de celles de la violette ou de l'iris."
-                },
-                {
-                    "name": "CITRAL",
+                    "name": "BUTYL METHOXYDIBENZOYLMETHANE",
                     "endocrinien": "Non endocrinien",
                     "allergène": "Non Allergène",
-                    "description": "À SAVOIR L'acide citrique est un des principaux actifs du citron. Il est souvent utilisé pour équilibrer le pH (trop basique) des produits cosmétiques. Il est aussi présent dans certains produits de bain (bombes de bain, galets de bain ou ''poudres magiques'') en raison de ses propriétés effervescentes."
-                },
-                {
-                    "name": "GERANIOL",
-                    "endocrinien": "Non endocrinien",
-                    "allergène": "Allergène",
-                    "description": "À SAVOIR Le Géraniol aussi nommé rhodinol, est un alcool monoterpénique qui fait partie des 24 allergènes réglementés par l'Europe. On le retrouve présent dans les huiles essentielles de Géranium, de citronnelle mais aussi dans l'huile de rose et de Palmarosa. Il est utilisé en parfumerie pour son odeur de rose."
-                }
-            ]
-        },
-        {
-            "keys": 9,
-            "name": "BLEU DE CHANEL",
-            "brand": {
-                "name": "CHANEL",
-                "engagement": "Sans engagement"
-            },
-            "Ingredient": [
-                {
-                    "name": "ALCOHOL",
-                    "endocrinien": "Non endocrinien",
-                    "allergène": "Non Allergène",
-                    "description": "À SAVOIR L'alcool appelé aussi éthanol est un liquide incolore avec une forte odeur. Il est utilisé en cosmétique pour ses propriétés antimicrobiennes avec un spectre assez large (antifongique, antiviral et antibactérien). Il est aussi employé dans de nombreux autres cas comme conservateur, solvant ou encore pour réduire la transpiration dans les déodorants.  Même s''il n'est pas réglementé dans les cosmétiques, de nombreux cas d'irritations possibles sont néanmoins rapportés avec l'alcool (peau, muqueuse, poumon, yeux ...)."
-                },
-                {
-                    "name": "PARFUM (FRAGRANCE)",
-                    "endocrinien": "Non endocrinien",
-                    "allergène": "Non Allergène",
-                    "description": "À SAVOIR Derrière ce terme de parfum, se cachent malheureusement de nombreuses molécules odorantes potentiellement irritantes voire allergisantes. Difficile de s'y retrouver lorsque que l'on devient allergique à un produit et que l'information n'est pas plus détaillée que cela. Néanmoins, pour nous aider, l'Europe a réglementé 24 molécules qui, lorsqu'elles sont utilisées au delà d'une certaine concentration, doivent être mentionnées dans la liste INCI (en général à la fin), bien que faisant partie elles-mêmes du parfum d'un produit. C'est le cas par exemple du Limonène, du linalol..."
-                },
-                {
-                    "name": "AQUA (WATER)",
-                    "endocrinien": "Non endocrinien",
-                    "allergène": "Non Allergène",
-                    "description": "À SAVOIR L'eau est l'ingrédient le plus utilisé en cosmétique : 83% des produits en contiennent (pourcentage établi à partir de 50 000 produits de l'App Inci Beauty). L'eau étant d'origine minérale, elle ne pourra jamais être certifiée Bio. C'est la raison pour laquelle les labels Bio, pour certifier les produits, autorisent des minimums d'ingrédients biologiques assez bas (10% pour Ecocert) sur le total d'une formule, en prenant en compte que la présence d'eau non Bio est indispensable et souvent majoritaire dans de nombreux cas."
+                    "description": "À SAVOIR Le beurre de karité est obtenu à partir du fruit (les noix) du karité, un arbre présent majoritairement sur le continent Africain. Il est composé principalement de triglycérides, d'acides gras, des esters de cire et d'actifs : parmi ceux-ci, des vitamines (A, D, E), des esters résineux, des phytostérols, du latex. Il est utilisé dans de nombreux cosmétiques pour ses propriétés assoupissantes et adoucissantes pour l'épiderme. Il peut aussi protéger la peau et le cuir chevelu des nombreuses agressions extérieures."
                 },
                 {
                     "name": "LIMONENE",
                     "endocrinien": "Non endocrinien",
                     "allergène": "Allergène",
-                    "description": "À SAVOIR Le limonène fait partie des 24 allergènes réglementés en Europe. Il tient son nom du citron dans lequel il est présent en quantité importante. En cosmétique, il est utilisé pour son parfum. Il existe sous deux formes différentes : - le d-limonene est présent dans de nombreuses plantes, fruits et légumes. On le retrouve aussi dans la peau des agrumes, les cornichons, le céleri ou encore dans plusieurs huiles essentielles. - l'autre forme isométrique, le l-limonène, est présent principalement dans les huiles de pin, la térébenthine et les huiles de menthe."
-                },
-                {
-                    "name": "LINALOOL",
-                    "endocrinien": "Non endocrinien",
-                    "allergène": "Allergène",
                     "description": "À SAVOIR Le Linalol est un composé aromatique classé parmi les 24 allergènes réglementés par l'Europe. Il est présent à l'état naturel dans les huiles essentielles de thym, de lavande, de lavandin, de pin sylvestre ou de menthe poivrée... On le retrouve aussi dans de nombreux extraits (citron, orange, verveine...)."
                 },
                 {
-                    "name": "COUMARIN",
-                    "endocrinien": "Non endocrinien",
-                    "allergène": "Non Allergène",
-                    "description": "À SAVOIR Le Tocophérol représente différentes composantes de la Vitamine E. Il est utilisé en cosmétique pour ses propriétés antioxydantes. Cet ingrédient liposoluble (qui se dissout dans l'huile) se trouve à l'état naturel dans des huiles végétales comme l'huile de palme, de tournesol ou encore de germe de blé ... En 2014, le Tocopherol a fait l'objet d'une nouvelle étude du CIR ainsi que 13 autres dérivés de la vitamine E. L'organisme a conclu a son innocuité. Notez que le Tocopherol peut être d'origine synthétique (fabriqué entièrement en laboratoire)."
-                },
-                {
-                    "name": "BUTYL METHOXYDIBENZOYLMETHANE",
-                    "endocrinien": "Non endocrinien",
-                    "allergène": "Non Allergène",
-                    "description": "Pas d'information supplémentaire"
-                },
-                {
-                    "name": "ALPHA-ISOMETHYL IONONE",
+                    "name": "HYDROXYCITRONELLAL",
                     "endocrinien": "Non endocrinien",
                     "allergène": "Allergène",
-                    "description": "À SAVOIR Cette molécule synthétique incolore utilisée en parfumerie, fait partie des 24 allergènes réglementés par l'Europe. Ses senteurs florales sont proches de celles de la violette ou de l'iris."
-                },
-                {
-                    "name": "CITRAL",
-                    "endocrinien": "Non endocrinien",
-                    "allergène": "Non Allergène",
-                    "description": "À SAVOIR L'acide citrique est un des principaux actifs du citron. Il est souvent utilisé pour équilibrer le pH (trop basique) des produits cosmétiques. Il est aussi présent dans certains produits de bain (bombes de bain, galets de bain ou ''poudres magiques'') en raison de ses propriétés effervescentes."
+                    "description": "À SAVOIR Ce composé aromatique chimique fait partie de la liste des 24 allergènes réglementés par l'Europe. Il est utilisé pour ses senteurs de muguet et de lilas."
                 },
                 {
                     "name": "GERANIOL",
@@ -632,10 +632,10 @@
         },
         {
             "keys": 10,
-            "name": "Fame - Eau De Parfum",
+            "name": "COCO MADEMOISELLE",
             "brand": {
-                "name": "PACO RABANNE",
-                "engagement": "Sans engagement"
+                "name": "CHANEL",
+                "engagement": "Chanel commits to reduce absolute scope 1 and 2 GHG emissions 50% by 2030 from a 2018 base year. Chanel also commits to reduce scope 3 GHG emissions 40% per unit sold, which is a 10% reduction in absolute emissions by 2030 from a 2018 base year."
             },
             "Ingredient": [
                 {
@@ -657,10 +657,10 @@
                     "description": "À SAVOIR L'eau est l'ingrédient le plus utilisé en cosmétique : 83% des produits en contiennent (pourcentage établi à partir de 50 000 produits de l'App Inci Beauty). L'eau étant d'origine minérale, elle ne pourra jamais être certifiée Bio. C'est la raison pour laquelle les labels Bio, pour certifier les produits, autorisent des minimums d'ingrédients biologiques assez bas (10% pour Ecocert) sur le total d'une formule, en prenant en compte que la présence d'eau non Bio est indispensable et souvent majoritaire dans de nombreux cas."
                 },
                 {
-                    "name": "LIMONENE",
+                    "name": "BENZYL SALICYLATE",
                     "endocrinien": "Non endocrinien",
-                    "allergène": "Allergène",
-                    "description": "À SAVOIR Le limonène fait partie des 24 allergènes réglementés en Europe. Il tient son nom du citron dans lequel il est présent en quantité importante. En cosmétique, il est utilisé pour son parfum. Il existe sous deux formes différentes : - le d-limonene est présent dans de nombreuses plantes, fruits et légumes. On le retrouve aussi dans la peau des agrumes, les cornichons, le céleri ou encore dans plusieurs huiles essentielles. - l'autre forme isométrique, le l-limonène, est présent principalement dans les huiles de pin, la térébenthine et les huiles de menthe."
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR Le Benzoate de sodium est utilisé en tant que conservateur antifongique dans les produits cosmétiques et dans l'alimentaire sous la dénomination E211. Il est donc très efficace contre les champignons, levures et bactéries. Il est fabriqué assez facilement avec de la soude, de l'eau et de l'acide benzoïque. On le trouve naturellement dans certains fruits comme les prunes, les pruneaux ou encore les pommes. Il est autorisé en bio."
                 },
                 {
                     "name": "LINALOOL",
@@ -669,28 +669,28 @@
                     "description": "À SAVOIR Le Linalol est un composé aromatique classé parmi les 24 allergènes réglementés par l'Europe. Il est présent à l'état naturel dans les huiles essentielles de thym, de lavande, de lavandin, de pin sylvestre ou de menthe poivrée... On le retrouve aussi dans de nombreux extraits (citron, orange, verveine...)."
                 },
                 {
-                    "name": "COUMARIN",
-                    "endocrinien": "Non endocrinien",
-                    "allergène": "Non Allergène",
-                    "description": "À SAVOIR Le Tocophérol représente différentes composantes de la Vitamine E. Il est utilisé en cosmétique pour ses propriétés antioxydantes. Cet ingrédient liposoluble (qui se dissout dans l'huile) se trouve à l'état naturel dans des huiles végétales comme l'huile de palme, de tournesol ou encore de germe de blé ... En 2014, le Tocopherol a fait l'objet d'une nouvelle étude du CIR ainsi que 13 autres dérivés de la vitamine E. L'organisme a conclu a son innocuité. Notez que le Tocopherol peut être d'origine synthétique (fabriqué entièrement en laboratoire)."
-                },
-                {
-                    "name": "BUTYL METHOXYDIBENZOYLMETHANE",
+                    "name": "POLYACRYLATE CROSSPOLYMER-6",
                     "endocrinien": "Non endocrinien",
                     "allergène": "Non Allergène",
                     "description": "Pas d'information supplémentaire"
                 },
                 {
-                    "name": "ALPHA-ISOMETHYL IONONE",
-                    "endocrinien": "Non endocrinien",
-                    "allergène": "Allergène",
-                    "description": "À SAVOIR Cette molécule synthétique incolore utilisée en parfumerie, fait partie des 24 allergènes réglementés par l'Europe. Ses senteurs florales sont proches de celles de la violette ou de l'iris."
-                },
-                {
-                    "name": "CITRAL",
+                    "name": "BUTYL METHOXYDIBENZOYLMETHANE",
                     "endocrinien": "Non endocrinien",
                     "allergène": "Non Allergène",
-                    "description": "À SAVOIR L'acide citrique est un des principaux actifs du citron. Il est souvent utilisé pour équilibrer le pH (trop basique) des produits cosmétiques. Il est aussi présent dans certains produits de bain (bombes de bain, galets de bain ou ''poudres magiques'') en raison de ses propriétés effervescentes."
+                    "description": "À SAVOIR Le beurre de karité est obtenu à partir du fruit (les noix) du karité, un arbre présent majoritairement sur le continent Africain. Il est composé principalement de triglycérides, d'acides gras, des esters de cire et d'actifs : parmi ceux-ci, des vitamines (A, D, E), des esters résineux, des phytostérols, du latex. Il est utilisé dans de nombreux cosmétiques pour ses propriétés assoupissantes et adoucissantes pour l'épiderme. Il peut aussi protéger la peau et le cuir chevelu des nombreuses agressions extérieures."
+                },
+                {
+                    "name": "LIMONENE",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Allergène",
+                    "description": "À SAVOIR Le Linalol est un composé aromatique classé parmi les 24 allergènes réglementés par l'Europe. Il est présent à l'état naturel dans les huiles essentielles de thym, de lavande, de lavandin, de pin sylvestre ou de menthe poivrée... On le retrouve aussi dans de nombreux extraits (citron, orange, verveine...)."
+                },
+                {
+                    "name": "HYDROXYCITRONELLAL",
+                    "endocrinien": "Non endocrinien",
+                    "allergène": "Allergène",
+                    "description": "À SAVOIR Ce composé aromatique chimique fait partie de la liste des 24 allergènes réglementés par l'Europe. Il est utilisé pour ses senteurs de muguet et de lilas."
                 },
                 {
                     "name": "GERANIOL",

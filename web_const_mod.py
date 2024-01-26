@@ -44,7 +44,7 @@ def Sephora(options,executablePath):
             nomParfum=driver.find_element(By.CLASS_NAME,'product-name.product-name-bold').get_attribute("innerText")
             dicParfum[key]=nomParfum
             #Enregistre la liste des ingredients
-            ingredient=driver.find_element(By.ID,'tab-ingredients').click()
+            driver.find_element(By.ID,'tab-ingredients').click()
             time.sleep(1) #Attend que la page des ingredients soit visible
             liste_I=driver.find_element(By.CLASS_NAME,"ingredients-content").get_attribute('innerText')
             listeIngredient.append(liste_I)
@@ -128,71 +128,83 @@ def incibeauty(setIngredient,options,executablePath):
     #Ouverture de Edge et recherche des ingrédients de Inci Beauty
     driver = Edge(executable_path =executablePath,options = options)
     driver.get("https://incibeauty.com/ingredients")
-    #Continue sans accepter les cookies
-    cookies=driver.find_element(By.XPATH,"/html/body/div[6]/div[2]/div[1]/div[2]/div[2]/button[1]")
-    cookies.click()
-    #Pour tous les ingredients
-    for i in setIngredient:
-        #Si c'est de l'acool, ce n'est pas dans les premiere propositino il faut faire une requete "manuelle"
-        if 'ALCOHOL'==i:
-            driver.get("https://incibeauty.com/ingredients/14307-alcohol")
-            url=True
-        #sinon recherche ingrédient un par un 
-        else : 
-            driver.get("https://incibeauty.com/ingredients")
-            # rentre le nom de l'ingredient dans la bar de recherche
-            search=driver.find_element(By.ID,'searchInci')
-            search.click()
-            search.clear() #vide la case avant d'envoyer un nouvel ingredient
-            search.send_keys(i)
-            count=0 #Compte le nombre de tour
-            url=False #Changement d'url
-            b=True #envoie de l'ingredient
-            #Essaye de rechercher le nom de l'ingredient pendant 10 tours max en cherchant à ce que l'URL change 
-            while b: 
-                count+=1
-                search.send_keys(Keys.ENTER) #click sur rechercher
-                if driver.current_url!="https://incibeauty.com/ingredients": #si on a changer d'URL
-                    b=False
-                    url=True
-                if count>=10:
-                    b=False
-        # si l'URL n'est plus la page de recherche
-        if url :
-            #Attend que la page se charge totalement
-            listeInfo= WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.XPATH,'/html/body/section[1]/div/div/div/ul')))
-            # remplit Allergene si l'information est trouvée
-            if 'Allergène' in listeInfo.get_attribute('innerText'):
-                Allergene.append(i)
-            # remplit endo si l'information est trouvée
-            if 'Perturbateur endocrinien' in listeInfo.get_attribute('innerText'):
-                endo.append(i)
-            #Essaye de trouver la description de l'ingrédient si elle est présente sur la page
-            try:
-                aSavoir=driver.find_element(By.XPATH,'/html/body/section[1]/div/div/div/div[2]/div')
-                desc=aSavoir.get_attribute('innerText')
-                #mise en forme rapide de la description
-                desc=desc.replace('"',"''")
-                descIng[i]=desc.replace('\n',' ')
-            except:
-                descIng[i]="Pas d'information supplémentaire"
+    #Possibilité de Host not found
+    try:
+        #Continue sans accepter les cookies
+        cookies=driver.find_element(By.XPATH,"/html/body/div[6]/div[2]/div[1]/div[2]/div[2]/button[1]")
+        cookies.click()
+        #Pour tous les ingredients
+        for i in setIngredient:
+            #Si c'est de l'acool, ce n'est pas dans les premiere propositino il faut faire une requete "manuelle"
+            if 'ALCOHOL'==i:
+                driver.get("https://incibeauty.com/ingredients/14307-alcohol")
+                url=True
+            #sinon recherche ingrédient un par un 
+            else : 
+                driver.get("https://incibeauty.com/ingredients")
+                # rentre le nom de l'ingredient dans la bar de recherche
+                search=driver.find_element(By.ID,'searchInci')
+                search.click()
+                search.clear() #vide la case avant d'envoyer un nouvel ingredient
+                search.send_keys(i)
+                count=0 #Compte le nombre de tour
+                url=False #Changement d'url
+                b=True #envoie de l'ingredient
+                #Essaye de rechercher le nom de l'ingredient pendant 10 tours max en cherchant à ce que l'URL change 
+                while b: 
+                    count+=1
+                    search.send_keys(Keys.ENTER) #click sur rechercher
+                    if driver.current_url!="https://incibeauty.com/ingredients": #si on a changer d'URL
+                        b=False
+                        url=True
+                    if count>=10:
+                        b=False
+            # si l'URL n'est plus la page de recherche
+            if url :
+                #Attend que la page se charge totalement
+                listeInfo= WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.XPATH,'/html/body/section[1]/div/div/div/ul')))
+                # remplit Allergene si l'information est trouvée
+                if 'Allergène' in listeInfo.get_attribute('innerText'):
+                    Allergene.append(i)
+                # remplit endo si l'information est trouvée
+                if 'Perturbateur endocrinien' in listeInfo.get_attribute('innerText'):
+                    endo.append(i)
+                #Essaye de trouver la description de l'ingrédient si elle est présente sur la page
+                try:
+                    aSavoir=driver.find_element(By.XPATH,'/html/body/section[1]/div/div/div/div[2]/div')
+                    desc=aSavoir.get_attribute('innerText')
+                    #mise en forme rapide de la description
+                    desc=desc.replace('"',"''")
+                    descIng[i]=desc.replace('\n',' ')
+                except:
+                    descIng[i]="Pas d'information supplémentaire"
+    except : 
+        titre=driver.find_element(By.XPATH,'/html/head/title').get_attribute('innerText')
+        if titre=='incibeauty.com | 520: Web server is returning an unknown error':
+            print(titre)
+        "Exception"
     #Ferme la fenêtre de Inci Beauty
     driver.close()
-    return descIng,Allergene,endo
+    return (descIng,Allergene,endo)
+
+
 
 #Function pour scrapper les engagement de chaque marque
-def engagement(listeMarque,options,executablePath):
-    marqueEco={}
+def engagement(listeMarque,options,executablePath) :
     #Ouverture de Edge et recherche des engagement sur Science Based Targets
     driver = Edge(executable_path =executablePath,options = options)
     driver.get("https://sciencebasedtargets.org/companies-taking-action#dashboard")
     time.sleep(5)
     #Accepte les cookies
-    cookies=driver.find_element(By.CLASS_NAME,"font-bold.text-center.rounded-full.appearance-none.o-btn.border-3.border-currentColor.flex-shrink-0.is-current")
-    cookies.click()
+    try:
+        cookies=driver.find_element(By.CLASS_NAME,"font-bold.text-center.rounded-full.appearance-none.o-btn.border-3.border-currentColor.flex-shrink-0.is-current")
+        cookies.click()
+    except:
+        "pas de cookies"
     #Repérage de la barre dédiée à la recherche
     inputs=driver.find_element(By.XPATH,"/html/body/main/div/div[3]/div[2]/div/div/div/div[1]/div/div[2]/label/input")
     #Pour chaque marque recherche si elle a des engagements
+    marqueEco={}
     for i in listeMarque:
         inputs.send_keys(i)
         time.sleep(5)
