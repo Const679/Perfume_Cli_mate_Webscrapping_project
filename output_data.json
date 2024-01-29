@@ -12,7 +12,7 @@
                     "name": "ALCOHOL",
                     "endocrinien": "Non endocrinien",
                     "allergène": "Non Allergène",
-                    "description": "À SAVOIR L'alcool appelé aussi éthanol est un liquide incolore avec une forte odeur. Il est utilisé en cosmétique pour ses propriétés antimicrobiennes avec un spectre assez large (antifongique, antiviral et antibactérien). Il est aussi employé dans de nombreux autres cas comme conservateur, solvant ou encore pour réduire la transpiration dans les déodorants.  Même s''il n'est pas réglementé dans les cosmétiques, de nombreux cas d'irritations possibles sont néanmoins rapportés avec l'alcool (peau, muqueuse, poumon, yeux ...)."
+                    "description": "Pas d'information supplémentaire"
                 },
                 {
                     "name": "PARFUM (FRAGRANCE)",
@@ -35,20 +35,20 @@
                 {
                     "name": "LINALOOL",
                     "endocrinien": "Non endocrinien",
-                    "allergène": "Allergène",
-                    "description": "À SAVOIR Le Linalol est un composé aromatique classé parmi les 24 allergènes réglementés par l'Europe. Il est présent à l'état naturel dans les huiles essentielles de thym, de lavande, de lavandin, de pin sylvestre ou de menthe poivrée... On le retrouve aussi dans de nombreux extraits (citron, orange, verveine...)."
+                    "allergène": "Non Allergène",
+                    "description": "Pas d'information supplémentaire"
                 },
                 {
                     "name": "POLYACRYLATE CROSSPOLYMER-6",
                     "endocrinien": "Non endocrinien",
                     "allergène": "Non Allergène",
-                    "description": "Pas d'information supplémentaire"
+                    "description": "À SAVOIR Le polysorbate 20 ou encore Tween 20 est tensioactif non ionique et un émulsifiant dérivé de sorbitol à base de fruits et de baies. Il permet de diluer les huiles essentielles ou parfum dans les produits cosmétiques à base d'eau comme les lotions, crèmes, gels. Le polysorbate 20 est produit par éthoxylation. Le nombre 20 indique le nombre moyen de moles d'oxyde d'éthylène ayant réagi par mole de sorbitol."
                 },
                 {
                     "name": "BUTYL METHOXYDIBENZOYLMETHANE",
                     "endocrinien": "Non endocrinien",
                     "allergène": "Non Allergène",
-                    "description": "À SAVOIR Le beurre de karité est obtenu à partir du fruit (les noix) du karité, un arbre présent majoritairement sur le continent Africain. Il est composé principalement de triglycérides, d'acides gras, des esters de cire et d'actifs : parmi ceux-ci, des vitamines (A, D, E), des esters résineux, des phytostérols, du latex. Il est utilisé dans de nombreux cosmétiques pour ses propriétés assoupissantes et adoucissantes pour l'épiderme. Il peut aussi protéger la peau et le cuir chevelu des nombreuses agressions extérieures."
+                    "description": "À SAVOIR Le Butylène Glycol est un composé chimique dérivé de pétrole, souvent utilisé en tant qu'humectant dans les soins de la peau. Il empêche le produit de sécher et rend la formulation plus résistante à l'humidité. Chez les individus sensibles, le butylène glycol peut être irritant pour la peau, les yeux et les voies nasales, toutefois il est considéré comme étant le moins irritant de tous les glycols. Il peut être autorisé en Bio, lorsqu'il est biosourcé et obtenu par fermentation à partir de sucre."
                 },
                 {
                     "name": "LIMONENE",
@@ -59,8 +59,8 @@
                 {
                     "name": "HYDROXYCITRONELLAL",
                     "endocrinien": "Non endocrinien",
-                    "allergène": "Allergène",
-                    "description": "À SAVOIR Ce composé aromatique chimique fait partie de la liste des 24 allergènes réglementés par l'Europe. Il est utilisé pour ses senteurs de muguet et de lilas."
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR La soude caustique entre dans la préparation de nombreux produits (détergents, explosifs ...). Elle sert à fabriquer des sels de sodium et à neutraliser les acides. En cosmétique, elle permet la fabrication des savons solides. La soude caustique est autorisée en bio, elle ne pose pas de problèmes dans les conditions de la réglementation."
                 },
                 {
                     "name": "GERANIOL",
@@ -82,7 +82,7 @@
                     "name": "ALCOHOL",
                     "endocrinien": "Non endocrinien",
                     "allergène": "Non Allergène",
-                    "description": "À SAVOIR L'alcool appelé aussi éthanol est un liquide incolore avec une forte odeur. Il est utilisé en cosmétique pour ses propriétés antimicrobiennes avec un spectre assez large (antifongique, antiviral et antibactérien). Il est aussi employé dans de nombreux autres cas comme conservateur, solvant ou encore pour réduire la transpiration dans les déodorants.  Même s''il n'est pas réglementé dans les cosmétiques, de nombreux cas d'irritations possibles sont néanmoins rapportés avec l'alcool (peau, muqueuse, poumon, yeux ...)."
+                    "description": "Pas d'information supplémentaire"
                 },
                 {
                     "name": "PARFUM (FRAGRANCE)",
@@ -105,20 +105,20 @@
                 {
                     "name": "LINALOOL",
                     "endocrinien": "Non endocrinien",
-                    "allergène": "Allergène",
-                    "description": "À SAVOIR Le Linalol est un composé aromatique classé parmi les 24 allergènes réglementés par l'Europe. Il est présent à l'état naturel dans les huiles essentielles de thym, de lavande, de lavandin, de pin sylvestre ou de menthe poivrée... On le retrouve aussi dans de nombreux extraits (citron, orange, verveine...)."
+                    "allergène": "Non Allergène",
+                    "description": "Pas d'information supplémentaire"
                 },
                 {
                     "name": "POLYACRYLATE CROSSPOLYMER-6",
                     "endocrinien": "Non endocrinien",
                     "allergène": "Non Allergène",
-                    "description": "Pas d'information supplémentaire"
+                    "description": "À SAVOIR Le polysorbate 20 ou encore Tween 20 est tensioactif non ionique et un émulsifiant dérivé de sorbitol à base de fruits et de baies. Il permet de diluer les huiles essentielles ou parfum dans les produits cosmétiques à base d'eau comme les lotions, crèmes, gels. Le polysorbate 20 est produit par éthoxylation. Le nombre 20 indique le nombre moyen de moles d'oxyde d'éthylène ayant réagi par mole de sorbitol."
                 },
                 {
                     "name": "BUTYL METHOXYDIBENZOYLMETHANE",
                     "endocrinien": "Non endocrinien",
                     "allergène": "Non Allergène",
-                    "description": "À SAVOIR Le beurre de karité est obtenu à partir du fruit (les noix) du karité, un arbre présent majoritairement sur le continent Africain. Il est composé principalement de triglycérides, d'acides gras, des esters de cire et d'actifs : parmi ceux-ci, des vitamines (A, D, E), des esters résineux, des phytostérols, du latex. Il est utilisé dans de nombreux cosmétiques pour ses propriétés assoupissantes et adoucissantes pour l'épiderme. Il peut aussi protéger la peau et le cuir chevelu des nombreuses agressions extérieures."
+                    "description": "À SAVOIR Le Butylène Glycol est un composé chimique dérivé de pétrole, souvent utilisé en tant qu'humectant dans les soins de la peau. Il empêche le produit de sécher et rend la formulation plus résistante à l'humidité. Chez les individus sensibles, le butylène glycol peut être irritant pour la peau, les yeux et les voies nasales, toutefois il est considéré comme étant le moins irritant de tous les glycols. Il peut être autorisé en Bio, lorsqu'il est biosourcé et obtenu par fermentation à partir de sucre."
                 },
                 {
                     "name": "LIMONENE",
@@ -129,8 +129,8 @@
                 {
                     "name": "HYDROXYCITRONELLAL",
                     "endocrinien": "Non endocrinien",
-                    "allergène": "Allergène",
-                    "description": "À SAVOIR Ce composé aromatique chimique fait partie de la liste des 24 allergènes réglementés par l'Europe. Il est utilisé pour ses senteurs de muguet et de lilas."
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR La soude caustique entre dans la préparation de nombreux produits (détergents, explosifs ...). Elle sert à fabriquer des sels de sodium et à neutraliser les acides. En cosmétique, elle permet la fabrication des savons solides. La soude caustique est autorisée en bio, elle ne pose pas de problèmes dans les conditions de la réglementation."
                 },
                 {
                     "name": "GERANIOL",
@@ -152,7 +152,7 @@
                     "name": "ALCOHOL",
                     "endocrinien": "Non endocrinien",
                     "allergène": "Non Allergène",
-                    "description": "À SAVOIR L'alcool appelé aussi éthanol est un liquide incolore avec une forte odeur. Il est utilisé en cosmétique pour ses propriétés antimicrobiennes avec un spectre assez large (antifongique, antiviral et antibactérien). Il est aussi employé dans de nombreux autres cas comme conservateur, solvant ou encore pour réduire la transpiration dans les déodorants.  Même s''il n'est pas réglementé dans les cosmétiques, de nombreux cas d'irritations possibles sont néanmoins rapportés avec l'alcool (peau, muqueuse, poumon, yeux ...)."
+                    "description": "Pas d'information supplémentaire"
                 },
                 {
                     "name": "PARFUM (FRAGRANCE)",
@@ -175,20 +175,20 @@
                 {
                     "name": "LINALOOL",
                     "endocrinien": "Non endocrinien",
-                    "allergène": "Allergène",
-                    "description": "À SAVOIR Le Linalol est un composé aromatique classé parmi les 24 allergènes réglementés par l'Europe. Il est présent à l'état naturel dans les huiles essentielles de thym, de lavande, de lavandin, de pin sylvestre ou de menthe poivrée... On le retrouve aussi dans de nombreux extraits (citron, orange, verveine...)."
+                    "allergène": "Non Allergène",
+                    "description": "Pas d'information supplémentaire"
                 },
                 {
                     "name": "POLYACRYLATE CROSSPOLYMER-6",
                     "endocrinien": "Non endocrinien",
                     "allergène": "Non Allergène",
-                    "description": "Pas d'information supplémentaire"
+                    "description": "À SAVOIR Le polysorbate 20 ou encore Tween 20 est tensioactif non ionique et un émulsifiant dérivé de sorbitol à base de fruits et de baies. Il permet de diluer les huiles essentielles ou parfum dans les produits cosmétiques à base d'eau comme les lotions, crèmes, gels. Le polysorbate 20 est produit par éthoxylation. Le nombre 20 indique le nombre moyen de moles d'oxyde d'éthylène ayant réagi par mole de sorbitol."
                 },
                 {
                     "name": "BUTYL METHOXYDIBENZOYLMETHANE",
                     "endocrinien": "Non endocrinien",
                     "allergène": "Non Allergène",
-                    "description": "À SAVOIR Le beurre de karité est obtenu à partir du fruit (les noix) du karité, un arbre présent majoritairement sur le continent Africain. Il est composé principalement de triglycérides, d'acides gras, des esters de cire et d'actifs : parmi ceux-ci, des vitamines (A, D, E), des esters résineux, des phytostérols, du latex. Il est utilisé dans de nombreux cosmétiques pour ses propriétés assoupissantes et adoucissantes pour l'épiderme. Il peut aussi protéger la peau et le cuir chevelu des nombreuses agressions extérieures."
+                    "description": "À SAVOIR Le Butylène Glycol est un composé chimique dérivé de pétrole, souvent utilisé en tant qu'humectant dans les soins de la peau. Il empêche le produit de sécher et rend la formulation plus résistante à l'humidité. Chez les individus sensibles, le butylène glycol peut être irritant pour la peau, les yeux et les voies nasales, toutefois il est considéré comme étant le moins irritant de tous les glycols. Il peut être autorisé en Bio, lorsqu'il est biosourcé et obtenu par fermentation à partir de sucre."
                 },
                 {
                     "name": "LIMONENE",
@@ -199,8 +199,8 @@
                 {
                     "name": "HYDROXYCITRONELLAL",
                     "endocrinien": "Non endocrinien",
-                    "allergène": "Allergène",
-                    "description": "À SAVOIR Ce composé aromatique chimique fait partie de la liste des 24 allergènes réglementés par l'Europe. Il est utilisé pour ses senteurs de muguet et de lilas."
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR La soude caustique entre dans la préparation de nombreux produits (détergents, explosifs ...). Elle sert à fabriquer des sels de sodium et à neutraliser les acides. En cosmétique, elle permet la fabrication des savons solides. La soude caustique est autorisée en bio, elle ne pose pas de problèmes dans les conditions de la réglementation."
                 },
                 {
                     "name": "GERANIOL",
@@ -212,17 +212,17 @@
         },
         {
             "keys": 4,
-            "name": "Stronger With You Intensely - Eau de parfum",
+            "name": "Libre - Eau de Parfum",
             "brand": {
-                "name": "ARMANI",
-                "engagement": "Gruppo Armani commits to reduce absolute scope 1 and 2 GHG emissions 50% by 2030 from a 2019 base year. Gruppo Armani also commits to reduce absolute scope 3 GHG emissions 42% from purchased goods and services and downstream transportation and distribution by 2029 from a 2019 base year."
+                "name": "YVES SAINT LAURENT",
+                "engagement": "Sans engagement"
             },
             "Ingredient": [
                 {
                     "name": "ALCOHOL",
                     "endocrinien": "Non endocrinien",
                     "allergène": "Non Allergène",
-                    "description": "À SAVOIR L'alcool appelé aussi éthanol est un liquide incolore avec une forte odeur. Il est utilisé en cosmétique pour ses propriétés antimicrobiennes avec un spectre assez large (antifongique, antiviral et antibactérien). Il est aussi employé dans de nombreux autres cas comme conservateur, solvant ou encore pour réduire la transpiration dans les déodorants.  Même s''il n'est pas réglementé dans les cosmétiques, de nombreux cas d'irritations possibles sont néanmoins rapportés avec l'alcool (peau, muqueuse, poumon, yeux ...)."
+                    "description": "Pas d'information supplémentaire"
                 },
                 {
                     "name": "PARFUM (FRAGRANCE)",
@@ -245,20 +245,20 @@
                 {
                     "name": "LINALOOL",
                     "endocrinien": "Non endocrinien",
-                    "allergène": "Allergène",
-                    "description": "À SAVOIR Le Linalol est un composé aromatique classé parmi les 24 allergènes réglementés par l'Europe. Il est présent à l'état naturel dans les huiles essentielles de thym, de lavande, de lavandin, de pin sylvestre ou de menthe poivrée... On le retrouve aussi dans de nombreux extraits (citron, orange, verveine...)."
+                    "allergène": "Non Allergène",
+                    "description": "Pas d'information supplémentaire"
                 },
                 {
                     "name": "POLYACRYLATE CROSSPOLYMER-6",
                     "endocrinien": "Non endocrinien",
                     "allergène": "Non Allergène",
-                    "description": "Pas d'information supplémentaire"
+                    "description": "À SAVOIR Le polysorbate 20 ou encore Tween 20 est tensioactif non ionique et un émulsifiant dérivé de sorbitol à base de fruits et de baies. Il permet de diluer les huiles essentielles ou parfum dans les produits cosmétiques à base d'eau comme les lotions, crèmes, gels. Le polysorbate 20 est produit par éthoxylation. Le nombre 20 indique le nombre moyen de moles d'oxyde d'éthylène ayant réagi par mole de sorbitol."
                 },
                 {
                     "name": "BUTYL METHOXYDIBENZOYLMETHANE",
                     "endocrinien": "Non endocrinien",
                     "allergène": "Non Allergène",
-                    "description": "À SAVOIR Le beurre de karité est obtenu à partir du fruit (les noix) du karité, un arbre présent majoritairement sur le continent Africain. Il est composé principalement de triglycérides, d'acides gras, des esters de cire et d'actifs : parmi ceux-ci, des vitamines (A, D, E), des esters résineux, des phytostérols, du latex. Il est utilisé dans de nombreux cosmétiques pour ses propriétés assoupissantes et adoucissantes pour l'épiderme. Il peut aussi protéger la peau et le cuir chevelu des nombreuses agressions extérieures."
+                    "description": "À SAVOIR Le Butylène Glycol est un composé chimique dérivé de pétrole, souvent utilisé en tant qu'humectant dans les soins de la peau. Il empêche le produit de sécher et rend la formulation plus résistante à l'humidité. Chez les individus sensibles, le butylène glycol peut être irritant pour la peau, les yeux et les voies nasales, toutefois il est considéré comme étant le moins irritant de tous les glycols. Il peut être autorisé en Bio, lorsqu'il est biosourcé et obtenu par fermentation à partir de sucre."
                 },
                 {
                     "name": "LIMONENE",
@@ -269,8 +269,8 @@
                 {
                     "name": "HYDROXYCITRONELLAL",
                     "endocrinien": "Non endocrinien",
-                    "allergène": "Allergène",
-                    "description": "À SAVOIR Ce composé aromatique chimique fait partie de la liste des 24 allergènes réglementés par l'Europe. Il est utilisé pour ses senteurs de muguet et de lilas."
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR La soude caustique entre dans la préparation de nombreux produits (détergents, explosifs ...). Elle sert à fabriquer des sels de sodium et à neutraliser les acides. En cosmétique, elle permet la fabrication des savons solides. La soude caustique est autorisée en bio, elle ne pose pas de problèmes dans les conditions de la réglementation."
                 },
                 {
                     "name": "GERANIOL",
@@ -282,17 +282,17 @@
         },
         {
             "keys": 5,
-            "name": "Libre - Eau de Parfum",
+            "name": "Stronger With You Intensely - Eau de parfum",
             "brand": {
-                "name": "YVES SAINT LAURENT",
-                "engagement": "Sans engagement"
+                "name": "ARMANI",
+                "engagement": "Gruppo Armani commits to reduce absolute scope 1 and 2 GHG emissions 50% by 2030 from a 2019 base year. Gruppo Armani also commits to reduce absolute scope 3 GHG emissions 42% from purchased goods and services and downstream transportation and distribution by 2029 from a 2019 base year."
             },
             "Ingredient": [
                 {
                     "name": "ALCOHOL",
                     "endocrinien": "Non endocrinien",
                     "allergène": "Non Allergène",
-                    "description": "À SAVOIR L'alcool appelé aussi éthanol est un liquide incolore avec une forte odeur. Il est utilisé en cosmétique pour ses propriétés antimicrobiennes avec un spectre assez large (antifongique, antiviral et antibactérien). Il est aussi employé dans de nombreux autres cas comme conservateur, solvant ou encore pour réduire la transpiration dans les déodorants.  Même s''il n'est pas réglementé dans les cosmétiques, de nombreux cas d'irritations possibles sont néanmoins rapportés avec l'alcool (peau, muqueuse, poumon, yeux ...)."
+                    "description": "Pas d'information supplémentaire"
                 },
                 {
                     "name": "PARFUM (FRAGRANCE)",
@@ -315,20 +315,20 @@
                 {
                     "name": "LINALOOL",
                     "endocrinien": "Non endocrinien",
-                    "allergène": "Allergène",
-                    "description": "À SAVOIR Le Linalol est un composé aromatique classé parmi les 24 allergènes réglementés par l'Europe. Il est présent à l'état naturel dans les huiles essentielles de thym, de lavande, de lavandin, de pin sylvestre ou de menthe poivrée... On le retrouve aussi dans de nombreux extraits (citron, orange, verveine...)."
+                    "allergène": "Non Allergène",
+                    "description": "Pas d'information supplémentaire"
                 },
                 {
                     "name": "POLYACRYLATE CROSSPOLYMER-6",
                     "endocrinien": "Non endocrinien",
                     "allergène": "Non Allergène",
-                    "description": "Pas d'information supplémentaire"
+                    "description": "À SAVOIR Le polysorbate 20 ou encore Tween 20 est tensioactif non ionique et un émulsifiant dérivé de sorbitol à base de fruits et de baies. Il permet de diluer les huiles essentielles ou parfum dans les produits cosmétiques à base d'eau comme les lotions, crèmes, gels. Le polysorbate 20 est produit par éthoxylation. Le nombre 20 indique le nombre moyen de moles d'oxyde d'éthylène ayant réagi par mole de sorbitol."
                 },
                 {
                     "name": "BUTYL METHOXYDIBENZOYLMETHANE",
                     "endocrinien": "Non endocrinien",
                     "allergène": "Non Allergène",
-                    "description": "À SAVOIR Le beurre de karité est obtenu à partir du fruit (les noix) du karité, un arbre présent majoritairement sur le continent Africain. Il est composé principalement de triglycérides, d'acides gras, des esters de cire et d'actifs : parmi ceux-ci, des vitamines (A, D, E), des esters résineux, des phytostérols, du latex. Il est utilisé dans de nombreux cosmétiques pour ses propriétés assoupissantes et adoucissantes pour l'épiderme. Il peut aussi protéger la peau et le cuir chevelu des nombreuses agressions extérieures."
+                    "description": "À SAVOIR Le Butylène Glycol est un composé chimique dérivé de pétrole, souvent utilisé en tant qu'humectant dans les soins de la peau. Il empêche le produit de sécher et rend la formulation plus résistante à l'humidité. Chez les individus sensibles, le butylène glycol peut être irritant pour la peau, les yeux et les voies nasales, toutefois il est considéré comme étant le moins irritant de tous les glycols. Il peut être autorisé en Bio, lorsqu'il est biosourcé et obtenu par fermentation à partir de sucre."
                 },
                 {
                     "name": "LIMONENE",
@@ -339,8 +339,8 @@
                 {
                     "name": "HYDROXYCITRONELLAL",
                     "endocrinien": "Non endocrinien",
-                    "allergène": "Allergène",
-                    "description": "À SAVOIR Ce composé aromatique chimique fait partie de la liste des 24 allergènes réglementés par l'Europe. Il est utilisé pour ses senteurs de muguet et de lilas."
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR La soude caustique entre dans la préparation de nombreux produits (détergents, explosifs ...). Elle sert à fabriquer des sels de sodium et à neutraliser les acides. En cosmétique, elle permet la fabrication des savons solides. La soude caustique est autorisée en bio, elle ne pose pas de problèmes dans les conditions de la réglementation."
                 },
                 {
                     "name": "GERANIOL",
@@ -352,17 +352,17 @@
         },
         {
             "keys": 6,
-            "name": "Paradoxe - Eau De Parfum Rechargeable",
+            "name": "COCO MADEMOISELLE",
             "brand": {
-                "name": "PRADA",
-                "engagement": "Prada Group commits to reduce absolute scope 1 and 2 GHG emissions 29.4% by 2026 from a 2019 base year. Prada Group also commits to reduce absolute scope 3 GHG emissions 42% by 2029 from a 2019 base year."
+                "name": "CHANEL",
+                "engagement": "Chanel commits to reduce absolute scope 1 and 2 GHG emissions 50% by 2030 from a 2018 base year. Chanel also commits to reduce scope 3 GHG emissions 40% per unit sold, which is a 10% reduction in absolute emissions by 2030 from a 2018 base year."
             },
             "Ingredient": [
                 {
                     "name": "ALCOHOL",
                     "endocrinien": "Non endocrinien",
                     "allergène": "Non Allergène",
-                    "description": "À SAVOIR L'alcool appelé aussi éthanol est un liquide incolore avec une forte odeur. Il est utilisé en cosmétique pour ses propriétés antimicrobiennes avec un spectre assez large (antifongique, antiviral et antibactérien). Il est aussi employé dans de nombreux autres cas comme conservateur, solvant ou encore pour réduire la transpiration dans les déodorants.  Même s''il n'est pas réglementé dans les cosmétiques, de nombreux cas d'irritations possibles sont néanmoins rapportés avec l'alcool (peau, muqueuse, poumon, yeux ...)."
+                    "description": "Pas d'information supplémentaire"
                 },
                 {
                     "name": "PARFUM (FRAGRANCE)",
@@ -385,20 +385,20 @@
                 {
                     "name": "LINALOOL",
                     "endocrinien": "Non endocrinien",
-                    "allergène": "Allergène",
-                    "description": "À SAVOIR Le Linalol est un composé aromatique classé parmi les 24 allergènes réglementés par l'Europe. Il est présent à l'état naturel dans les huiles essentielles de thym, de lavande, de lavandin, de pin sylvestre ou de menthe poivrée... On le retrouve aussi dans de nombreux extraits (citron, orange, verveine...)."
+                    "allergène": "Non Allergène",
+                    "description": "Pas d'information supplémentaire"
                 },
                 {
                     "name": "POLYACRYLATE CROSSPOLYMER-6",
                     "endocrinien": "Non endocrinien",
                     "allergène": "Non Allergène",
-                    "description": "Pas d'information supplémentaire"
+                    "description": "À SAVOIR Le polysorbate 20 ou encore Tween 20 est tensioactif non ionique et un émulsifiant dérivé de sorbitol à base de fruits et de baies. Il permet de diluer les huiles essentielles ou parfum dans les produits cosmétiques à base d'eau comme les lotions, crèmes, gels. Le polysorbate 20 est produit par éthoxylation. Le nombre 20 indique le nombre moyen de moles d'oxyde d'éthylène ayant réagi par mole de sorbitol."
                 },
                 {
                     "name": "BUTYL METHOXYDIBENZOYLMETHANE",
                     "endocrinien": "Non endocrinien",
                     "allergène": "Non Allergène",
-                    "description": "À SAVOIR Le beurre de karité est obtenu à partir du fruit (les noix) du karité, un arbre présent majoritairement sur le continent Africain. Il est composé principalement de triglycérides, d'acides gras, des esters de cire et d'actifs : parmi ceux-ci, des vitamines (A, D, E), des esters résineux, des phytostérols, du latex. Il est utilisé dans de nombreux cosmétiques pour ses propriétés assoupissantes et adoucissantes pour l'épiderme. Il peut aussi protéger la peau et le cuir chevelu des nombreuses agressions extérieures."
+                    "description": "À SAVOIR Le Butylène Glycol est un composé chimique dérivé de pétrole, souvent utilisé en tant qu'humectant dans les soins de la peau. Il empêche le produit de sécher et rend la formulation plus résistante à l'humidité. Chez les individus sensibles, le butylène glycol peut être irritant pour la peau, les yeux et les voies nasales, toutefois il est considéré comme étant le moins irritant de tous les glycols. Il peut être autorisé en Bio, lorsqu'il est biosourcé et obtenu par fermentation à partir de sucre."
                 },
                 {
                     "name": "LIMONENE",
@@ -409,8 +409,8 @@
                 {
                     "name": "HYDROXYCITRONELLAL",
                     "endocrinien": "Non endocrinien",
-                    "allergène": "Allergène",
-                    "description": "À SAVOIR Ce composé aromatique chimique fait partie de la liste des 24 allergènes réglementés par l'Europe. Il est utilisé pour ses senteurs de muguet et de lilas."
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR La soude caustique entre dans la préparation de nombreux produits (détergents, explosifs ...). Elle sert à fabriquer des sels de sodium et à neutraliser les acides. En cosmétique, elle permet la fabrication des savons solides. La soude caustique est autorisée en bio, elle ne pose pas de problèmes dans les conditions de la réglementation."
                 },
                 {
                     "name": "GERANIOL",
@@ -422,17 +422,17 @@
         },
         {
             "keys": 7,
-            "name": "J'adore - Eau de parfum pour femme - Notes fleuries & fruitées",
+            "name": "Paradoxe - Eau De Parfum Rechargeable",
             "brand": {
-                "name": "DIOR",
-                "engagement": "Sans engagement"
+                "name": "PRADA",
+                "engagement": "Prada Group commits to reduce absolute scope 1 and 2 GHG emissions 29.4% by 2026 from a 2019 base year. Prada Group also commits to reduce absolute scope 3 GHG emissions 42% by 2029 from a 2019 base year."
             },
             "Ingredient": [
                 {
                     "name": "ALCOHOL",
                     "endocrinien": "Non endocrinien",
                     "allergène": "Non Allergène",
-                    "description": "À SAVOIR L'alcool appelé aussi éthanol est un liquide incolore avec une forte odeur. Il est utilisé en cosmétique pour ses propriétés antimicrobiennes avec un spectre assez large (antifongique, antiviral et antibactérien). Il est aussi employé dans de nombreux autres cas comme conservateur, solvant ou encore pour réduire la transpiration dans les déodorants.  Même s''il n'est pas réglementé dans les cosmétiques, de nombreux cas d'irritations possibles sont néanmoins rapportés avec l'alcool (peau, muqueuse, poumon, yeux ...)."
+                    "description": "Pas d'information supplémentaire"
                 },
                 {
                     "name": "PARFUM (FRAGRANCE)",
@@ -455,20 +455,20 @@
                 {
                     "name": "LINALOOL",
                     "endocrinien": "Non endocrinien",
-                    "allergène": "Allergène",
-                    "description": "À SAVOIR Le Linalol est un composé aromatique classé parmi les 24 allergènes réglementés par l'Europe. Il est présent à l'état naturel dans les huiles essentielles de thym, de lavande, de lavandin, de pin sylvestre ou de menthe poivrée... On le retrouve aussi dans de nombreux extraits (citron, orange, verveine...)."
+                    "allergène": "Non Allergène",
+                    "description": "Pas d'information supplémentaire"
                 },
                 {
                     "name": "POLYACRYLATE CROSSPOLYMER-6",
                     "endocrinien": "Non endocrinien",
                     "allergène": "Non Allergène",
-                    "description": "Pas d'information supplémentaire"
+                    "description": "À SAVOIR Le polysorbate 20 ou encore Tween 20 est tensioactif non ionique et un émulsifiant dérivé de sorbitol à base de fruits et de baies. Il permet de diluer les huiles essentielles ou parfum dans les produits cosmétiques à base d'eau comme les lotions, crèmes, gels. Le polysorbate 20 est produit par éthoxylation. Le nombre 20 indique le nombre moyen de moles d'oxyde d'éthylène ayant réagi par mole de sorbitol."
                 },
                 {
                     "name": "BUTYL METHOXYDIBENZOYLMETHANE",
                     "endocrinien": "Non endocrinien",
                     "allergène": "Non Allergène",
-                    "description": "À SAVOIR Le beurre de karité est obtenu à partir du fruit (les noix) du karité, un arbre présent majoritairement sur le continent Africain. Il est composé principalement de triglycérides, d'acides gras, des esters de cire et d'actifs : parmi ceux-ci, des vitamines (A, D, E), des esters résineux, des phytostérols, du latex. Il est utilisé dans de nombreux cosmétiques pour ses propriétés assoupissantes et adoucissantes pour l'épiderme. Il peut aussi protéger la peau et le cuir chevelu des nombreuses agressions extérieures."
+                    "description": "À SAVOIR Le Butylène Glycol est un composé chimique dérivé de pétrole, souvent utilisé en tant qu'humectant dans les soins de la peau. Il empêche le produit de sécher et rend la formulation plus résistante à l'humidité. Chez les individus sensibles, le butylène glycol peut être irritant pour la peau, les yeux et les voies nasales, toutefois il est considéré comme étant le moins irritant de tous les glycols. Il peut être autorisé en Bio, lorsqu'il est biosourcé et obtenu par fermentation à partir de sucre."
                 },
                 {
                     "name": "LIMONENE",
@@ -479,8 +479,8 @@
                 {
                     "name": "HYDROXYCITRONELLAL",
                     "endocrinien": "Non endocrinien",
-                    "allergène": "Allergène",
-                    "description": "À SAVOIR Ce composé aromatique chimique fait partie de la liste des 24 allergènes réglementés par l'Europe. Il est utilisé pour ses senteurs de muguet et de lilas."
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR La soude caustique entre dans la préparation de nombreux produits (détergents, explosifs ...). Elle sert à fabriquer des sels de sodium et à neutraliser les acides. En cosmétique, elle permet la fabrication des savons solides. La soude caustique est autorisée en bio, elle ne pose pas de problèmes dans les conditions de la réglementation."
                 },
                 {
                     "name": "GERANIOL",
@@ -492,7 +492,7 @@
         },
         {
             "keys": 8,
-            "name": "Sauvage - Eau de parfum pour homme - Notes épicées & d'absolu vanille",
+            "name": "J'adore - Eau de parfum pour femme - Notes fleuries & fruitées",
             "brand": {
                 "name": "DIOR",
                 "engagement": "Sans engagement"
@@ -502,7 +502,7 @@
                     "name": "ALCOHOL",
                     "endocrinien": "Non endocrinien",
                     "allergène": "Non Allergène",
-                    "description": "À SAVOIR L'alcool appelé aussi éthanol est un liquide incolore avec une forte odeur. Il est utilisé en cosmétique pour ses propriétés antimicrobiennes avec un spectre assez large (antifongique, antiviral et antibactérien). Il est aussi employé dans de nombreux autres cas comme conservateur, solvant ou encore pour réduire la transpiration dans les déodorants.  Même s''il n'est pas réglementé dans les cosmétiques, de nombreux cas d'irritations possibles sont néanmoins rapportés avec l'alcool (peau, muqueuse, poumon, yeux ...)."
+                    "description": "Pas d'information supplémentaire"
                 },
                 {
                     "name": "PARFUM (FRAGRANCE)",
@@ -525,20 +525,20 @@
                 {
                     "name": "LINALOOL",
                     "endocrinien": "Non endocrinien",
-                    "allergène": "Allergène",
-                    "description": "À SAVOIR Le Linalol est un composé aromatique classé parmi les 24 allergènes réglementés par l'Europe. Il est présent à l'état naturel dans les huiles essentielles de thym, de lavande, de lavandin, de pin sylvestre ou de menthe poivrée... On le retrouve aussi dans de nombreux extraits (citron, orange, verveine...)."
+                    "allergène": "Non Allergène",
+                    "description": "Pas d'information supplémentaire"
                 },
                 {
                     "name": "POLYACRYLATE CROSSPOLYMER-6",
                     "endocrinien": "Non endocrinien",
                     "allergène": "Non Allergène",
-                    "description": "Pas d'information supplémentaire"
+                    "description": "À SAVOIR Le polysorbate 20 ou encore Tween 20 est tensioactif non ionique et un émulsifiant dérivé de sorbitol à base de fruits et de baies. Il permet de diluer les huiles essentielles ou parfum dans les produits cosmétiques à base d'eau comme les lotions, crèmes, gels. Le polysorbate 20 est produit par éthoxylation. Le nombre 20 indique le nombre moyen de moles d'oxyde d'éthylène ayant réagi par mole de sorbitol."
                 },
                 {
                     "name": "BUTYL METHOXYDIBENZOYLMETHANE",
                     "endocrinien": "Non endocrinien",
                     "allergène": "Non Allergène",
-                    "description": "À SAVOIR Le beurre de karité est obtenu à partir du fruit (les noix) du karité, un arbre présent majoritairement sur le continent Africain. Il est composé principalement de triglycérides, d'acides gras, des esters de cire et d'actifs : parmi ceux-ci, des vitamines (A, D, E), des esters résineux, des phytostérols, du latex. Il est utilisé dans de nombreux cosmétiques pour ses propriétés assoupissantes et adoucissantes pour l'épiderme. Il peut aussi protéger la peau et le cuir chevelu des nombreuses agressions extérieures."
+                    "description": "À SAVOIR Le Butylène Glycol est un composé chimique dérivé de pétrole, souvent utilisé en tant qu'humectant dans les soins de la peau. Il empêche le produit de sécher et rend la formulation plus résistante à l'humidité. Chez les individus sensibles, le butylène glycol peut être irritant pour la peau, les yeux et les voies nasales, toutefois il est considéré comme étant le moins irritant de tous les glycols. Il peut être autorisé en Bio, lorsqu'il est biosourcé et obtenu par fermentation à partir de sucre."
                 },
                 {
                     "name": "LIMONENE",
@@ -549,8 +549,8 @@
                 {
                     "name": "HYDROXYCITRONELLAL",
                     "endocrinien": "Non endocrinien",
-                    "allergène": "Allergène",
-                    "description": "À SAVOIR Ce composé aromatique chimique fait partie de la liste des 24 allergènes réglementés par l'Europe. Il est utilisé pour ses senteurs de muguet et de lilas."
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR La soude caustique entre dans la préparation de nombreux produits (détergents, explosifs ...). Elle sert à fabriquer des sels de sodium et à neutraliser les acides. En cosmétique, elle permet la fabrication des savons solides. La soude caustique est autorisée en bio, elle ne pose pas de problèmes dans les conditions de la réglementation."
                 },
                 {
                     "name": "GERANIOL",
@@ -562,9 +562,9 @@
         },
         {
             "keys": 9,
-            "name": "Libre - Eau de Parfum Intense",
+            "name": "Sauvage - Eau de toilette pour homme - Notes épicées, boisées & ambrées",
             "brand": {
-                "name": "YVES SAINT LAURENT",
+                "name": "DIOR",
                 "engagement": "Sans engagement"
             },
             "Ingredient": [
@@ -572,7 +572,7 @@
                     "name": "ALCOHOL",
                     "endocrinien": "Non endocrinien",
                     "allergène": "Non Allergène",
-                    "description": "À SAVOIR L'alcool appelé aussi éthanol est un liquide incolore avec une forte odeur. Il est utilisé en cosmétique pour ses propriétés antimicrobiennes avec un spectre assez large (antifongique, antiviral et antibactérien). Il est aussi employé dans de nombreux autres cas comme conservateur, solvant ou encore pour réduire la transpiration dans les déodorants.  Même s''il n'est pas réglementé dans les cosmétiques, de nombreux cas d'irritations possibles sont néanmoins rapportés avec l'alcool (peau, muqueuse, poumon, yeux ...)."
+                    "description": "Pas d'information supplémentaire"
                 },
                 {
                     "name": "PARFUM (FRAGRANCE)",
@@ -595,20 +595,20 @@
                 {
                     "name": "LINALOOL",
                     "endocrinien": "Non endocrinien",
-                    "allergène": "Allergène",
-                    "description": "À SAVOIR Le Linalol est un composé aromatique classé parmi les 24 allergènes réglementés par l'Europe. Il est présent à l'état naturel dans les huiles essentielles de thym, de lavande, de lavandin, de pin sylvestre ou de menthe poivrée... On le retrouve aussi dans de nombreux extraits (citron, orange, verveine...)."
+                    "allergène": "Non Allergène",
+                    "description": "Pas d'information supplémentaire"
                 },
                 {
                     "name": "POLYACRYLATE CROSSPOLYMER-6",
                     "endocrinien": "Non endocrinien",
                     "allergène": "Non Allergène",
-                    "description": "Pas d'information supplémentaire"
+                    "description": "À SAVOIR Le polysorbate 20 ou encore Tween 20 est tensioactif non ionique et un émulsifiant dérivé de sorbitol à base de fruits et de baies. Il permet de diluer les huiles essentielles ou parfum dans les produits cosmétiques à base d'eau comme les lotions, crèmes, gels. Le polysorbate 20 est produit par éthoxylation. Le nombre 20 indique le nombre moyen de moles d'oxyde d'éthylène ayant réagi par mole de sorbitol."
                 },
                 {
                     "name": "BUTYL METHOXYDIBENZOYLMETHANE",
                     "endocrinien": "Non endocrinien",
                     "allergène": "Non Allergène",
-                    "description": "À SAVOIR Le beurre de karité est obtenu à partir du fruit (les noix) du karité, un arbre présent majoritairement sur le continent Africain. Il est composé principalement de triglycérides, d'acides gras, des esters de cire et d'actifs : parmi ceux-ci, des vitamines (A, D, E), des esters résineux, des phytostérols, du latex. Il est utilisé dans de nombreux cosmétiques pour ses propriétés assoupissantes et adoucissantes pour l'épiderme. Il peut aussi protéger la peau et le cuir chevelu des nombreuses agressions extérieures."
+                    "description": "À SAVOIR Le Butylène Glycol est un composé chimique dérivé de pétrole, souvent utilisé en tant qu'humectant dans les soins de la peau. Il empêche le produit de sécher et rend la formulation plus résistante à l'humidité. Chez les individus sensibles, le butylène glycol peut être irritant pour la peau, les yeux et les voies nasales, toutefois il est considéré comme étant le moins irritant de tous les glycols. Il peut être autorisé en Bio, lorsqu'il est biosourcé et obtenu par fermentation à partir de sucre."
                 },
                 {
                     "name": "LIMONENE",
@@ -619,8 +619,8 @@
                 {
                     "name": "HYDROXYCITRONELLAL",
                     "endocrinien": "Non endocrinien",
-                    "allergène": "Allergène",
-                    "description": "À SAVOIR Ce composé aromatique chimique fait partie de la liste des 24 allergènes réglementés par l'Europe. Il est utilisé pour ses senteurs de muguet et de lilas."
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR La soude caustique entre dans la préparation de nombreux produits (détergents, explosifs ...). Elle sert à fabriquer des sels de sodium et à neutraliser les acides. En cosmétique, elle permet la fabrication des savons solides. La soude caustique est autorisée en bio, elle ne pose pas de problèmes dans les conditions de la réglementation."
                 },
                 {
                     "name": "GERANIOL",
@@ -632,17 +632,17 @@
         },
         {
             "keys": 10,
-            "name": "COCO MADEMOISELLE",
+            "name": "Libre - Eau de Parfum Intense",
             "brand": {
-                "name": "CHANEL",
-                "engagement": "Chanel commits to reduce absolute scope 1 and 2 GHG emissions 50% by 2030 from a 2018 base year. Chanel also commits to reduce scope 3 GHG emissions 40% per unit sold, which is a 10% reduction in absolute emissions by 2030 from a 2018 base year."
+                "name": "YVES SAINT LAURENT",
+                "engagement": "Sans engagement"
             },
             "Ingredient": [
                 {
                     "name": "ALCOHOL",
                     "endocrinien": "Non endocrinien",
                     "allergène": "Non Allergène",
-                    "description": "À SAVOIR L'alcool appelé aussi éthanol est un liquide incolore avec une forte odeur. Il est utilisé en cosmétique pour ses propriétés antimicrobiennes avec un spectre assez large (antifongique, antiviral et antibactérien). Il est aussi employé dans de nombreux autres cas comme conservateur, solvant ou encore pour réduire la transpiration dans les déodorants.  Même s''il n'est pas réglementé dans les cosmétiques, de nombreux cas d'irritations possibles sont néanmoins rapportés avec l'alcool (peau, muqueuse, poumon, yeux ...)."
+                    "description": "Pas d'information supplémentaire"
                 },
                 {
                     "name": "PARFUM (FRAGRANCE)",
@@ -665,20 +665,20 @@
                 {
                     "name": "LINALOOL",
                     "endocrinien": "Non endocrinien",
-                    "allergène": "Allergène",
-                    "description": "À SAVOIR Le Linalol est un composé aromatique classé parmi les 24 allergènes réglementés par l'Europe. Il est présent à l'état naturel dans les huiles essentielles de thym, de lavande, de lavandin, de pin sylvestre ou de menthe poivrée... On le retrouve aussi dans de nombreux extraits (citron, orange, verveine...)."
+                    "allergène": "Non Allergène",
+                    "description": "Pas d'information supplémentaire"
                 },
                 {
                     "name": "POLYACRYLATE CROSSPOLYMER-6",
                     "endocrinien": "Non endocrinien",
                     "allergène": "Non Allergène",
-                    "description": "Pas d'information supplémentaire"
+                    "description": "À SAVOIR Le polysorbate 20 ou encore Tween 20 est tensioactif non ionique et un émulsifiant dérivé de sorbitol à base de fruits et de baies. Il permet de diluer les huiles essentielles ou parfum dans les produits cosmétiques à base d'eau comme les lotions, crèmes, gels. Le polysorbate 20 est produit par éthoxylation. Le nombre 20 indique le nombre moyen de moles d'oxyde d'éthylène ayant réagi par mole de sorbitol."
                 },
                 {
                     "name": "BUTYL METHOXYDIBENZOYLMETHANE",
                     "endocrinien": "Non endocrinien",
                     "allergène": "Non Allergène",
-                    "description": "À SAVOIR Le beurre de karité est obtenu à partir du fruit (les noix) du karité, un arbre présent majoritairement sur le continent Africain. Il est composé principalement de triglycérides, d'acides gras, des esters de cire et d'actifs : parmi ceux-ci, des vitamines (A, D, E), des esters résineux, des phytostérols, du latex. Il est utilisé dans de nombreux cosmétiques pour ses propriétés assoupissantes et adoucissantes pour l'épiderme. Il peut aussi protéger la peau et le cuir chevelu des nombreuses agressions extérieures."
+                    "description": "À SAVOIR Le Butylène Glycol est un composé chimique dérivé de pétrole, souvent utilisé en tant qu'humectant dans les soins de la peau. Il empêche le produit de sécher et rend la formulation plus résistante à l'humidité. Chez les individus sensibles, le butylène glycol peut être irritant pour la peau, les yeux et les voies nasales, toutefois il est considéré comme étant le moins irritant de tous les glycols. Il peut être autorisé en Bio, lorsqu'il est biosourcé et obtenu par fermentation à partir de sucre."
                 },
                 {
                     "name": "LIMONENE",
@@ -689,8 +689,8 @@
                 {
                     "name": "HYDROXYCITRONELLAL",
                     "endocrinien": "Non endocrinien",
-                    "allergène": "Allergène",
-                    "description": "À SAVOIR Ce composé aromatique chimique fait partie de la liste des 24 allergènes réglementés par l'Europe. Il est utilisé pour ses senteurs de muguet et de lilas."
+                    "allergène": "Non Allergène",
+                    "description": "À SAVOIR La soude caustique entre dans la préparation de nombreux produits (détergents, explosifs ...). Elle sert à fabriquer des sels de sodium et à neutraliser les acides. En cosmétique, elle permet la fabrication des savons solides. La soude caustique est autorisée en bio, elle ne pose pas de problèmes dans les conditions de la réglementation."
                 },
                 {
                     "name": "GERANIOL",

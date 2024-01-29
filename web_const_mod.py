@@ -82,6 +82,10 @@ def miseEnForme(ingredients):
         simiabraz=champenfeu.split(" · ")
     elif "; " in champenfeu:
         simiabraz=champenfeu.split("; ")
+    elif ". " in champenfeu:
+        simiabraz=champenfeu.split(". ")
+    elif " —" in champenfeu:
+        simiabraz=champenfeu.split(" —")
     else :
         simiabraz=champenfeu
         print(simiabraz)

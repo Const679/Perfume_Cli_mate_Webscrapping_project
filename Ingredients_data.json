@@ -1,100 +1,25 @@
 {
-    "ALPHA": {
-        "endocrinien": "Non endocrinien",
-        "allergène": "Allergène",
-        "description": "À SAVOIR Cette molécule synthétique incolore utilisée en parfumerie, fait partie des 24 allergènes réglementés par l'Europe. Ses senteurs florales sont proches de celles de la violette ou de l'iris."
-    },
-    "HEXYL CINNAMAL": {
+    "T-BUTYL ALCOHOL": {
         "endocrinien": "Non endocrinien",
         "allergène": "Non Allergène",
-        "description": "À SAVOIR Le phenoxyethanol est un conservateur synthétique connu sous l'acronyme de EGPhE, très utilisé en cosmétique et de plus en plus controversé. Depuis 2012, l'ANSM (Agence nationale de sécurité du médicament et des produits de santé) recommande que ce conservateur ne soit pas utilisé dans les produits cosmétiques destinés au siège des bébés et que sa teneur maximale soit fixée à 0,4% pour les autres produits destinés aux enfants de moins de 3 ans. Elle dénonce également sa toxicité hépatique, ses effets potentiellement néfastes sur la reproduction ainsi que bon nombre d'autres désagréments : les conclusions du rapport de l'ANSM de 2012 sont alarmants. Dans son avis de mai 2018, le Comité scientifique spécialisé temporaire (CSST) chargé de la réévaluation du phénoxyéthanol au niveau de l'Europe, a quant à lui conclu : ''La recommandation par l'Ansm de non-utilisation du phénoxyéthanol dans les produits cosmétiques destinés au siège doit être maintenue. Il est souhaitable de l'élargir aux lingettes qui sont très habituellement utilisées aussi pour nettoyer le siège des jeunes enfants. Dans tous les autres produits cosmétiques destinés aux enfants de 3 ans ou moins, la concentration maximale de phénoxyéthanol pourrait rester de 1 %.'' Le CSST suivrait donc l'ANSM pour les lingettes mais pas pour la concentration. En tout cas, réglementairement, le phenoxyethanol est toujours autorisé dans les lingettes bébés !!! Le phenoxyethanol est produit par éthoxylation (un procédé chimique très polluant) en faisant réagir du phénol et de l'oxyde d'éthylène à une température et une pression élevées. Notez toutefois que le phenoxyethanol est présent naturellement dans le thé vert, mais ce n'est pas cette version du composé qui est utilisé en cosmétique. En raison de son procédé de fabrication, le Phenoxyethanol est interdit en Bio."
+        "description": "À SAVOIR Cet ingrédient est utilisé en tant qu'antioxydant synthétique dans les cosmétiques. Le groupe d'expert du CIR a conclu en 2014 que la substance était sûre et n'était pas un sensibilisateur."
     },
-    "AQUA": {
-        "endocrinien": "Non endocrinien",
-        "allergène": "Non Allergène",
-        "description": "À SAVOIR L'eau est l'ingrédient le plus utilisé en cosmétique : 83% des produits en contiennent (pourcentage établi à partir de 50 000 produits de l'App Inci Beauty). L'eau étant d'origine minérale, elle ne pourra jamais être certifiée Bio. C'est la raison pour laquelle les labels Bio, pour certifier les produits, autorisent des minimums d'ingrédients biologiques assez bas (10% pour Ecocert) sur le total d'une formule, en prenant en compte que la présence d'eau non Bio est indispensable et souvent majoritaire dans de nombreux cas."
-    },
-    "TRIS(TETRAMETHYLHYDROXYPIPERIDINOL) CITRATE": {
-        "endocrinien": "Non endocrinien",
-        "allergène": "Non Allergène",
-        "description": "Pas d'information supplémentaire"
-    },
-    "BHT": {
-        "endocrinien": "Non endocrinien",
-        "allergène": "Non Allergène",
-        "description": "À SAVOIR Le BHT ou Butylhydroxytoluène est un phénol qui se présente sous la forme de cristaux blanc jaunâtre. Il est employé pour ses propriétés antioxydantes en cosmétique. Le CIRC (Centre international de recherche sur le cancer) classe le BHT parmi les substances dont l'innocuité n'a pas pu être établie, l'ARTAC (Association française pour la Recherche Thérapeutique Anti-Cancéreuse), le classe elle, parmi les substances ''probablement cancérigènes''.  Le substance est suspectée d'être un perturbateur endocrinien pouvant déstabiliser les hormones de reproduction chez l'homme et la femme. La molécule est aussi réputée sensibilisante, pouvant être source d'allergies.  Dans la mesure où il est possible en cosmétique de faire autrement, selon le principe de précaution, nous classons cette molécule en rouge sur INCI Beauty."
-    },
-    "IL47-1": {
-        "endocrinien": "Non endocrinien",
-        "allergène": "Non Allergène",
-        "description": "À SAVOIR La silice est un minéral présent naturellement dans le grès, l'argile et le granit, ainsi que dans certaines parties de plantes et d'animaux. On l'emploie pour différentes raisons en cosmétiques : en agent abrasif dans les dentifrices, en opacifiant dans les poudre et blushs, ou encore en absorbant dans les déodorants. La silice est autorisée en Bio."
-    },
-    "POLYACRYLATE CROSSPOLYMER-6": {
-        "endocrinien": "Non endocrinien",
-        "allergène": "Non Allergène",
-        "description": "Pas d'information supplémentaire"
-    },
-    "CI 42090": {
-        "endocrinien": "Non endocrinien",
-        "allergène": "Non Allergène",
-        "description": "À SAVOIR L'acide citrique est un des principaux actifs du citron. Il est souvent utilisé pour équilibrer le pH (trop basique) des produits cosmétiques. Il est aussi présent dans certains produits de bain (bombes de bain, galets de bain ou ''poudres magiques'') en raison de ses propriétés effervescentes."
-    },
-    "ANISE ALCOHOL": {
-        "endocrinien": "Non endocrinien",
-        "allergène": "Non Allergène",
-        "description": "À SAVOIR Le phenoxyethanol est un conservateur synthétique connu sous l'acronyme de EGPhE, très utilisé en cosmétique et de plus en plus controversé. Depuis 2012, l'ANSM (Agence nationale de sécurité du médicament et des produits de santé) recommande que ce conservateur ne soit pas utilisé dans les produits cosmétiques destinés au siège des bébés et que sa teneur maximale soit fixée à 0,4% pour les autres produits destinés aux enfants de moins de 3 ans. Elle dénonce également sa toxicité hépatique, ses effets potentiellement néfastes sur la reproduction ainsi que bon nombre d'autres désagréments : les conclusions du rapport de l'ANSM de 2012 sont alarmants. Dans son avis de mai 2018, le Comité scientifique spécialisé temporaire (CSST) chargé de la réévaluation du phénoxyéthanol au niveau de l'Europe, a quant à lui conclu : ''La recommandation par l'Ansm de non-utilisation du phénoxyéthanol dans les produits cosmétiques destinés au siège doit être maintenue. Il est souhaitable de l'élargir aux lingettes qui sont très habituellement utilisées aussi pour nettoyer le siège des jeunes enfants. Dans tous les autres produits cosmétiques destinés aux enfants de 3 ans ou moins, la concentration maximale de phénoxyéthanol pourrait rester de 1 %.'' Le CSST suivrait donc l'ANSM pour les lingettes mais pas pour la concentration. En tout cas, réglementairement, le phenoxyethanol est toujours autorisé dans les lingettes bébés !!! Le phenoxyethanol est produit par éthoxylation (un procédé chimique très polluant) en faisant réagir du phénol et de l'oxyde d'éthylène à une température et une pression élevées. Notez toutefois que le phenoxyethanol est présent naturellement dans le thé vert, mais ce n'est pas cette version du composé qui est utilisé en cosmétique. En raison de son procédé de fabrication, le Phenoxyethanol est interdit en Bio."
-    },
-    "EVERNIA FURFURACEA (TREEMOSS) EXTRACT": {
-        "endocrinien": "Non endocrinien",
-        "allergène": "Allergène",
-        "description": "À SAVOIR Cette substance est un lichen qui prolifère sur les écorces des arbres et principalement sur les chênes. En cosmétique, la ''mousse de Chêne'' est notamment utilisée dans le ''Chypre'', une base pour les parfums. Elle fait partie des 24 allergènes réglementés par l'Europe."
-    },
-    "LINALOOL": {
-        "endocrinien": "Non endocrinien",
-        "allergène": "Allergène",
-        "description": "À SAVOIR Le Linalol est un composé aromatique classé parmi les 24 allergènes réglementés par l'Europe. Il est présent à l'état naturel dans les huiles essentielles de thym, de lavande, de lavandin, de pin sylvestre ou de menthe poivrée... On le retrouve aussi dans de nombreux extraits (citron, orange, verveine...)."
-    },
-    "BENZYL BENZOATE": {
+    "BENZYL SALICYLATE": {
         "endocrinien": "Non endocrinien",
         "allergène": "Non Allergène",
         "description": "À SAVOIR Le Benzoate de sodium est utilisé en tant que conservateur antifongique dans les produits cosmétiques et dans l'alimentaire sous la dénomination E211. Il est donc très efficace contre les champignons, levures et bactéries. Il est fabriqué assez facilement avec de la soude, de l'eau et de l'acide benzoïque. On le trouve naturellement dans certains fruits comme les prunes, les pruneaux ou encore les pommes. Il est autorisé en bio."
     },
-    "ALPHA-ISOMETHYL IONONE": {
+    "HYDROXYCITRONELLAL": {
         "endocrinien": "Non endocrinien",
-        "allergène": "Allergène",
-        "description": "À SAVOIR Cette molécule synthétique incolore utilisée en parfumerie, fait partie des 24 allergènes réglementés par l'Europe. Ses senteurs florales sont proches de celles de la violette ou de l'iris."
+        "allergène": "Non Allergène",
+        "description": "À SAVOIR La soude caustique entre dans la préparation de nombreux produits (détergents, explosifs ...). Elle sert à fabriquer des sels de sodium et à neutraliser les acides. En cosmétique, elle permet la fabrication des savons solides. La soude caustique est autorisée en bio, elle ne pose pas de problèmes dans les conditions de la réglementation."
     },
-    "GERANIOL": {
-        "endocrinien": "Non endocrinien",
-        "allergène": "Allergène",
-        "description": "À SAVOIR Le Géraniol aussi nommé rhodinol, est un alcool monoterpénique qui fait partie des 24 allergènes réglementés par l'Europe. On le retrouve présent dans les huiles essentielles de Géranium, de citronnelle mais aussi dans l'huile de rose et de Palmarosa. Il est utilisé en parfumerie pour son odeur de rose."
-    },
-    "WATER": {
-        "endocrinien": "Non endocrinien",
-        "allergène": "Allergène",
-        "description": "Pas d'information supplémentaire"
-    },
-    "CI 15510": {
+    "CI 19140 (YELLOW 5)": {
         "endocrinien": "Non endocrinien",
         "allergène": "Non Allergène",
         "description": "À SAVOIR L'acide citrique est un des principaux actifs du citron. Il est souvent utilisé pour équilibrer le pH (trop basique) des produits cosmétiques. Il est aussi présent dans certains produits de bain (bombes de bain, galets de bain ou ''poudres magiques'') en raison de ses propriétés effervescentes."
     },
-    "CINNAMAL": {
-        "endocrinien": "Non endocrinien",
-        "allergène": "Non Allergène",
-        "description": "À SAVOIR L'acide citrique est un des principaux actifs du citron. Il est souvent utilisé pour équilibrer le pH (trop basique) des produits cosmétiques. Il est aussi présent dans certains produits de bain (bombes de bain, galets de bain ou ''poudres magiques'') en raison de ses propriétés effervescentes."
-    },
-    "CI 17200 (RED 33)": {
-        "endocrinien": "Non endocrinien",
-        "allergène": "Non Allergène",
-        "description": "À SAVOIR L'acide citrique est un des principaux actifs du citron. Il est souvent utilisé pour équilibrer le pH (trop basique) des produits cosmétiques. Il est aussi présent dans certains produits de bain (bombes de bain, galets de bain ou ''poudres magiques'') en raison de ses propriétés effervescentes."
-    },
-    "ALCOHOL": {
-        "endocrinien": "Non endocrinien",
-        "allergène": "Non Allergène",
-        "description": "À SAVOIR L'alcool appelé aussi éthanol est un liquide incolore avec une forte odeur. Il est utilisé en cosmétique pour ses propriétés antimicrobiennes avec un spectre assez large (antifongique, antiviral et antibactérien). Il est aussi employé dans de nombreux autres cas comme conservateur, solvant ou encore pour réduire la transpiration dans les déodorants.  Même s''il n'est pas réglementé dans les cosmétiques, de nombreux cas d'irritations possibles sont néanmoins rapportés avec l'alcool (peau, muqueuse, poumon, yeux ...)."
-    },
-    "CI 14700": {
+    "CI 42090 (BLUE 1)": {
         "endocrinien": "Non endocrinien",
         "allergène": "Non Allergène",
         "description": "À SAVOIR L'acide citrique est un des principaux actifs du citron. Il est souvent utilisé pour équilibrer le pH (trop basique) des produits cosmétiques. Il est aussi présent dans certains produits de bain (bombes de bain, galets de bain ou ''poudres magiques'') en raison de ses propriétés effervescentes."
@@ -104,177 +29,217 @@
         "allergène": "Non Allergène",
         "description": "Pas d'information supplémentaire"
     },
-    "COUMARIN": {
-        "endocrinien": "Non endocrinien",
-        "allergène": "Allergène",
-        "description": "À SAVOIR Le coumarin est une substance aromatique qui fait partie de 24 allergènes réglementés par l'Europe. Son nom provient de ''cumaru'' qui est le nom de l'arbre de Tonka (dans une langue amazonienne). En effet, ses fèves contiennent de 1 à 3% de coumarine. C'est W.H. Perkin en 1868 qui le premier a réussi à synthétiser le composé (réaction de Perkin). On le trouve également dans le miel, le thé vert ou la cannelle. Ses senteurs rappellent des odeurs de foin fraîchement coupé avec toutefois de nombreuses notes et nuances (noisette, amande, vanille ...)."
-    },
-    "FARNESOL": {
-        "endocrinien": "Non endocrinien",
-        "allergène": "Allergène",
-        "description": "À SAVOIR Le farnésol est une molécule odorante faisant partie de la liste des 24 allergènes réglementés par l'Europe. Il est présent dans de nombreuses huiles essentielles comme celles de fleurs de tilleul ou d'acacia. Son nom proviendrait d'ailleurs d'une variété de cet arbre : l'Acacia farnesiana."
-    },
-    "CI 15985 ": {
-        "endocrinien": "Non endocrinien",
-        "allergène": "Non Allergène",
-        "description": "À SAVOIR L'acide citrique est un des principaux actifs du citron. Il est souvent utilisé pour équilibrer le pH (trop basique) des produits cosmétiques. Il est aussi présent dans certains produits de bain (bombes de bain, galets de bain ou ''poudres magiques'') en raison de ses propriétés effervescentes."
-    },
-    "CI 14700 ": {
-        "endocrinien": "Non endocrinien",
-        "allergène": "Non Allergène",
-        "description": "À SAVOIR Le CI 14700 est un colorant synthétique de couleur rouge."
-    },
-    "CI 42090 (BLUE 1)": {
-        "endocrinien": "Non endocrinien",
-        "allergène": "Non Allergène",
-        "description": "À SAVOIR Le CI 42090 est un colorant bleu de synthèse que l'on retrouve sous d'autres appellations comme Blue 1 ou Blue 1 Lake (Etats-Unis)."
-    },
-    "TOCOPHEROL": {
-        "endocrinien": "Non endocrinien",
-        "allergène": "Non Allergène",
-        "description": "À SAVOIR Le Tocophérol représente différentes composantes de la Vitamine E. Il est utilisé en cosmétique pour ses propriétés antioxydantes. Cet ingrédient liposoluble (qui se dissout dans l'huile) se trouve à l'état naturel dans des huiles végétales comme l'huile de palme, de tournesol ou encore de germe de blé ... En 2014, le Tocopherol a fait l'objet d'une nouvelle étude du CIR ainsi que 13 autres dérivés de la vitamine E. L'organisme a conclu a son innocuité. Notez que le Tocopherol peut être d'origine synthétique (fabriqué entièrement en laboratoire)."
-    },
-    "PARFUM ": {
-        "endocrinien": "Non endocrinien",
-        "allergène": "Non Allergène",
-        "description": "À SAVOIR Derrière ce terme de parfum, se cachent malheureusement de nombreuses molécules odorantes potentiellement irritantes voire allergisantes. Difficile de s'y retrouver lorsque que l'on devient allergique à un produit et que l'information n'est pas plus détaillée que cela. Néanmoins, pour nous aider, l'Europe a réglementé 24 molécules qui, lorsqu'elles sont utilisées au delà d'une certaine concentration, doivent être mentionnées dans la liste INCI (en général à la fin), bien que faisant partie elles-mêmes du parfum d'un produit. C'est le cas par exemple du Limonène, du linalol..."
-    },
-    "AQUA ": {
-        "endocrinien": "Non endocrinien",
-        "allergène": "Non Allergène",
-        "description": "À SAVOIR L'eau est l'ingrédient le plus utilisé en cosmétique : 83% des produits en contiennent (pourcentage établi à partir de 50 000 produits de l'App Inci Beauty). L'eau étant d'origine minérale, elle ne pourra jamais être certifiée Bio. C'est la raison pour laquelle les labels Bio, pour certifier les produits, autorisent des minimums d'ingrédients biologiques assez bas (10% pour Ecocert) sur le total d'une formule, en prenant en compte que la présence d'eau non Bio est indispensable et souvent majoritaire dans de nombreux cas."
-    },
-    "PARFUM": {
-        "endocrinien": "Non endocrinien",
-        "allergène": "Non Allergène",
-        "description": "À SAVOIR Derrière ce terme de parfum, se cachent malheureusement de nombreuses molécules odorantes potentiellement irritantes voire allergisantes. Difficile de s'y retrouver lorsque que l'on devient allergique à un produit et que l'information n'est pas plus détaillée que cela. Néanmoins, pour nous aider, l'Europe a réglementé 24 molécules qui, lorsqu'elles sont utilisées au delà d'une certaine concentration, doivent être mentionnées dans la liste INCI (en général à la fin), bien que faisant partie elles-mêmes du parfum d'un produit. C'est le cas par exemple du Limonène, du linalol..."
-    },
-    "AMMONIUM ACRYLOYLDIMETHYLTAURATE": {
-        "endocrinien": "Non endocrinien",
-        "allergène": "Non Allergène",
-        "description": "Pas d'information supplémentaire"
-    },
-    "EXT. VIOLET 2": {
-        "endocrinien": "Non endocrinien",
-        "allergène": "Non Allergène",
-        "description": "À SAVOIR L'Ethylhexylglycerin est fabriqué à partir de glycérine, il est utilisé en cosmétique en tant qu'agent humectant émollient, il améliore la sensation de la peau des formulations cosmétiques. Il est aussi employé dans les déodorants en tant qu'actif, il inhibe la croissance et la multiplication des bactéries à l'origine des odeurs, tout en n'affectant pas la flore cutanée. Bien qu'il soit interdit en bio, en raison de son processus de fabrication, il ne pause toutefois pas de soucis particulier."
-    },
-    "CITRONELLOL": {
-        "endocrinien": "Non endocrinien",
-        "allergène": "Non Allergène",
-        "description": "À SAVOIR L'acide citrique est un des principaux actifs du citron. Il est souvent utilisé pour équilibrer le pH (trop basique) des produits cosmétiques. Il est aussi présent dans certains produits de bain (bombes de bain, galets de bain ou ''poudres magiques'') en raison de ses propriétés effervescentes."
-    },
-    "EUGENOL": {
-        "endocrinien": "Non endocrinien",
-        "allergène": "Allergène",
-        "description": "À SAVOIR L'Eugénol est un composé aromatique phénolique présent naturellement notamment dans le clou de girofle. Il sert à la fabrication de la vanilline et est utilisé dans les cosmétiques en tant qu'aromatisant. Il est employé en dentisterie en tant qu'analgésique, est utilisé dans les ciments chirurgicaux et certaines pâtes dentaires. Il est aussi doté de pouvoirs antiseptiques, aux Etat-Unis par exemple, on s'en sert de pesticides, classé dans la liste des ''pesticides à risque minimum''. Il fait partie des 24 allergènes réglementés par l'Europe."
-    },
-    "ISOMETHYL IONONE": {
+    "ALPHA-ISOMETHYL IONONE": {
         "endocrinien": "Non endocrinien",
         "allergène": "Allergène",
         "description": "À SAVOIR Cette molécule synthétique incolore utilisée en parfumerie, fait partie des 24 allergènes réglementés par l'Europe. Ses senteurs florales sont proches de celles de la violette ou de l'iris."
     },
-    "CINNAMYL ALCOHOL": {
-        "endocrinien": "Non endocrinien",
-        "allergène": "Allergène",
-        "description": "À SAVOIR L'alcool cinnamique fait partie des 24 allergènes réglementés par l'Europe. C'est un agent parfumant que l'on retrouve naturellement dans la Cannelle. Il est utilisé en cosmétique pour ses senteurs de cannelle, jonquille, jacinthe ou encore jasmin."
-    },
-    "BENZYL CINNAMATE": {
+    "RED 4": {
         "endocrinien": "Non endocrinien",
         "allergène": "Non Allergène",
-        "description": "À SAVOIR Le Benzoate de sodium est utilisé en tant que conservateur antifongique dans les produits cosmétiques et dans l'alimentaire sous la dénomination E211. Il est donc très efficace contre les champignons, levures et bactéries. Il est fabriqué assez facilement avec de la soude, de l'eau et de l'acide benzoïque. On le trouve naturellement dans certains fruits comme les prunes, les pruneaux ou encore les pommes. Il est autorisé en bio."
-    },
-    "BENZYL SALICYLATE": {
-        "endocrinien": "Non endocrinien",
-        "allergène": "Non Allergène",
-        "description": "À SAVOIR Le Benzoate de sodium est utilisé en tant que conservateur antifongique dans les produits cosmétiques et dans l'alimentaire sous la dénomination E211. Il est donc très efficace contre les champignons, levures et bactéries. Il est fabriqué assez facilement avec de la soude, de l'eau et de l'acide benzoïque. On le trouve naturellement dans certains fruits comme les prunes, les pruneaux ou encore les pommes. Il est autorisé en bio."
-    },
-    "ETHYLHEXYL SALICYLATE": {
-        "endocrinien": "Non endocrinien",
-        "allergène": "Non Allergène",
-        "description": "À SAVOIR Le phenoxyethanol est un conservateur synthétique connu sous l'acronyme de EGPhE, très utilisé en cosmétique et de plus en plus controversé. Depuis 2012, l'ANSM (Agence nationale de sécurité du médicament et des produits de santé) recommande que ce conservateur ne soit pas utilisé dans les produits cosmétiques destinés au siège des bébés et que sa teneur maximale soit fixée à 0,4% pour les autres produits destinés aux enfants de moins de 3 ans. Elle dénonce également sa toxicité hépatique, ses effets potentiellement néfastes sur la reproduction ainsi que bon nombre d'autres désagréments : les conclusions du rapport de l'ANSM de 2012 sont alarmants. Dans son avis de mai 2018, le Comité scientifique spécialisé temporaire (CSST) chargé de la réévaluation du phénoxyéthanol au niveau de l'Europe, a quant à lui conclu : ''La recommandation par l'Ansm de non-utilisation du phénoxyéthanol dans les produits cosmétiques destinés au siège doit être maintenue. Il est souhaitable de l'élargir aux lingettes qui sont très habituellement utilisées aussi pour nettoyer le siège des jeunes enfants. Dans tous les autres produits cosmétiques destinés aux enfants de 3 ans ou moins, la concentration maximale de phénoxyéthanol pourrait rester de 1 %.'' Le CSST suivrait donc l'ANSM pour les lingettes mais pas pour la concentration. En tout cas, réglementairement, le phenoxyethanol est toujours autorisé dans les lingettes bébés !!! Le phenoxyethanol est produit par éthoxylation (un procédé chimique très polluant) en faisant réagir du phénol et de l'oxyde d'éthylène à une température et une pression élevées. Notez toutefois que le phenoxyethanol est présent naturellement dans le thé vert, mais ce n'est pas cette version du composé qui est utilisé en cosmétique. En raison de son procédé de fabrication, le Phenoxyethanol est interdit en Bio."
+        "description": "Pas d'information supplémentaire"
     },
     "BENZYL ALCOHOL": {
         "endocrinien": "Non endocrinien",
         "allergène": "Non Allergène",
         "description": "À SAVOIR Le Benzoate de sodium est utilisé en tant que conservateur antifongique dans les produits cosmétiques et dans l'alimentaire sous la dénomination E211. Il est donc très efficace contre les champignons, levures et bactéries. Il est fabriqué assez facilement avec de la soude, de l'eau et de l'acide benzoïque. On le trouve naturellement dans certains fruits comme les prunes, les pruneaux ou encore les pommes. Il est autorisé en bio."
     },
-    "AQUA (WATER)": {
+    "CI 15510": {
         "endocrinien": "Non endocrinien",
         "allergène": "Non Allergène",
-        "description": "À SAVOIR L'eau est l'ingrédient le plus utilisé en cosmétique : 83% des produits en contiennent (pourcentage établi à partir de 50 000 produits de l'App Inci Beauty). L'eau étant d'origine minérale, elle ne pourra jamais être certifiée Bio. C'est la raison pour laquelle les labels Bio, pour certifier les produits, autorisent des minimums d'ingrédients biologiques assez bas (10% pour Ecocert) sur le total d'une formule, en prenant en compte que la présence d'eau non Bio est indispensable et souvent majoritaire dans de nombreux cas."
+        "description": "À SAVOIR Le dioxyde de titane est un minéral très abondant sur terre : c'est d'ailleurs le 9ème élément chimique le plus abondant de la croûte terrestre. Il peut être employé en cosmétique en tant que Filtre UV ou en tant que colorant blanc. Lorsque c'est un filtre UV, il peut être réduit sous forme de nanoparticules : le CSSC a approuvé l'utilisation du dioxyde de titane à l'état de nanoparticules dans les crèmes solaires dès 2014, dans des concentrations inférieures à 25%. Le règlement CE 2016/1143 de juillet 2016 a libéré l'utilisation de dioxyde de Titane sous cette forme dans les cosmétiques. Le Dioxyde de titane réduit à la taille de nanoparticules est autorisé en Bio, et permet de supprimer l'effet blanchâtre disgracieux provoqué par ce filtre minéral lorsqu'il est utilisé dans son état micrométrique, c'est à dire dans sa taille originale. Sachez néanmoins que le fabricant a l'obligation de mentionner à côté du nom de l'ingrédient la mention (NANO) ou [NANO] dans la liste INCI, lorsque c'est le cas.  En 2006, le Centre International de Recherche sur le Cancer (CIRC) a classé le dioxyde de titane TiO2 dans le groupe des substances ''cancérogènes possibles chez l'homme'' (groupe 2B) : lorsqu'il est inhalé quelque soit la taille de la particule Nano ou non. En 2016, l'ANSES a soumis à l'ECHA (Agence européenne des produits chimiques) une proposition de classification du dioxyde de titane en tant que substance cancérogène par inhalation (réévaluation en catégorie 1B).  Vous l'avez compris, le cas du Dioxide de Titane, seul filtre filtre UV autorisé en Bio avec l'oxyde de Zinc est très complexe. Néanmoins, nous notons qu'il pose principalement des questionnements et controverses lorsqu'il est inhalé/avalé et/ou est employé à l'état de nanoparticules."
     },
-    "HYDROXYCITRONELLAL": {
-        "endocrinien": "Non endocrinien",
-        "allergène": "Allergène",
-        "description": "À SAVOIR Ce composé aromatique chimique fait partie de la liste des 24 allergènes réglementés par l'Europe. Il est utilisé pour ses senteurs de muguet et de lilas."
-    },
-    "CI 17200 ": {
+    "CI 14700": {
         "endocrinien": "Non endocrinien",
         "allergène": "Non Allergène",
         "description": "À SAVOIR L'acide citrique est un des principaux actifs du citron. Il est souvent utilisé pour équilibrer le pH (trop basique) des produits cosmétiques. Il est aussi présent dans certains produits de bain (bombes de bain, galets de bain ou ''poudres magiques'') en raison de ses propriétés effervescentes."
-    },
-    "BUTYL METHOXYDIBENZOYLMETHANE": {
-        "endocrinien": "Non endocrinien",
-        "allergène": "Non Allergène",
-        "description": "À SAVOIR Le beurre de karité est obtenu à partir du fruit (les noix) du karité, un arbre présent majoritairement sur le continent Africain. Il est composé principalement de triglycérides, d'acides gras, des esters de cire et d'actifs : parmi ceux-ci, des vitamines (A, D, E), des esters résineux, des phytostérols, du latex. Il est utilisé dans de nombreux cosmétiques pour ses propriétés assoupissantes et adoucissantes pour l'épiderme. Il peut aussi protéger la peau et le cuir chevelu des nombreuses agressions extérieures."
     },
     "PARFUM (FRAGRANCE)": {
         "endocrinien": "Non endocrinien",
         "allergène": "Non Allergène",
         "description": "À SAVOIR Derrière ce terme de parfum, se cachent malheureusement de nombreuses molécules odorantes potentiellement irritantes voire allergisantes. Difficile de s'y retrouver lorsque que l'on devient allergique à un produit et que l'information n'est pas plus détaillée que cela. Néanmoins, pour nous aider, l'Europe a réglementé 24 molécules qui, lorsqu'elles sont utilisées au delà d'une certaine concentration, doivent être mentionnées dans la liste INCI (en général à la fin), bien que faisant partie elles-mêmes du parfum d'un produit. C'est le cas par exemple du Limonène, du linalol..."
     },
-    "CI 19140 (YELLOW 5)": {
+    "CI 15985 ": {
+        "endocrinien": "Non endocrinien",
+        "allergène": "Non Allergène",
+        "description": "À SAVOIR L'ingrédient CI 15850 est un colorant de synthèse rouge, que l'on retrouve dans les listes INCI sous les appellations Red 6, Red 6 Lake, Red 7 et Red 7 Lake (sur des produits issus du marché américain)."
+    },
+    "BUTYL METHOXYDIBENZOYLMETHANE": {
+        "endocrinien": "Non endocrinien",
+        "allergène": "Non Allergène",
+        "description": "À SAVOIR Le Butylène Glycol est un composé chimique dérivé de pétrole, souvent utilisé en tant qu'humectant dans les soins de la peau. Il empêche le produit de sécher et rend la formulation plus résistante à l'humidité. Chez les individus sensibles, le butylène glycol peut être irritant pour la peau, les yeux et les voies nasales, toutefois il est considéré comme étant le moins irritant de tous les glycols. Il peut être autorisé en Bio, lorsqu'il est biosourcé et obtenu par fermentation à partir de sucre."
+    },
+    "ISOMETHYL IONONE": {
+        "endocrinien": "Non endocrinien",
+        "allergène": "Non Allergène",
+        "description": "À SAVOIR L'EDTA (EDTA et ses principaux sels utilisés en cosmétique Disodium EDTA, Tetrasodium EDTA, Trisodium EDTA) est un agent chélateur que l'on emploie depuis les années 30 et pour lequel les industriels maîtrisent totalement la transformation et l'usage. Sa principale propriété est de complexer les métaux lourds. C'est-à-dire qu'il va en quelque sorte les neutraliser en formant avec eux un complexe, pour leur servir ensuite de transporteur et les évacuer. Il est donc assez logiquement utilisé en médecine pour lutter contre les intoxications aux métaux lourds (au plomb par exemple). Il est souvent employé en tant que séquestrant (calcium, calcaire ...) dans les savons ou gels douches, cela permet notamment de gérer les eaux ''dures''.  L'ingrédient ne pose pas de problème pour la santé humaine mais son impact sur l'environnement est désastreux : il n'est pas biodégradable et est extrêmement nocif pour la nature. Les stations d'épuration ne le retiennent pas et le laissent fuir dans nos rivières ! Les filtres à charbon de notre eau potable ne sont pas plus efficaces pour l'arrêter (on réingère donc des complexes EDTA/Fer). Le problème est finalement qu'il transporte avec lui des métaux lourds, dont on ne connaît pas la destination finale.  L'EDTA et ses sels sont interdits en bio."
+    },
+    "CITRONELLOL": {
         "endocrinien": "Non endocrinien",
         "allergène": "Non Allergène",
         "description": "À SAVOIR L'acide citrique est un des principaux actifs du citron. Il est souvent utilisé pour équilibrer le pH (trop basique) des produits cosmétiques. Il est aussi présent dans certains produits de bain (bombes de bain, galets de bain ou ''poudres magiques'') en raison de ses propriétés effervescentes."
     },
-    "DIETHYLAMINO HYDROXYBENZOYL HEXYL BENZOATE": {
+    "CI 42090": {
+        "endocrinien": "Non endocrinien",
+        "allergène": "Non Allergène",
+        "description": "À SAVOIR L'acide citrique est un des principaux actifs du citron. Il est souvent utilisé pour équilibrer le pH (trop basique) des produits cosmétiques. Il est aussi présent dans certains produits de bain (bombes de bain, galets de bain ou ''poudres magiques'') en raison de ses propriétés effervescentes."
+    },
+    "TRIETHYL CITRATE": {
+        "endocrinien": "Non endocrinien",
+        "allergène": "Non Allergène",
+        "description": "À SAVOIR Le citrate de triéthyle est produit par un processus d'estérification de l'acide citrique avec de l'éthanol. Il est naturellement présent en petite quantité dans le vin et est facilement métabolisé par le corps humain. En cosmétique, cet ingrédient est fréquemment utilisé dans les déodorants formulés comme alternatives aux sels d'aluminium. En raison de sa capacité à inhiber la décomposition enzymatique des composants de la sueur, il constitue un excellent ingrédient actif dans la lutte contre les odeurs corporelles. Le citrate de triéthyle présente également des propriétés antibactériennes. Il est autorisé en bio."
+    },
+    "EUGENOL": {
+        "endocrinien": "Non endocrinien",
+        "allergène": "Allergène",
+        "description": "À SAVOIR L'Eugénol est un composé aromatique phénolique présent naturellement notamment dans le clou de girofle. Il sert à la fabrication de la vanilline et est utilisé dans les cosmétiques en tant qu'aromatisant. Il est employé en dentisterie en tant qu'analgésique, est utilisé dans les ciments chirurgicaux et certaines pâtes dentaires. Il est aussi doté de pouvoirs antiseptiques, aux Etat-Unis par exemple, on s'en sert de pesticides, classé dans la liste des ''pesticides à risque minimum''. Il fait partie des 24 allergènes réglementés par l'Europe."
+    },
+    "AQUA ": {
+        "endocrinien": "Non endocrinien",
+        "allergène": "Non Allergène",
+        "description": "À SAVOIR L'eau est l'ingrédient le plus utilisé en cosmétique : 83% des produits en contiennent (pourcentage établi à partir de 50 000 produits de l'App Inci Beauty). L'eau étant d'origine minérale, elle ne pourra jamais être certifiée Bio. C'est la raison pour laquelle les labels Bio, pour certifier les produits, autorisent des minimums d'ingrédients biologiques assez bas (10% pour Ecocert) sur le total d'une formule, en prenant en compte que la présence d'eau non Bio est indispensable et souvent majoritaire dans de nombreux cas."
+    },
+    "FRAGRANCE": {
         "endocrinien": "Non endocrinien",
         "allergène": "Non Allergène",
         "description": "Pas d'information supplémentaire"
     },
-    "LIMONENE": {
-        "endocrinien": "Non endocrinien",
-        "allergène": "Allergène",
-        "description": "À SAVOIR Le Linalol est un composé aromatique classé parmi les 24 allergènes réglementés par l'Europe. Il est présent à l'état naturel dans les huiles essentielles de thym, de lavande, de lavandin, de pin sylvestre ou de menthe poivrée... On le retrouve aussi dans de nombreux extraits (citron, orange, verveine...)."
-    },
-    "CI 60730 (EXT. VIOLET 2)": {
-        "endocrinien": "Non endocrinien",
-        "allergène": "Non Allergène",
-        "description": "À SAVOIR L'acide citrique est un des principaux actifs du citron. Il est souvent utilisé pour équilibrer le pH (trop basique) des produits cosmétiques. Il est aussi présent dans certains produits de bain (bombes de bain, galets de bain ou ''poudres magiques'') en raison de ses propriétés effervescentes."
-    },
-    "CI 60730": {
-        "endocrinien": "Non endocrinien",
-        "allergène": "Non Allergène",
-        "description": "À SAVOIR L'acide citrique est un des principaux actifs du citron. Il est souvent utilisé pour équilibrer le pH (trop basique) des produits cosmétiques. Il est aussi présent dans certains produits de bain (bombes de bain, galets de bain ou ''poudres magiques'') en raison de ses propriétés effervescentes."
-    },
-    "ORANGE 4": {
+    "WATER": {
         "endocrinien": "Non endocrinien",
         "allergène": "Allergène",
         "description": "Pas d'information supplémentaire"
     },
-    "ETHYLHEXYL METHOXYCINNAMATE": {
+    "PARFUM": {
+        "endocrinien": "Non endocrinien",
+        "allergène": "Non Allergène",
+        "description": "À SAVOIR Derrière ce terme de parfum, se cachent malheureusement de nombreuses molécules odorantes potentiellement irritantes voire allergisantes. Difficile de s'y retrouver lorsque que l'on devient allergique à un produit et que l'information n'est pas plus détaillée que cela. Néanmoins, pour nous aider, l'Europe a réglementé 24 molécules qui, lorsqu'elles sont utilisées au delà d'une certaine concentration, doivent être mentionnées dans la liste INCI (en général à la fin), bien que faisant partie elles-mêmes du parfum d'un produit. C'est le cas par exemple du Limonène, du linalol..."
+    },
+    "CI 17200 ": {
+        "endocrinien": "Non endocrinien",
+        "allergène": "Non Allergène",
+        "description": "À SAVOIR L'acide citrique est un des principaux actifs du citron. Il est souvent utilisé pour équilibrer le pH (trop basique) des produits cosmétiques. Il est aussi présent dans certains produits de bain (bombes de bain, galets de bain ou ''poudres magiques'') en raison de ses propriétés effervescentes."
+    },
+    "PARFUM ": {
+        "endocrinien": "Non endocrinien",
+        "allergène": "Non Allergène",
+        "description": "À SAVOIR Derrière ce terme de parfum, se cachent malheureusement de nombreuses molécules odorantes potentiellement irritantes voire allergisantes. Difficile de s'y retrouver lorsque que l'on devient allergique à un produit et que l'information n'est pas plus détaillée que cela. Néanmoins, pour nous aider, l'Europe a réglementé 24 molécules qui, lorsqu'elles sont utilisées au delà d'une certaine concentration, doivent être mentionnées dans la liste INCI (en général à la fin), bien que faisant partie elles-mêmes du parfum d'un produit. C'est le cas par exemple du Limonène, du linalol..."
+    },
+    "FARNESOL": {
+        "endocrinien": "Non endocrinien",
+        "allergène": "Allergène",
+        "description": "À SAVOIR Le farnésol est une molécule odorante faisant partie de la liste des 24 allergènes réglementés par l'Europe. Il est présent dans de nombreuses huiles essentielles comme celles de fleurs de tilleul ou d'acacia. Son nom proviendrait d'ailleurs d'une variété de cet arbre : l'Acacia farnesiana."
+    },
+    "CITRUS AURANTIUM AMARA (BITTER ORANGE) FLOWER WATER": {
+        "endocrinien": "Non endocrinien",
+        "allergène": "Allergène",
+        "description": "Pas d'information supplémentaire"
+    },
+    "HEXYL CINNAMAL": {
         "endocrinien": "Non endocrinien",
         "allergène": "Non Allergène",
         "description": "À SAVOIR L'Ethylhexylglycerin est fabriqué à partir de glycérine, il est utilisé en cosmétique en tant qu'agent humectant émollient, il améliore la sensation de la peau des formulations cosmétiques. Il est aussi employé dans les déodorants en tant qu'actif, il inhibe la croissance et la multiplication des bactéries à l'origine des odeurs, tout en n'affectant pas la flore cutanée. Bien qu'il soit interdit en bio, en raison de son processus de fabrication, il ne pause toutefois pas de soucis particulier."
+    },
+    "ANISE ALCOHOL": {
+        "endocrinien": "Non endocrinien",
+        "allergène": "Non Allergène",
+        "description": "Pas d'information supplémentaire"
+    },
+    "METHYL-2-OCTYNOATE": {
+        "endocrinien": "Non endocrinien",
+        "allergène": "Non Allergène",
+        "description": "À SAVOIR Le diméthicone nommé aussi PDMS est un silicone qui n'est soumis à aucune restriction européenne. C'est aussi le silicone le plus utilisé dans les produits cosmétiques. Son rôle est de produire un film de surface autour du cheveu et sur la peau, pour les protéger ensuite (effet occlusif, avec ce que cela peut impliquer). Il apporte aussi de la douceur aux produits et rend agréable l'utilisation de crèmes et de shampoings. C'est un peu ''le couteau Suisse du chimiste'' : on l'utilise un peu à toutes les sauces, pour rendre les produits plus brillants, plus agréables et donc plus vendeurs, ou encore pour venir compenser l'effet desséchant de certains ingrédients comme les tensioactifs.  Ce composant inerte ne pose aucun problème pour la santé humaine, on peut juste se demander si son effet n'est pas uniquement marketing et artificiel. C'est sur l'aspect écologique que l'ingrédient peut avoir un impact très négatif puisqu'il est très peu biodégradable."
     },
     "PENTAERYTHRITYL TETRA-DI-T-BUTYL HYDROXYHYDROCINNAMATE": {
         "endocrinien": "Non endocrinien",
         "allergène": "Non Allergène",
         "description": "À SAVOIR Cet ingrédient est utilisé en tant qu'antioxydant synthétique dans les cosmétiques. Le groupe d'expert du CIR a conclu en 2014 que la substance était sûre et n'était pas un sensibilisateur."
     },
-    "RED 4": {
+    "CINNAMYL ALCOHOL": {
+        "endocrinien": "Non endocrinien",
+        "allergène": "Allergène",
+        "description": "À SAVOIR L'alcool cinnamique fait partie des 24 allergènes réglementés par l'Europe. C'est un agent parfumant que l'on retrouve naturellement dans la Cannelle. Il est utilisé en cosmétique pour ses senteurs de cannelle, jonquille, jacinthe ou encore jasmin."
+    },
+    "AQUA": {
         "endocrinien": "Non endocrinien",
         "allergène": "Non Allergène",
-        "description": "À SAVOIR Le Sodium Laureth sulfate (SLES) est un tensioactif anionique utilisé en cosmétique pour ses propriétés détergentes. On le retrouve donc très présent dans les gels douches et les shampoings. Il est produit à partir du Sodium Lauryl Sulfate (SLS) par éthoxylation, une transformation chimique très polluante, c'est la raison pour laquelle il est interdit en Bio. Le sodium Laureth Sulfate est réputé moins irritant que le Sodium Lauryl Sulfate bien que ce dernier soit plus naturel et autorisé en Bio, c'est la transformation chimique qui a permis de l'adoucir et d'augmenter son pouvoir moussant.  Cet ingrédient est classé écotoxique selon REACH (Aquatic Chronic 3)."
+        "description": "À SAVOIR L'eau est l'ingrédient le plus utilisé en cosmétique : 83% des produits en contiennent (pourcentage établi à partir de 50 000 produits de l'App Inci Beauty). L'eau étant d'origine minérale, elle ne pourra jamais être certifiée Bio. C'est la raison pour laquelle les labels Bio, pour certifier les produits, autorisent des minimums d'ingrédients biologiques assez bas (10% pour Ecocert) sur le total d'une formule, en prenant en compte que la présence d'eau non Bio est indispensable et souvent majoritaire dans de nombreux cas."
     },
-    "CI 19140 ": {
+    "EVERNIA FURFURACEA (TREEMOSS) EXTRACT": {
+        "endocrinien": "Non endocrinien",
+        "allergène": "Allergène",
+        "description": "À SAVOIR Cette substance est un lichen qui prolifère sur les écorces des arbres et principalement sur les chênes. En cosmétique, la ''mousse de Chêne'' est notamment utilisée dans le ''Chypre'', une base pour les parfums. Elle fait partie des 24 allergènes réglementés par l'Europe."
+    },
+    "CI 14700 (RED 4)": {
         "endocrinien": "Non endocrinien",
         "allergène": "Non Allergène",
         "description": "À SAVOIR Le CI 19140 est un colorant jaune d'origine synthétique."
     },
+    "ORANGE 4": {
+        "endocrinien": "Non endocrinien",
+        "allergène": "Allergène",
+        "description": "Pas d'information supplémentaire"
+    },
+    "BENZYL BENZOATE": {
+        "endocrinien": "Non endocrinien",
+        "allergène": "Allergène",
+        "description": "À SAVOIR L'alcool benzylique fait partie des 24 allergènes réglementés par l'Europe. Il est employé la plupart du temps en tant que conservateur. On le retrouve naturellement présent dans de nombreuses plantes et fruits comme le Jasmin, l'ail et l'Ylang-Ylang, ou encore l'abricot, l'amande, la pomme et le cassis ... L'alcool Benzylique est autorisé en Bio."
+    },
+    "AQUA (WATER)": {
+        "endocrinien": "Non endocrinien",
+        "allergène": "Non Allergène",
+        "description": "À SAVOIR L'eau est l'ingrédient le plus utilisé en cosmétique : 83% des produits en contiennent (pourcentage établi à partir de 50 000 produits de l'App Inci Beauty). L'eau étant d'origine minérale, elle ne pourra jamais être certifiée Bio. C'est la raison pour laquelle les labels Bio, pour certifier les produits, autorisent des minimums d'ingrédients biologiques assez bas (10% pour Ecocert) sur le total d'une formule, en prenant en compte que la présence d'eau non Bio est indispensable et souvent majoritaire dans de nombreux cas."
+    },
+    "POLYACRYLATE CROSSPOLYMER-6": {
+        "endocrinien": "Non endocrinien",
+        "allergène": "Non Allergène",
+        "description": "À SAVOIR Le polysorbate 20 ou encore Tween 20 est tensioactif non ionique et un émulsifiant dérivé de sorbitol à base de fruits et de baies. Il permet de diluer les huiles essentielles ou parfum dans les produits cosmétiques à base d'eau comme les lotions, crèmes, gels. Le polysorbate 20 est produit par éthoxylation. Le nombre 20 indique le nombre moyen de moles d'oxyde d'éthylène ayant réagi par mole de sorbitol."
+    },
+    "GERANIOL": {
+        "endocrinien": "Non endocrinien",
+        "allergène": "Allergène",
+        "description": "À SAVOIR Le Géraniol aussi nommé rhodinol, est un alcool monoterpénique qui fait partie des 24 allergènes réglementés par l'Europe. On le retrouve présent dans les huiles essentielles de Géranium, de citronnelle mais aussi dans l'huile de rose et de Palmarosa. Il est utilisé en parfumerie pour son odeur de rose."
+    },
+    "DIETHYLAMINO HYDROXYBENZOYL HEXYL BENZOATE": {
+        "endocrinien": "Non endocrinien",
+        "allergène": "Non Allergène",
+        "description": "Pas d'information supplémentaire"
+    },
+    "ALPHA": {
+        "endocrinien": "Non endocrinien",
+        "allergène": "Allergène",
+        "description": "À SAVOIR Cette molécule synthétique incolore utilisée en parfumerie, fait partie des 24 allergènes réglementés par l'Europe. Ses senteurs florales sont proches de celles de la violette ou de l'iris."
+    },
+    "LIMONENE": {
+        "endocrinien": "Non endocrinien",
+        "allergène": "Allergène",
+        "description": "À SAVOIR Le Linalol est un composé aromatique classé parmi les 24 allergènes réglementés par l'Europe. Il est présent à l'état naturel dans les huiles essentielles de thym, de lavande, de lavandin, de pin sylvestre ou de menthe poivrée... On le retrouve aussi dans de nombreux extraits (citron, orange, verveine...)."
+    },
+    "IL47-1": {
+        "endocrinien": "Non endocrinien",
+        "allergène": "Non Allergène",
+        "description": "À SAVOIR La silice est un minéral présent naturellement dans le grès, l'argile et le granit, ainsi que dans certaines parties de plantes et d'animaux. On l'emploie pour différentes raisons en cosmétiques : en agent abrasif dans les dentifrices, en opacifiant dans les poudre et blushs, ou encore en absorbant dans les déodorants. La silice est autorisée en Bio."
+    },
+    "BENZYL CINNAMATE": {
+        "endocrinien": "Non endocrinien",
+        "allergène": "Allergène",
+        "description": "À SAVOIR L'alcool benzylique fait partie des 24 allergènes réglementés par l'Europe. Il est employé la plupart du temps en tant que conservateur. On le retrouve naturellement présent dans de nombreuses plantes et fruits comme le Jasmin, l'ail et l'Ylang-Ylang, ou encore l'abricot, l'amande, la pomme et le cassis ... L'alcool Benzylique est autorisé en Bio."
+    },
+    "AMMONIUM ACRYLOYLDIMETHYLTAURATE": {
+        "endocrinien": "Non endocrinien",
+        "allergène": "Non Allergène",
+        "description": "Pas d'information supplémentaire"
+    },
+    "CI 19140 ": {
+        "endocrinien": "Non endocrinien",
+        "allergène": "Non Allergène",
+        "description": "À SAVOIR L'acide citrique est un des principaux actifs du citron. Il est souvent utilisé pour équilibrer le pH (trop basique) des produits cosmétiques. Il est aussi présent dans certains produits de bain (bombes de bain, galets de bain ou ''poudres magiques'') en raison de ses propriétés effervescentes."
+    },
     "CI 60730 ": {
+        "endocrinien": "Non endocrinien",
+        "allergène": "Non Allergène",
+        "description": "À SAVOIR L'acide citrique est un des principaux actifs du citron. Il est souvent utilisé pour équilibrer le pH (trop basique) des produits cosmétiques. Il est aussi présent dans certains produits de bain (bombes de bain, galets de bain ou ''poudres magiques'') en raison de ses propriétés effervescentes."
+    },
+    "CITRAL": {
         "endocrinien": "Non endocrinien",
         "allergène": "Non Allergène",
         "description": "À SAVOIR L'acide citrique est un des principaux actifs du citron. Il est souvent utilisé pour équilibrer le pH (trop basique) des produits cosmétiques. Il est aussi présent dans certains produits de bain (bombes de bain, galets de bain ou ''poudres magiques'') en raison de ses propriétés effervescentes."
@@ -284,27 +249,7 @@
         "allergène": "Non Allergène",
         "description": "À SAVOIR Le diméthicone nommé aussi PDMS est un silicone qui n'est soumis à aucune restriction européenne. C'est aussi le silicone le plus utilisé dans les produits cosmétiques. Son rôle est de produire un film de surface autour du cheveu et sur la peau, pour les protéger ensuite (effet occlusif, avec ce que cela peut impliquer). Il apporte aussi de la douceur aux produits et rend agréable l'utilisation de crèmes et de shampoings. C'est un peu ''le couteau Suisse du chimiste'' : on l'utilise un peu à toutes les sauces, pour rendre les produits plus brillants, plus agréables et donc plus vendeurs, ou encore pour venir compenser l'effet desséchant de certains ingrédients comme les tensioactifs.  Ce composant inerte ne pose aucun problème pour la santé humaine, on peut juste se demander si son effet n'est pas uniquement marketing et artificiel. C'est sur l'aspect écologique que l'ingrédient peut avoir un impact très négatif puisqu'il est très peu biodégradable."
     },
-    "TRIETHYL CITRATE": {
-        "endocrinien": "Non endocrinien",
-        "allergène": "Non Allergène",
-        "description": "À SAVOIR Le citrate de triéthyle est produit par un processus d'estérification de l'acide citrique avec de l'éthanol. Il est naturellement présent en petite quantité dans le vin et est facilement métabolisé par le corps humain. En cosmétique, cet ingrédient est fréquemment utilisé dans les déodorants formulés comme alternatives aux sels d'aluminium. En raison de sa capacité à inhiber la décomposition enzymatique des composants de la sueur, il constitue un excellent ingrédient actif dans la lutte contre les odeurs corporelles. Le citrate de triéthyle présente également des propriétés antibactériennes. Il est autorisé en bio."
-    },
-    "CITRAL": {
-        "endocrinien": "Non endocrinien",
-        "allergène": "Non Allergène",
-        "description": "À SAVOIR L'acide citrique est un des principaux actifs du citron. Il est souvent utilisé pour équilibrer le pH (trop basique) des produits cosmétiques. Il est aussi présent dans certains produits de bain (bombes de bain, galets de bain ou ''poudres magiques'') en raison de ses propriétés effervescentes."
-    },
-    "ISOEUGENOL": {
-        "endocrinien": "Non endocrinien",
-        "allergène": "Non Allergène",
-        "description": "À SAVOIR L'EDTA (EDTA et ses principaux sels utilisés en cosmétique Disodium EDTA, Tetrasodium EDTA, Trisodium EDTA) est un agent chélateur que l'on emploie depuis les années 30 et pour lequel les industriels maîtrisent totalement la transformation et l'usage. Sa principale propriété est de complexer les métaux lourds. C'est-à-dire qu'il va en quelque sorte les neutraliser en formant avec eux un complexe, pour leur servir ensuite de transporteur et les évacuer. Il est donc assez logiquement utilisé en médecine pour lutter contre les intoxications aux métaux lourds (au plomb par exemple). Il est souvent employé en tant que séquestrant (calcium, calcaire ...) dans les savons ou gels douches, cela permet notamment de gérer les eaux ''dures''.  L'ingrédient ne pose pas de problème pour la santé humaine mais son impact sur l'environnement est désastreux : il n'est pas biodégradable et est extrêmement nocif pour la nature. Les stations d'épuration ne le retiennent pas et le laissent fuir dans nos rivières ! Les filtres à charbon de notre eau potable ne sont pas plus efficaces pour l'arrêter (on réingère donc des complexes EDTA/Fer). Le problème est finalement qu'il transporte avec lui des métaux lourds, dont on ne connaît pas la destination finale.  L'EDTA et ses sels sont interdits en bio."
-    },
-    "T-BUTYL ALCOHOL": {
-        "endocrinien": "Non endocrinien",
-        "allergène": "Non Allergène",
-        "description": "À SAVOIR Cet ingrédient est utilisé en tant qu'antioxydant synthétique dans les cosmétiques. Le groupe d'expert du CIR a conclu en 2014 que la substance était sûre et n'était pas un sensibilisateur."
-    },
-    "CI 14700 (RED 4)": {
+    "CINNAMAL": {
         "endocrinien": "Non endocrinien",
         "allergène": "Non Allergène",
         "description": "À SAVOIR L'acide citrique est un des principaux actifs du citron. Il est souvent utilisé pour équilibrer le pH (trop basique) des produits cosmétiques. Il est aussi présent dans certains produits de bain (bombes de bain, galets de bain ou ''poudres magiques'') en raison de ses propriétés effervescentes."

@@ -50,6 +50,9 @@ def parfumPerso (nomP,options,executablePath):
     #Ouvre le navigateur et va sur le site de Sephora avec la recherche lié au nom du parfum
     driver = Edge(executable_path =executablePath, options = options)
     driver.get("https://www.sephora.fr/on/demandware.store/Sites-Sephora_FR-Site/fr_FR/Search-AlgoliaSearch?q="+nomP+"&categories=Parfum%7CC301")
+    get=driver.current_url
+    if 'NoHits?' in get:
+        driver.get("https://www.sephora.fr/on/demandware.store/Sites-Sephora_FR-Site/fr_FR/Search-AlgoliaSearch?q="+nomP+"&categories=Eau+de+parfum%7CC297818")
     #Continue sans accepter les cookies
     cookies=driver.find_element(By.XPATH,'//*[@id="footer_tc_privacy_button_2"]')
     cookies.click()
